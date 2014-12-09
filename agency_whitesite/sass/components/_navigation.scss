@@ -1,0 +1,192 @@
+// Navigation
+//
+// Markup: navigation.html
+//
+// Styleguide 4.2.3
+
+.navigation__wrapper,
+%navigation__wrapper {
+  background-color: color(black);
+  display: inline-block;
+  width: 100%;
+  padding: $half-gutter $gutter;
+
+  @include bp-nq($medium) {
+    padding: 0 $gutter;
+  }
+
+  @include print-none();
+}
+
+.navigation,
+%navigation {
+  @extend %unstyled-list;
+  @extend %clearfix;
+  position: relative;
+  background-color: color(black);
+  text-transform: uppercase;
+}
+
+.navigation__item,
+%navigation__item {
+  @extend %unstyled-list;
+  display: block;
+  position: relative;
+  border: 1px solid color(grey-extra-light);
+  border-top: none;
+  white-space: nowrap;
+
+  &:first-child {
+    border-top: 1px solid color(grey-extra-light);
+  }
+}
+
+.navigation__primary-item,
+%navigation__primary-item {
+  @extend %navigation__item;
+  float: left;
+
+  &,
+  &:first-child {
+    border: none;
+  }
+
+  &:focus > a,
+  &:hover > a {
+    @extend %navigation__primary-link-is-active;
+  }
+}
+
+.navigation__link,
+%navigation__link {
+  display: block;
+  padding: 8px ($gutter - 2px);
+  text-decoration: none;
+  color: color(black);
+  background-color: color(white);
+
+  &:focus,
+  &:hover {
+    @extend %navigation__link-is-active;
+  }
+}
+
+.navigation__link.is-active,
+%navigation__link-is-active {
+  color: color(black);
+  background-color: color(grey-off-white);
+
+  &:before {
+    content: '';
+    position: absolute;
+    top: -1px;
+    left: -1px;
+    width: 0;
+    height: calc(100% + 2px);
+    border-left: 5px solid color(red);
+  }
+}
+
+.navigation__primary-link,
+%navigation__primary-link {
+  display: block;
+  padding: 10px $gutter;
+  text-decoration: none;
+  color: color(white);
+  background-color: transparent;
+}
+
+.navigation__primary-link.is-active,
+%navigation__primary-link-is-active {
+  @extend %navigation__primary-link;
+
+  color: color(black);
+  background-color: color(white);
+
+  &:before {
+    content: '';
+    position: absolute;
+    top: -3px;
+    left: 0;
+    width: 100%;
+    border-top: 3px solid color(orange);
+  }
+}
+
+.navigation__sub-menu,
+%navigation__sub-menu {
+  @include list-unstyled();
+  @include box-shadow(3px 3px 3px rgba(#000, .25));
+  position: absolute;
+  top: -1px;
+  left: 100%;
+  z-index: 1;
+  display: none;
+  // Override superfish's "left: 12em"
+  margin-left: -2px;
+
+  :focus > &,
+  :hover > & {
+    @extend %navigation__sub-menu-is-focus;
+  }
+}
+
+.navigation__sub-menu.is-focus,
+%navigation__sub-menu-is-focus {
+  display: block;
+}
+
+.navigation__drop-down,
+%navigation__drop-down {
+  @extend %navigation__sub-menu;
+  top: 100%;
+  left: 0;
+  margin-left: 0;
+}
+
+
+// Fugly selector.
+.region-navigation {
+  @extend %navigation__wrapper;
+
+  .block__content > .menu {
+    @extend %navigation;
+
+    ul ul {
+      @extend %navigation__sub-menu;
+    }
+
+    li {
+      @extend %navigation__item;
+
+      li a {
+        @extend %navigation__link;
+
+        &.active {
+          @extend %navigation__link-is-active;
+        }
+      }
+    }
+
+    li:hover > ul,
+    li.sfHover > ul {
+      @extend %navigation__sub-menu-is-focus;
+    }
+
+    > li {
+      @extend %navigation__primary-item;
+
+      > a {
+        @extend %navigation__primary-link;
+      }
+
+      &.active-trail > a {
+        @extend %navigation__primary-link-is-active;
+      }
+
+      > ul {
+        @extend %navigation__drop-down;
+      }
+    }
+  }
+}

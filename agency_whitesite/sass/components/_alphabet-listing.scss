@@ -1,0 +1,10 @@
+.alphabet-listing,
+%alphabet-listing {
+  margin-bottom: rhythm(.5);
+}
+
+//Fugly selectors.
+
+.view-australian-anti-doping-policies .view-content {
+  @extend %alphabet-listing;
+}

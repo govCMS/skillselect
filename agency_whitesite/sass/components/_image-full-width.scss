@@ -1,0 +1,10 @@
+.image-full-width,
+%image-full-width {
+  @include output-rhythm(margin, rhythm(.5) 0 rhythm(.7));
+}
+
+// Fugly selectors.
+
+.node-page .field-name-field-image {
+  @extend %image-full-width;
+}

@@ -1,0 +1,44 @@
+/**
+ * @file
+ * Print styling
+ *
+ * We provide some sane print styling for Drupal using Zen's layout method.
+ */
+
+/**
+ * By importing this CSS file as media "all", we allow this print file to be
+ * aggregated with other stylesheets, for improved front-end performance.
+ */
+@media print {
+
+  .main-content {
+    /* Add visible URL after links. */
+    a[href]:after {
+      content: ' (' attr(href) ')';
+      font-weight: normal;
+      font-size: $base-font-size;
+    }
+
+    /* Only display useful links. */
+    a[href^="javascript:"]:after,
+    a[href^="#"]:after {
+      content: '';
+    }
+
+    /* Add visible title after abbreviations. */
+    abbr[title]:after {
+      content: ' (' attr(title) ')';
+    }
+  }
+
+  /* Hide various un-needed elements. */
+  #toolbar,
+  .action-links,
+  .links,
+  .book-navigation,
+  .forum-topic-navigation,
+  .feed-icons {
+    visibility: hidden !important;
+    display: none !important;
+  }
+}

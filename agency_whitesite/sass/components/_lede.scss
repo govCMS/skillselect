@@ -1,0 +1,43 @@
+// Lede
+//
+// Introductory text displayed with a large, clear font.
+//
+// Markup: lede.html
+//
+// .lede--double-rule - Lede with hard rules above and below the content.
+//
+// Styleguide 4.4
+
+.lede,
+%lede {
+  @include adjust-font-size-to(22px, (31px/$base-line-height));
+}
+
+.lede--double-rule,
+%lede--double-rule {
+  @extend %lede;
+  // Make small adjustments to desired margins due to line-height spacing.
+  margin-top: (25px - 17px);
+  margin-bottom: 30px;
+  padding-top: (25px - 6px);
+  border: 2px solid color(border) {
+    left: 0;
+    right: 0;
+  }
+
+  p {
+    @extend %lede--double-rule__paragraph;
+  }
+}
+
+.lede--double-rule__paragraph,
+%lede--double-rule__paragraph {
+  margin-bottom: (25px - 9px);
+}
+
+
+// Fugly selectors.
+.field-name-field-summary {
+  @extend %lede;
+  @extend %lede--double-rule__paragraph;
+}

@@ -1,0 +1,27 @@
+// Layout centered
+//
+// A simple centered layout that changes widths adaptively.
+//
+// Markup: layout-centered.html
+//
+// Styleguide 3.1
+
+.layout-centered,
+%layout-centered {
+  margin: {
+    left: auto;
+    right: auto;
+  }
+
+  @include bp-nq($medium) {
+    max-width: $medium;
+  }
+
+  @include bp-nq($large) {
+    max-width: $large;
+  }
+
+  @media print {
+    max-width: 100%;
+  }
+}

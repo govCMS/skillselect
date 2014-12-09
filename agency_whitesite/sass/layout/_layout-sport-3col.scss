@@ -1,0 +1,45 @@
+// Layout 3 column
+//
+// This layout can be applied to the panes in a region.
+//
+// Markup: layout-agency_whitesite-3col.html
+//
+// Styleguide 3.5
+
+.layout-agency_whitesite-3col,
+%layout-agency_whitesite-3col {
+  @extend %clearfix;
+  // The content's margins don't collapse, so remove some from the wrapper.
+  @include output-rhythm(margin-bottom, -(rhythm(1)));
+
+  &__grid-item {
+    @include bp-nq($medium) {
+      float: left;
+      width: 300px;
+
+      &:nth-child(even) {
+        float: right;
+      }
+    }
+
+    @include bp-nq($large) {
+      margin-right: $gutter;
+
+      &:nth-child(even) {
+        float: left;
+      }
+
+      &:nth-child(3n) {
+        margin-right: 0;
+      }
+    }
+  }
+}
+
+
+// Fugly selectors.
+.layout-agency_whitesite-3col {
+  .panel-pane {
+    @extend %layout-agency_whitesite-3col__grid-item;
+  }
+}

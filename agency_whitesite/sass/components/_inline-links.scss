@@ -1,0 +1,34 @@
+%inline-links {
+  @include inline-list;
+
+  > li {
+    float: left;
+    position: relative;
+    display: inline-block;
+
+    > a {
+      display: block;
+    }
+  }
+}
+
+%inline-links--bordered {
+  @extend %inline-links;
+
+  > li > a {
+    &:before {
+      content: '';
+      display: block;
+      border-left: solid 1px color(grey-extra-dark);
+      height: 30%;
+      top: 16px;
+      left: 0;
+      position: absolute;
+    }
+  }
+
+  // Remove border on first link.
+  li:first-child a:before {
+    border: 0;
+  }
+}
