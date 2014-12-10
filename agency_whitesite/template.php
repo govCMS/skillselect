@@ -526,23 +526,23 @@ function agency_whitesite_preprocess_menu_link(&$variables, $hook) {
     $svg = '';
     switch ($variables['element']['#original_link']['mlid']) {
       case '695':
-        $svg = 'check-substances';
+        $svg = 'sample-svg';
         break;
 
       case '696':
-        $svg = 'elearning';
+        $svg = 'sample-svg';
         break;
 
       case '697':
-        $svg = 'location-log';
+        $svg = 'sample-svg';
         break;
 
       case '698':
-        $svg = 'therapeutic-exemptions';
+        $svg = 'sample-svg';
         break;
 
       case '699':
-        $svg = 'report-doping';
+        $svg = 'sample-svg';
         break;
     }
     if ($svg) {
