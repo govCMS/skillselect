@@ -49,6 +49,7 @@
   overflow: hidden;
   border: none;
   background: image-url('search__button.png') 50% 50% no-repeat transparent;
+  min-height: 30px;
 
   &::before {
     display: none;
