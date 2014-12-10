@@ -112,3 +112,7 @@
     @extend %header__region-item;
   }
 }
+
+div.block-search-api-page div form.search-form-widget div div button#edit-submit-1 {
+  min-height:30px;
+}
