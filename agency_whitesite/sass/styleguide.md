@@ -1,6 +1,6 @@
-<h1 class="kss-title kss-title-main">ASADA <em>Sport</em></h1>
+<h1 class="kss-title kss-title-main"Agency Whitesite</h1>
 
-This is the front-end development CSS style guide for the design components built in ASADA’s Sport theme for Drupal.
+This is the front-end development CSS style guide for the design components built in Agency Whitesite theme for Drupal.
 
 ### Installation
 
