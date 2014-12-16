@@ -4,8 +4,8 @@ body.front div.panel-col-top {
     padding-bottom: 20px;
 }
 
-body.front div.panel-col-top div.pane-bean-panels {
-    width: 600px;
+body.front div.panel-1col-stacked div.panel-col-top div.pane-bean-panels {
+    width: 600px !important;
 }
 
 body.front .bean-image-and-text.landing_page {
