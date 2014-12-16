@@ -15,3 +15,11 @@ body.front .bean-image-and-text.landing_page {
 body.front .bean-image-and-text.landing_page div.image-title {
     max-width:300px;float:left;margin-right:15px;
 }
+
+body.front div.panel-1col-stacked div.panel-col-top {
+    margin-bottom: 40px;
+    border-bottom-width: 2px;
+    border-bottom-style: solid;
+    border-bottom-color: #E2E2E2;
+    outline-color: #444444;
+}
