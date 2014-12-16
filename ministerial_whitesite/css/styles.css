@@ -9,7 +9,7 @@ body.front div.panel-col-top div.pane-bean-panels {
 }
 
 body.front .bean-image-and-text.landing_page {
-    max-width: 600px;
+    max-width: 600px !important;
 }
 
 body.front .bean-image-and-text.landing_page div.image-title {
