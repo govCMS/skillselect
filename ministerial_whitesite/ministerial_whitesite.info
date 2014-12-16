@@ -141,6 +141,10 @@ settings[zen_html5_respond_meta][] = meta
 settings[zen_rebuild_registry]     = 0
 settings[zen_wireframes]           = 0
 
+; Ministerial theme default values
+settings[heading_top_line] = The Hon John Smith MP
+settings[heading_bottom_line] = Minister for a Portfolio
+
 ; To make this sub-theme an admin theme with shortcut links next to titles,
 ; uncomment the line below.
 

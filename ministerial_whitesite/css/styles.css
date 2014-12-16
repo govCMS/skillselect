@@ -23,3 +23,12 @@ body.front div.panel-1col-stacked div.panel-col-top {
     border-bottom-color: #E2E2E2;
     outline-color: #444444;
 }
+
+.header__logo-image {
+    height: 140px;
+    width: 140px;
+}
+
+.header__logo {
+    margin-right: 20px;
+}

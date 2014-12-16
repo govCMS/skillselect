@@ -10,7 +10,12 @@
 
 <div class="layout-centered page-wrapper">
   <header class="header" role="banner">
-    <a href="<?php print $front_page; ?>" title="<?php print t('Home'); ?>" rel="home" class="header__logo" id="logo"><img src="<?php print $logo; ?>" alt="<?php print t('Home'); ?>" class="header__logo-image" /></a>
+    <div style="float:left;">
+    <a style="padding-right:20px" href="<?php print $front_page; ?>" title="<?php print t('Home'); ?>" rel="home" class="header__logo" id="logo">
+      <img src="<?php print $logo; ?>" alt="<?php print t('Home'); ?>" class="header__logo-image" />
+    </a>
+      <span><?php print theme_get_setting('heading_top_line'); ?></span><hr /><span><?php print theme_get_setting('heading_bottom_line'); ?></span>
+    </div>
 
     <nav class="header__secondary-menu" role="navigation">
       <?php print theme('links__system_secondary_menu', array(
