@@ -30,5 +30,9 @@ body.front div.panel-1col-stacked div.panel-col-top {
 }
 
 .header__logo {
-    margin-right: 20px;
+    padding-right: 20px;
+}
+
+header div.header__wrapper {
+    float:left;
 }
