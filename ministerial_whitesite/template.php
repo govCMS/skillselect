@@ -559,14 +559,14 @@ function ministerial_whitesite_preprocess_menu_link(&$variables, $hook) {
  * Implements hook_form_alter().
  */
 function ministerial_whitesite_form_system_theme_settings_alter(&$form, $form_state) {
-  $form['heading_top_line'] = array(
+  $form['ministerial_whitesite_top'] = array(
       '#type'          => 'textfield',
       '#title'         => t('Heading Top Text ( name )'),
       '#default_value' => theme_get_setting('heading_top_line'),
       '#description'   => t("Text to appear next to the logo above the middle line."),
   );
 
-  $form['heading_bottom_line'] = array(
+  $form['ministerial_whitesite_bottom'] = array(
       '#type'          => 'textfield',
       '#title'         => t('Heading Bottom Text ( Portfolio )'),
       '#default_value' => theme_get_setting('heading_bottom_line'),
