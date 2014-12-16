@@ -27,6 +27,7 @@ body.front div.panel-1col-stacked div.panel-col-top {
 .header__logo-image {
     height: 140px!important;
     width: 140px!important;
+    max-height: 140px!important;
 }
 
 .header__logo {
