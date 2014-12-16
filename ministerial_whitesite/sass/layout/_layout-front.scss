@@ -15,8 +15,8 @@
 .layout-front__content,
 %layout-front__content {
   @include bp-nq($large) {
-    width:  300px;
-    float: right;
+    //width:  300px;
+    //float: right;
     margin-left: $gutter;
   }
 }
