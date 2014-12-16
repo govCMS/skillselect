@@ -1,0 +1,48 @@
+.region-footer-bottom {
+  background-color: color(grey-extra-light);
+  border-top: 2px solid color(white);
+
+  .block {
+    @extend %clearfix;
+    margin: -9px $gutter $half-gutter;
+    padding: 0;
+
+    ul,
+    li {
+      @include list-unstyled();
+    }
+  }
+
+  .block-title {
+    @extend %element-invisible;
+  }
+
+  a:link,
+  a:visited {
+    color: color(grey-extra-dark);
+  }
+
+  .block-menu .menu {
+    @extend %inline-links--bordered;
+
+    a {
+      padding: rhythm(0.5);
+    }
+
+    li:first-child a {
+      padding-left: 0;
+    }
+  }
+
+  &:before {
+    content: '';
+    display: block;
+    position: relative;
+    top: -17px;
+    width: 235px;
+    height: 17px;
+    background-image: image-url('footer-bottom-tab.png');
+  }
+
+  @include print-none();
+}

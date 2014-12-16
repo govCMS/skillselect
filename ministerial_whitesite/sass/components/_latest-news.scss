@@ -1,0 +1,115 @@
+// Latest news
+//
+// Markup: latest-news.html
+//
+// Styleguide 4.7
+
+.latest-news,
+%latest-news {
+  border: 1px solid color(border);
+  border-top: 3px solid color(orange);
+  margin-bottom: $gutter;
+  position: relative;
+
+  &:before {
+    position: absolute;
+    top: -3px;
+    left: -1px;
+    content: '';
+    width: calc(100% + 2px);
+    border-top: 3px solid color(orange);
+  }
+}
+
+.latest-news__title,
+%latest-news__title {
+  padding-left: 15px;
+  padding-bottom: 5px;
+  background-color: color(grey-extra-light);
+  border-bottom: 2px solid color(white);
+  margin: 0;
+}
+
+.latest-news__border-slope,
+%latest-news__border-slope {
+  background-color: color(grey-off-white);
+
+  &:before {
+    content: '';
+    display: block;
+    position: relative;
+    top: -16px;
+    width: 100%;
+    height: 16px;
+    margin-bottom: -16px;
+    background: image-url('latest-news-tab.png') top right no-repeat;
+  }
+}
+
+.latest-news__item,
+%latest-news__item {
+  border-bottom: 1px  solid  color(border);
+
+  &:last-child {
+    border: 0;
+  }
+}
+
+.latest-news__item-content,
+%latest-news__item-content {
+  padding-left: 15px;
+}
+
+.latest-news__item-date,
+%latest-news__item-date {
+  padding-top: 10px;
+  @include adjust-font-size-to(13px);
+  color: color(grey-dark);
+}
+
+.latest-news__item-title,
+%latest-news__item-title {
+  padding-bottom: 10px;
+}
+
+.latest-news__item-title-link,
+%latest-news__item-title-link {
+  @include underline-on-hover;
+  color: color(body);
+
+  &:hover {
+    color: color(link);
+  }
+}
+
+// Fugly selectors.
+
+.latest-news {
+  .pane-title {
+    @extend %latest-news__title;
+  }
+
+  .view-latest-news {
+    @extend %latest-news__border-slope;
+  }
+
+  .views-row {
+    @extend %latest-news__item;
+  }
+
+  .views-field {
+    @extend %latest-news__item-content;
+  }
+
+  .views-field-field-news-date {
+    @extend %latest-news__item-date;
+  }
+
+  .views-field-title {
+    @extend %latest-news__item-title;
+
+    a {
+      @extend %latest-news__item-title-link;
+    }
+  }
+}

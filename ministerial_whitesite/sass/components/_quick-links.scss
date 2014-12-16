@@ -1,0 +1,80 @@
+// Quick links
+//
+// Markup: quick-links.html
+//
+// Styleguide 4.8
+
+.quick-links,
+%quick-links {
+  margin-bottom: $gutter;
+
+  @include bp-nq($large) {
+    margin-bottom: (2 * $gutter);
+  }
+}
+
+.quick-links__list,
+%quick-links__list {
+  @extend %unstyled-list;
+}
+
+.quick-links__item,
+%quick-links__item {
+  margin: 0 0 6px;
+
+  &:last-child {
+    margin-bottom: 0;
+  }
+}
+
+.quick-links__link,
+%quick-links__link {
+  @include adjust-font-size-to(19px, 20px/$base-line-height);
+  position: relative;
+  display: block;
+  height: 60px;
+  padding: 8px 19px 8px (19px + 42px + 23px);
+  border: 1px solid color(border);
+  background-color: color(grey-off-white);
+  background: linear-gradient(to bottom, color(grey-extra-light) 0%, color(grey-off-white)  100%);
+  text-transform: uppercase;
+  color: color(black);
+  font-family: $font-heading;
+  text-decoration: none;
+
+  &:focus,
+  &:hover {
+    border-color: color(black);
+    background: color(black);
+    color: color(white);
+
+    .quick-links__icon,
+    %quick-links__icon {
+      @extend %quick-links__icon-is-focus;
+    }
+  }
+}
+
+.quick-links__icon,
+%quick-links__icon {
+  position: absolute;
+  left: 19px;
+  top: 8px;
+  fill: color(blue);
+}
+
+.quick-links__icon-is-focus,
+%quick-links__icon-is-focus {
+  fill: color(orange);
+}
+
+
+// Fugly selectors.
+
+.menu-name-menu-frontpage-quicklinks {
+  @extend %quick-links;
+
+  ul {
+    @extend %quick-links__list;
+  }
+}

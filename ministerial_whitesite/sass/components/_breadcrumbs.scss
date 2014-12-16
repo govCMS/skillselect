@@ -1,0 +1,38 @@
+// Breadcrumb
+//
+// Styleguide
+
+.breadcrumb,
+%breadcrumb {
+  @include adjust-font-size-to(12px);
+  margin: 0 $gutter;
+  border-bottom: 2px solid color(black);
+  padding: ($gutter - 4px) 0;
+
+  @include print-none();
+}
+
+.breadcrumb__list,
+%breadcrumb__list {
+  margin: 0;
+  padding: 0;
+}
+
+.breadcrumb__item,
+%breadcrumb__item {
+  display: inline;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+// Fugly selector.
+.breadcrumb {
+  ol {
+    @extend %breadcrumb__list;
+  }
+
+  li {
+    @extend %breadcrumb__item;
+  }
+}

@@ -1,0 +1,80 @@
+// Drupal forms
+//
+// Drupal provides some convenience classes to make styling a form easier.
+//
+// Markup: forms-drupal.html
+//
+// Styleguide 4.6
+
+/* Wrapper for a form element (or group of form elements) and its label. */
+.form-item,
+%form-item {
+  @include output-rhythm(margin, rhythm(1) 0);
+}
+
+.form-item--tight,
+%form-item--tight {
+  margin: 0;
+}
+
+/* Inline labels (for radios and checkboxes.) */
+.form-label--inline,
+%form-label--inline {
+  display: inline;
+  font-family: $font-body;
+}
+
+/* The part of the label that indicates a required field. */
+.form-required,
+%form-required {
+  color: color(red);
+}
+
+/* Highlight the form elements that caused a form submission error. */
+.form-error,
+%form-error {
+  border: 1px solid color(red);
+}
+
+.form-description,
+%form-description {
+  &--indented {
+    margin-left: 1rem;
+  }
+}
+
+
+// Fugly selectors.
+
+.form-item {
+  // Form items in a table.
+  tr.odd &,
+  tr.even & {
+    @extend %form-item--tight;
+  }
+
+  // Pack groups of checkboxes and radio buttons closer together.
+  .form-checkboxes &,
+  .form-radios & {
+    @extend %form-item--tight;
+  }
+}
+
+label.option {
+  @extend %form-label--inline;
+}
+
+input,
+textarea,
+select {
+  &.error {
+    @extend %form-error;
+  }
+}
+
+.form-type-radio,
+.form-type-checkbox {
+  .description {
+    @extend %form-description--indented;
+  }
+}
