@@ -46,4 +46,5 @@ hr.header__hr {
 div#heading__top__line, div#heading__bottom__line {
     font-weight: 700;
     font-size: 20px;
+    min-width: 350px;
 }
