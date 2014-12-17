@@ -71,3 +71,7 @@ div#heading__top__line {
     height: 130px;
     width: 100px;
 }
+
+.header__region div#block-bean-ministerial-image div.bean-image-and-text {
+    padding: 0px;
+}
