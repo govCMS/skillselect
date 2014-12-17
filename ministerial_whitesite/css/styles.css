@@ -56,3 +56,13 @@ div#heading__top__line {
 .header__secondary-menu {
     position: absolute!important;
 }
+
+.search--header, .block-search-api-page {
+    width: auto!important;
+}
+
+.search--header .block-ministerial-image {
+    float: right;
+    height: 130px;
+    width: 100px;
+}
