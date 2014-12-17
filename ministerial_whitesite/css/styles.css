@@ -61,13 +61,13 @@ div#heading__top__line {
     width: auto!important;
 }
 
-.header__region .block-bean-ministerial-image {
+.header__region div#block-bean-ministerial-image {
     float: right;
     height: 130px;
     width: 100px;
 }
 
-.header__region .block-bean-ministerial-image img {
+.header__region div#block-bean-ministerial-image img {
     height: 130px;
     width: 100px;
 }
