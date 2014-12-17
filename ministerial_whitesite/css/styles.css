@@ -52,3 +52,7 @@ div#heading__top__line, div#heading__bottom__line {
 div#heading__top__line {
     padding-top:30px;
 }
+
+.header__secondary-menu {
+    position: absolute!important;
+}
