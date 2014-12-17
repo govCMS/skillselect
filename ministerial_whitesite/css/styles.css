@@ -39,10 +39,11 @@ header div.header__wrapper {
 }
 
 hr.header__hr {
-    width: 380px;
+    min-width: 280px;
+    margin: 1em 0;
 }
 
-span#heading__top__line, span#heading__bottom__line {
+div#heading__top__line, div#heading__bottom__line {
     font-weight: 700;
     font-size: 20px;
 }

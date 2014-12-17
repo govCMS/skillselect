@@ -14,9 +14,9 @@
     <a href="<?php print $front_page; ?>" title="<?php print t('Home'); ?>" rel="home" class="header__logo" id="logo">
       <img src="<?php print $logo; ?>" alt="<?php print t('Home'); ?>" class="header__logo-image" />
     </a>
-      <span id="heading__top__line"><?php print theme_get_setting('heading_top_line'); ?></span>
+      <div id="heading__top__line"><?php print theme_get_setting('heading_top_line'); ?></div>
       <hr class="header__hr" />
-      <span id="heading__bottom__line"><?php print theme_get_setting('heading_bottom_line'); ?></span>
+      <div id="heading__bottom__line"><?php print theme_get_setting('heading_bottom_line'); ?></div>
     </div>
 
     <nav class="header__secondary-menu" role="navigation">
