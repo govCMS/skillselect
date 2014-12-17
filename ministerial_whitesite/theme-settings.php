@@ -10,7 +10,7 @@
  */
 function ministerial_whitesite_form_system_theme_settings_alter(&$form, &$form_state, $form_id = NULL) {
 
-  $form['heading_bottom_line'] = array(
+  $form['heading_top_line'] = array(
       '#type'          => 'textfield',
       '#title'         => t('Heading Top Text ( name )'),
       '#default_value' => theme_get_setting('heading_top_line'),
