@@ -37,3 +37,12 @@ body.front div.panel-1col-stacked div.panel-col-top {
 header div.header__wrapper {
     float:left;
 }
+
+hr.header__hr {
+    width: 380px;
+}
+
+span#heading__top__line, span#heading__bottom__line {
+    font-weight: 700;
+    font-size: 20px;
+}
