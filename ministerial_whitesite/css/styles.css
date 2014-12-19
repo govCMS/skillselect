@@ -6,6 +6,8 @@ body.front div.panel-col-top {
 
 body.front div.panel-3col-33-stacked div.panel-col-top div.pane-bean-panels {
     width: 600px !important;
+    float: left;
+    margin-right:15px;
 }
 
 body.front .bean-image-and-text.landing_page {
