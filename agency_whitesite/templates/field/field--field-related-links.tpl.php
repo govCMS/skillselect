@@ -5,7 +5,6 @@
  */
 ?>
 <div class="<?php print $classes; ?>"<?php print $attributes; ?>>
-  <h2>Pauls Change</h2>
   <?php if (!$label_hidden): ?>
     <div class="field-label" <?php print $title_attributes; ?>><?php print $label ?></div>
   <?php endif; ?>
