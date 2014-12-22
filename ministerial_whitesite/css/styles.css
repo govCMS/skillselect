@@ -152,3 +152,9 @@ body.front div.panel-3col-33-stacked div.panel-col-bottom {
     border-top: 2px solid #e2e2e2;
     outline-color: #444444;
 }
+
+article.node-photo-gallery div.field-name-field-feature-image img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
