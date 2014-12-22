@@ -555,8 +555,8 @@ function ministerial_whitesite_preprocess_menu_link(&$variables, $hook) {
   }
 }
 
-function ministerial_whitesite_preprocess_node(&$variables) {
+/*function ministerial_whitesite_preprocess_node(&$variables) {
   if (isset($variables['content']['links']['node']['#links']['node-readmore'])){
     $variables['content']['links']['node']['#links']['node-readmore']['title'] = $variables['content']['links']['node']['#links']['node-readmore']['title']." >>>";
   }
-}
+}*/
