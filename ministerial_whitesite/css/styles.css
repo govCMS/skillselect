@@ -10,6 +10,14 @@ body.front div.panel-3col-33-stacked div.panel-col-top div.pane-bean-panels {
     margin-right:15px;
 }
 
+body.front div.panel-3col-33-stacked div.panel-col-top {
+    height: 180px;
+}
+
+body.front div.panel-3col-33-stacked div.panel-col-top div.inside div.pane-agov-social-links-services {
+    float:left;
+}
+
 body.front .bean-image-and-text.landing_page {
     max-width: 600px !important;
 }
