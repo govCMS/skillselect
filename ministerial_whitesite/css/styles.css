@@ -125,3 +125,12 @@ body.front div.view-ministerial-photo-galleries div.views-row.views-row-first {
 body.front div.field-name-field-date {
     float:right;
 }
+
+article.node-photo-gallery div.field-name-field-photos {
+    float:left;
+    padding-right: 20px;
+}
+
+article.node-photo-gallery div.field-name-field-photos:nth-child(3n+3) {
+    padding-right: 0px;
+}
