@@ -554,3 +554,10 @@ function ministerial_whitesite_preprocess_menu_link(&$variables, $hook) {
     $variables['element']['#localized_options']['html'] = TRUE;
   }
 }
+
+function ministerial_whitesite_preprocess_node(&$variables) {
+  if (isset($variables['content']['links']['node']['#links']['node-readmore'])){
+    die(var_dump($variables));
+    $variables['content']['links']['node']['#links']['node-readmore']['title'] = $variables['content']['links']['node']['#links']['node-readmore']['title']." >>>";
+  }
+}
