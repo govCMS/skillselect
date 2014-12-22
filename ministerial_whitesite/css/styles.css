@@ -108,3 +108,7 @@ body.front div.view-ministerial-transcripts div.views-row {
 body.front div.view-ministerial-transcripts div.views-row.views-row-last {
     border-bottom: none;
 }
+
+.navigation__primary-link, .navigation__primary-link.is-active, .navigation__primary-item:focus > a, .navigation__primary-item:hover > a, .region-navigation .block__content > .menu > li.active-trail > a, .region-navigation .block__content > .menu > li > a {
+    padding: 10px 17px!important;
+}
