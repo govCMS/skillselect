@@ -141,6 +141,6 @@ article.node div.field-name-field-photos div.field-items div.field-item:last-chi
 }
 
 body.front div.panel-3col-33-stacked div.panel-col-bottom {
-    border-bottom: 2px solid #e2e2e2;
+    border-top: 2px solid #e2e2e2;
     outline-color: #444444;
 }
