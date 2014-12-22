@@ -98,3 +98,13 @@ body.front div.view-ministerial-speeches div.views-row {
 body.front div.view-ministerial-speeches div.views-row.views-row-last {
     border-bottom: none;
 }
+
+body.front div.view-ministerial-transcripts div.views-row {
+    border-bottom: 2px solid #E2E2E2;
+    outline-color: #444444;
+    padding-bottom: 8px;
+}
+
+body.front div.view-ministerial-transcripts div.views-row.views-row-last {
+    border-bottom: none;
+}
