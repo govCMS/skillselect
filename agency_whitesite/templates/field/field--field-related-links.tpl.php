@@ -6,11 +6,11 @@
 ?>
 <div class="<?php print $classes; ?>"<?php print $attributes; ?>>
   <?php if (!$label_hidden): ?>
-    <h2<?php print $title_attributes; ?>><?php print $label ?></h2>
+    <div class="field-label" <?php print $title_attributes; ?>><?php print $label ?></div>
   <?php endif; ?>
-  <ul>
+  <ul class="field-items">
     <?php foreach ($items as $delta => $item): ?>
-	  <li><?php print $item_attributes[$delta]; ?><?php print render($item); ?></li>
+	  <li class="field-item"><?php print $item_attributes[$delta]; ?><?php print render($item); ?></li>
     <?php endforeach; ?>
     </ul>
 </div>
