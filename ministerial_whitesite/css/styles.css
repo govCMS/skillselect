@@ -126,16 +126,16 @@ body.front div.field-name-field-date {
     float:right;
 }
 
-article.node-photo-gallery div.field-name-field-photos div.field-items div.field-item {
+article.node div.field-name-field-photos div.field-items div.field-item {
     float:left;
     padding-right: 20px;
     padding-bottom: 20px;
 }
 
-article.node-photo-gallery div.field-name-field-photos div.field-items div.field-item:nth-child(3n+3) {
+article.node div.field-name-field-photos div.field-items div.field-item:nth-child(3n+3) {
     padding-right: 0px;
 }
 
-article.node-photo-gallery div.field-name-field-photos div.field-items div.field-item:last-child {
+article.node div.field-name-field-photos div.field-items div.field-item:last-child {
     float: inherit;
 }
