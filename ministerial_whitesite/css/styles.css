@@ -77,3 +77,12 @@ div#heading__top__line {
 .header__region div#block-bean-ministerial-image div.bean-image-and-text {
     padding: 0px;
 }
+
+body.front div.view-media-releases div.views-row {
+    border-bottom: 2px solid #E2E2E2;
+    outline-color: #444444;
+}
+
+body.front div.view-media-releases div.views-row.views-row-last {
+    border-bottom: none;
+}
