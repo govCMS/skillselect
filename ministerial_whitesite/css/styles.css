@@ -129,8 +129,13 @@ body.front div.field-name-field-date {
 article.node-photo-gallery div.field-name-field-photos div.field-items div.field-item {
     float:left;
     padding-right: 20px;
+    padding-bottom: 20px;
 }
 
 article.node-photo-gallery div.field-name-field-photos div.field-items div.field-item:nth-child(3n+3) {
     padding-right: 0px;
+}
+
+article.node-photo-gallery div.field-name-field-photos div.field-items div.field-item:last-child {
+    float: inherit;
 }
