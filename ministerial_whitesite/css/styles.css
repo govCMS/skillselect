@@ -121,3 +121,7 @@ body.front div.view-ministerial-photo-galleries div.views-row.views-row-first {
 .navigation__primary-link, .navigation__primary-link.is-active, .navigation__primary-item:focus > a, .navigation__primary-item:hover > a, .region-navigation .block__content > .menu > li.active-trail > a, .region-navigation .block__content > .menu > li > a {
     padding: 10px 17px!important;
 }
+
+body.front div.field-name-field-date {
+    float:right;
+}
