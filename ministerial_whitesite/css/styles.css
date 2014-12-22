@@ -153,7 +153,7 @@ body.front div.panel-3col-33-stacked div.panel-col-bottom {
     outline-color: #444444;
 }
 
-article.node-photo-gallery div.field-name-field-feature-image img {
+body.node-type-photo-gallery article.node-photo-gallery div.field-name-field-feature-image img {
     display: block;
     margin-left: auto;
     margin-right: auto;
