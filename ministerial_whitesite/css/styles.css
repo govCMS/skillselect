@@ -177,3 +177,11 @@ body.node-type-transcript article.node-transcript div.field-name-field-date div.
 body.node-type-media-release article.node-media-release div.field-name-field-reference-number div.field-item, body.node-type-speech article.node-speech div.field-name-field-location-event div.field-item {
     font-weight: bold;
 }
+
+body.node-type-transcript article.node-transcript div.field-label-inline div.field-label {
+    width: inherit;
+}
+
+body.node-type-transcript div.field-label-inline{
+    margin: .4em 0;
+}
