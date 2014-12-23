@@ -35,3 +35,198 @@
 //
 // Styleguide 4
 @import 'components/search';
+
+
+body.front div.panel-col-top {
+  padding-bottom: 20px;
+}
+
+body.front div.panel-3col-33-stacked div.panel-col-top div.pane-bean-panels {
+  width: 600px !important;
+  float: left;
+  margin-right:15px;
+}
+
+body.front div.panel-3col-33-stacked div.panel-col-top {
+  height: 180px;
+}
+
+body.front div.panel-3col-33-stacked div.panel-col-top div.inside div.pane-agov-social-links-services {
+  float:left;
+}
+
+body.front .bean-image-and-text.landing_page {
+  max-width: 600px !important;
+}
+
+body.front .bean-image-and-text.landing_page div.image-title {
+  max-width:300px;float:left;margin-right:15px;
+}
+
+body.front div.panel-3col-33-stacked div.panel-col-top {
+  margin-bottom: 40px;
+  border-bottom-width: 2px;
+  border-bottom-style: solid;
+  border-bottom-color: #E2E2E2;
+  outline-color: #444444;
+}
+
+.header__logo-image {
+  height: 140px!important;
+  width: 140px!important;
+  max-height: 140px!important;
+}
+
+.header__logo {
+  padding-right: 20px;
+}
+
+header div.header__wrapper {
+  float:left;
+}
+
+hr.header__hr {
+  min-width: 280px;
+  margin: 1em 0;
+}
+
+div#heading__top__line, div#heading__bottom__line {
+  font-weight: 700;
+  font-size: 20px;
+  min-width: 450px;
+}
+
+div#heading__top__line {
+  padding-top:30px;
+}
+
+.header__secondary-menu {
+  position: absolute!important;
+}
+
+.search--header, .block-search-api-page {
+  width: auto!important;
+}
+
+.header__region div#block-bean-ministerial-image {
+  float: right;
+  height: 130px;
+  width: 100px;
+}
+
+.header__region div#block-bean-ministerial-image img {
+  height: 130px;
+  width: 100px;
+}
+
+.header__region div#block-bean-ministerial-image div.bean-image-and-text {
+  padding: 0px;
+}
+
+body.front div.view-ministerial-media-releases div.views-row {
+  border-bottom: 2px solid #E2E2E2;
+  outline-color: #444444;
+  padding-bottom: 8px;
+}
+
+body.front div.view-ministerial-media-releases div.views-row.views-row-last {
+  border-bottom: none;
+}
+
+
+body.front div.view-ministerial-speeches div.views-row {
+  border-bottom: 2px solid #E2E2E2;
+  outline-color: #444444;
+  padding-bottom: 8px;
+}
+
+body.front div.view-ministerial-speeches div.views-row.views-row-last {
+  border-bottom: none;
+}
+
+body.front div.view-ministerial-transcripts div.views-row {
+  border-bottom: 2px solid #E2E2E2;
+  outline-color: #444444;
+  padding-bottom: 8px;
+}
+
+body.front div.view-ministerial-transcripts div.views-row.views-row-last {
+  border-bottom: none;
+}
+
+body.front div.view-ministerial-photo-galleries div.views-row {
+  float:left;
+  padding-left:20px;
+}
+
+body.front div.view-ministerial-photo-galleries div.views-row.views-row-first {
+  padding-left:0px;
+}
+
+.navigation__primary-link, .navigation__primary-link.is-active, .navigation__primary-item:focus > a, .navigation__primary-item:hover > a, .region-navigation .block__content > .menu > li.active-trail > a, .region-navigation .block__content > .menu > li > a {
+  padding: 10px 17px!important;
+}
+
+body.front div.field-name-field-date {
+  float:right;
+}
+
+article.node div.field-name-field-photos div.field-items div.field-item {
+  float:left;
+  padding-right: 20px;
+  padding-bottom: 20px;
+}
+
+article.node div.field-name-field-photos div.field-items div.field-item:nth-child(3n+3) {
+  padding-right: 0px;
+}
+
+article.node div.field-name-field-photos div.field-items div.field-item:last-child {
+  float: inherit;
+}
+
+body.front div.panel-3col-33-stacked div.panel-col-bottom {
+  border-top: 2px solid #e2e2e2;
+  outline-color: #444444;
+}
+
+body.node-type-photo-gallery article.node-photo-gallery div.field-name-field-feature-image img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+div.field-name-field-related-links ul.field-items {
+  margin-bottom:0px;
+}
+
+body.node-type-media-release article.node-media-release div.field-name-field-minister, body.node-type-speech article.node-speech div.field-name-field-minister, body.node-type-transcript article.node-transcript div.field-name-field-minister {
+  padding-bottom: 20px;
+}
+
+body.node-type-media-release article.node-media-release div.field-name-field-date span.date-display-single,
+body.node-type-speech article.node-speech div.field-name-field-date span.date-display-single,
+body.node-type-transcript article.node-transcript div.field-name-field-date div.field-item {
+  font-weight: bold;
+  font-style: italic;
+}
+
+body.node-type-media-release article.node-media-release div.field-name-field-reference-number div.field-item, body.node-type-speech article.node-speech div.field-name-field-location-event div.field-item {
+  font-weight: bold;
+}
+
+body.node-type-transcript article.node-transcript div.field-label-inline div.field-label {
+  width: inherit;
+}
+
+body.node-type-transcript div.field-label-inline{
+  margin: .4em 0;
+}
+
+body.page-node article.node div.field-name-field-minister > div.field-items > div.field-item {
+  padding-top:20px;
+}
+
+body.page-node article.node div.field-name-field-minister > div.field-items > div.field-item:nth-of-type(1) {
+  padding-top:0px;
+}
