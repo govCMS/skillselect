@@ -163,15 +163,15 @@ div.field-name-field-related-links ul.field-items {
     margin-bottom:0px;
 }
 
-body.node-type-media-release article.node-media-release div.field-name-field-minister {
+body.node-type-media-release article.node-media-release div.field-name-field-minister, body.node-type-speech article.node-speech div.field-name-field-minister, body.node-type-transcript article.node-transcript div.field-name-field-minister {
     padding-bottom: 20px;
 }
 
-body.node-type-media-release article.node-media-release div.field-name-field-date span.date-display-single {
+body.node-type-media-release article.node-media-release div.field-name-field-date span.date-display-single, body.node-type-speech article.node-speech div.field-name-field-date span.date-display-single, body.node-type-transcript article.node-transcript div.field-name-field-date span.date-display-single {
     font-weight: bold;
     font-style: italic;
 }
 
-body.node-type-media-release article.node-media-release div.field-name-field-reference-number div.field-item {
+body.node-type-media-release article.node-media-release div.field-name-field-reference-number div.field-item, body.node-type-speech article.node-speech div.field-name-field-location-event div.field-item {
     font-weight: bold;
 }
