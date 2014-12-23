@@ -162,3 +162,16 @@ body.node-type-photo-gallery article.node-photo-gallery div.field-name-field-fea
 div.field-name-field-related-links ul.field-items {
     margin-bottom:0px;
 }
+
+body.node-type-media-release article.node-media-release div.field-name-field-minister {
+    padding-bottom: 20px;
+}
+
+body.node-type-media-release article.node-media-release div.field-name-field-date span.date-display-single {
+    font-weight: bold;
+    font-style: italic;
+}
+
+body.node-type-media-release article.node-media-release div.field-name-field-reference-number div.field-item {
+    font-weight: bold;
+}
