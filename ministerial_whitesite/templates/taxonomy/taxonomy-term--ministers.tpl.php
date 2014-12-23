@@ -42,7 +42,7 @@
 ?>
 <div id="taxonomy-term-<?php print $term->tid; ?>" class="<?php print $classes; ?>">
     <?php if (!$page): ?>
-        <div><a href="<?php print $term_url; ?>"><?php print $term_name; ?></a></div>
+        <div><strong><?php print $term_name; ?></strong></div>
     <?php endif; ?>
     <div class="content">
         <?php print render($content); ?>
