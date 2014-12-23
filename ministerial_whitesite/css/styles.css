@@ -185,3 +185,11 @@ body.node-type-transcript article.node-transcript div.field-label-inline div.fie
 body.node-type-transcript div.field-label-inline{
     margin: .4em 0;
 }
+
+body.page-node article.node div.field-name-field-minister div.field-items div.field-item {
+    padding-top:20px;
+}
+
+body.page-node article.node div.field-name-field-minister div.field-items div.field-item:nth-of-type(1) {
+    padding-top:0px;
+}
