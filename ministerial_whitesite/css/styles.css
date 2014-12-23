@@ -167,7 +167,9 @@ body.node-type-media-release article.node-media-release div.field-name-field-min
     padding-bottom: 20px;
 }
 
-body.node-type-media-release article.node-media-release div.field-name-field-date span.date-display-single, body.node-type-speech article.node-speech div.field-name-field-date span.date-display-single, body.node-type-transcript article.node-transcript div.field-name-field-date span.date-display-single {
+body.node-type-media-release article.node-media-release div.field-name-field-date span.date-display-single,
+body.node-type-speech article.node-speech div.field-name-field-date span.date-display-single,
+body.node-type-transcript article.node-transcript div.field-name-field-date div.field-item {
     font-weight: bold;
     font-style: italic;
 }
