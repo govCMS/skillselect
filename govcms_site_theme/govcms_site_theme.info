@@ -45,7 +45,7 @@ base theme  = agency_whitesite
 
 
 ; Then we add our own stylesheet.
-stylesheets[all][] = css/styles.css
+stylesheets[all][] = css/govcms.css
 
 ; Built-in conditional stylesheet support has been removed from Zen 7.x-5.x.
 ; Instead, Zen now adds conditional-comment-included classes to the html
