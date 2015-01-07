@@ -18,3 +18,7 @@ header div.header__region {
 header .header__logo-image {
     max-height: inherit;
 }
+
+div.view-latest-news div.view-content div.views-row div.node {
+    padding:20px;
+}
