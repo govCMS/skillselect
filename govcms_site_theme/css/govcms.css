@@ -39,3 +39,22 @@ div.region-navigation, div.navigation-wrapper {
 .navigation__link.is-active:before, .navigation__link:focus:before, .navigation__link:hover:before, .region-navigation .block__content > .menu li li a:focus:before, .region-navigation .block__content > .menu li li a:hover:before, .region-navigation .block__content > .menu li li a.active:before {
     /*border-left-color: #000000;*/
 }
+
+div.video-container-custom {
+    background-color: #e2e2e2;
+    margin: 25px 0;
+    padding: 0 20px;
+}
+
+div.video-container-custom div.group-left {
+    float: left;
+    height: 320px;
+    width: 620px;
+    max-height: 351px;
+}
+
+div.video-container-custom div.group-right {
+    float: right;
+    padding-left: 0;
+    width: 300px;
+}
