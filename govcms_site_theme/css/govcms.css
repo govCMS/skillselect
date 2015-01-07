@@ -2,6 +2,11 @@ div.region-header div#block-bean-govcms-logo {
     float:right;
 }
 
+div.region-header div#block-bean-govcms-logo img {
+    max-width: 100px;
+    width:100px;
+}
+
 div.region-header div#block-search-api-page-default-search {
     width: 200px;
 }
