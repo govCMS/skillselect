@@ -35,3 +35,7 @@ div.region-navigation, div.navigation-wrapper {
 .navigation__primary-link.is-active:before, .navigation__primary-item:focus > a:before, .navigation__primary-item:hover > a:before, .region-navigation .block__content > .menu > li:focus > a:before, .region-navigation .block__content > .menu > li:hover > a:before, .region-navigation .block__content > .menu > li.active-trail > a:before {
     border-top: 3px solid #74c29f;
 }
+
+.block__content > .menu li li a.active:before {
+    border-left-color: #000000;
+}
