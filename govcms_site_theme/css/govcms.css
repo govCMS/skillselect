@@ -36,6 +36,6 @@ div.region-navigation, div.navigation-wrapper {
     border-top: 3px solid #74c29f;
 }
 
-.block__content > .menu li li a.active:before {
+.navigation__link.is-active:before, .navigation__link:focus:before, .navigation__link:hover:before, .region-navigation .block__content > .menu li li a:focus:before, .region-navigation .block__content > .menu li li a:hover:before, .region-navigation .block__content > .menu li li a.active:before {
     border-left-color: #000000;
 }
