@@ -82,6 +82,7 @@ div.video-container-custom div.group-right .field-name-field-read-more a {
     text-align: center;
     text-decoration: none;
     text-transform: uppercase;
+    background-color: #fff;
 }
 
 div.video-container-custom div.group-right .field-name-field-read-more a:before {
@@ -92,4 +93,15 @@ div.video-container-custom div.group-right .field-name-field-read-more a:before 
     position: absolute;
     top: -1px;
     width: 5px;
+}
+
+div.video-container-custom div.group-right .field-name-field-read-more a:hover{
+    border-color:#062e7f;
+    border-left-color:#82c341;
+    color:#fff;
+    background-color:#1675bc;
+}
+
+div.video-container-custom div.group-right .field-name-field-read-more a:hover::before{
+    background-color:#82c341;
 }
