@@ -14,3 +14,7 @@ div.region-header div#block-search-api-page-default-search {
 header div.header__region {
     margin: 0px;
 }
+
+header .header__logo-image {
+    max-height: inherit;
+}
