@@ -28,6 +28,10 @@ div.region-navigation, div.navigation-wrapper {
     background: linear-gradient(#33434a, #37424a) repeat scroll 0 0 #37424a;
 }
 
+.navigation, .region-navigation .block__content > .menu {
+    background-color: #37424a;
+}
+
 .navigation__primary-link.is-active:before, .navigation__primary-item:focus > a:before, .navigation__primary-item:hover > a:before, .region-navigation .block__content > .menu > li:focus > a:before, .region-navigation .block__content > .menu > li:hover > a:before, .region-navigation .block__content > .menu > li.active-trail > a:before {
     border-top: 3px solid #74c29f;
 }
