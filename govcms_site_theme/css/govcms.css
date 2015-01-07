@@ -5,3 +5,7 @@ div.region-header div#block-bean-govcms-logo {
 div.region-header div#block-search-api-page-default-search {
     width: 200px;
 }
+
+header div.header__region {
+    margin: 0px;
+}
