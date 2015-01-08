@@ -140,29 +140,29 @@ table.pricing_table tr.plan_total {
 }
 
 table.pricing_table tr.pageviews {
-
+    background:#ccecff;
 }
 
 table.pricing_table tr.acquia {
-
+    background:#ecffc3;
 }
 
 table.pricing_table tr.finance {
-
+    background:#ecffc3;
 }
 
 table.pricing_table tr.one_off {
-
+    background:#d8d8d8;
 }
 
 table.pricing_table tr.per_website {
-
+    background:#ccecff;
 }
 
 table.pricing_table tr.suited_to {
-
+    background:#f2f2f2;
 }
 
 table.pricing_table tr.pricing_foot {
-
+    background:#f2f2f2;
 }
