@@ -109,3 +109,53 @@ div.video-container-custom div.group-right .field-name-field-read-more a:hover::
 article.view-mode-full img.media-element {
     float: inherit;
 }
+
+table.pricing_table {
+    border-top:none;
+    border-left:none;
+    border-bottom:solid white 1.5pt;
+    border-right:solid white 1.0pt;
+    color:#002776;
+}
+
+table.pricing_table tr.plan_details  {
+    background:#00a1de;
+    color: #ffffff;
+}
+
+table.pricing_table tr.plan_total  {
+    background:#ccecff;
+    font-weight: bold;
+}
+
+table.pricing_table tr.plan_total {
+    background:#ccecff;
+}
+
+table.pricing_table tr.pageviews {
+
+}
+
+table.pricing_table tr.acquia {
+
+}
+
+table.pricing_table tr.finance {
+
+}
+
+table.pricing_table tr.one_off {
+
+}
+
+table.pricing_table tr.per_website {
+
+}
+
+table.pricing_table tr.suited_to {
+
+}
+
+table.pricing_table tr.pricing_foot {
+
+}
