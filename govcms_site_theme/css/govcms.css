@@ -180,15 +180,28 @@ body {
 
 /* Animation */
 
-.PlanPricing {
-    margin-top:100px;
+div.fancyTableRow {
+    float:left;
+}
+
+.fancyTableCell {
     -moz-transition:all 0.6s ease;
     -webkit-transition:all 0.6s ease;
     -ms-transition:all 0.6s ease;
     -o-transition:all 0.6s ease;
     transition:all 0.6s ease;
+    width: 45%;
 }
-.PlanPricing:hover {
+
+.fancyTableCellLeft {
+    float:left;
+}
+
+.fancyTableCellRight {
+    float:right;
+}
+
+.fancyTableCell:hover {
     -moz-transform:scale(1.1);
     -webkit-transform:scale(1.1);
     -o-transform:scale(1.1);
@@ -199,12 +212,12 @@ body {
     -webkit-box-shadow:0px 0px 5px rgba(0, 0, 0, 0.3);
     box-shadow:0px 0px 5px rgba(0, 0, 0, 0.3);
 }
-.PlanPricing .planName {
+.fancyTableCell .planName {
     padding-top:50px;
     padding-bottom:10px;
     text-align:center;
 }
-.PlanPricing .price {
+.fancyTableCell .price {
     background:#2cc76a;
     padding:5px;
     color:#FFF;
@@ -221,37 +234,37 @@ body {
     margin-top:-107px;
     margin-bottom:10px;
 }
-.PlanPricing.Recommended .price {
+.fancyTableCell.Recommended .price {
     background:#f45c57;
 }
-.PlanPricing .planName h3 {
+.fancyTableCell .planName h3 {
     color:#FFF;
     text-align:center;
     padding:0;
     margin:0;
     text-transform:uppercase;
 }
-.PlanPricing .planName p {
+.fancyTableCell .planName p {
     color:#999;
     text-align:center;
 }
-.PlanPricing .planFeatures {
+.fancyTableCell .planFeatures {
     text-align:center;
     padding:10px;
 }
-.PlanPricing .planFeatures ul {
+.fancyTableCell .planFeatures ul {
     margin:0;
     padding:0;
     list-style:none;
 }
-.PlanPricing .planFeatures ul li {
+.fancyTableCell .planFeatures ul li {
     padding:13px 0;
     list-style:none;
 }
-.PlanPricing p {
+.fancyTableCell p {
     margin:0;
 }
-.PlanPricing .btn {
+.fancyTableCell .btn {
     width:100%;
     -webkit-border-radius:0;
     -moz-border-radius:0;
@@ -293,7 +306,7 @@ body {
     transition: all 1s linear 0s;
 }
 
-.PlanPricing.template4 .planName h3 {
+.fancyTableCell.template4 .planName h3 {
     color: #333;
     margin: 0;
     padding: 0;
@@ -302,7 +315,7 @@ body {
 }
 
 
-.PlanPricing.template4 .price {
+.fancyTableCell.template4 .price {
     background: none repeat scroll 0 0 #2CC76A;
     border-radius: 0;
     color: #FFFFFF;
@@ -316,7 +329,7 @@ body {
     width: 100%;
 }
 
-.PlanPricing.template4 .btn {
+.fancyTableCell.template4 .btn {
     border-radius: 0;
     box-sizing: border-box;
     margin: 0 auto;
@@ -331,7 +344,7 @@ body {
     transition: all 0.51s ease-in-out;
 }
 
-.PlanPricing.template4 .btn:hover {
+.fancyTableCell.template4 .btn:hover {
     background: #1B253B !important; /* Old browsers */
     -webkit-transition: all 0.51s ease-in-out;
     -moz-transition: all 0.51s ease-in-out;
@@ -340,12 +353,12 @@ body {
 }
 
 
-.span3.PlanPricing.template4 > p {
+.span3.fancyTableCell.template4 > p {
     text-align: center;
 }
 
 
-.PlanPricing.template4 .price {
+.fancyTableCell.template4 .price {
     background: none repeat scroll 0 0 #1B253B;
     border-radius: 0;
     color: #FFFFFF;
