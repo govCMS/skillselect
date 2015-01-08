@@ -185,11 +185,11 @@ div.fancyTableRow {
 }
 
 .fancyTableCell {
-    -moz-transition:all 0.6s ease;
-    -webkit-transition:all 0.6s ease;
-    -ms-transition:all 0.6s ease;
-    -o-transition:all 0.6s ease;
-    transition:all 0.6s ease;
+    -moz-transition:all 0.4s ease;
+    -webkit-transition:all 0.4s ease;
+    -ms-transition:all 0.4s ease;
+    -o-transition:all 0.4s ease;
+    transition:all 0.4s ease;
     width: 45%;
 }
 
@@ -287,13 +287,13 @@ div.fancyTableRow {
     font-weight:300;
     position:relative;
     border-top:5px solid #1B253B;
-    transition: all 1s linear 0s;
+    transition: all 0.4s linear 0s;
     background:#fff;
 }
 
 .template4:hover{
     border-top:0px solid #1B253B;
-    transition: all 1s linear 0s;
+    transition: all 0.4s linear 0s;
 }
 
 .template4:hover > p a{
@@ -303,7 +303,7 @@ div.fancyTableRow {
 
 .template4:hover > div span.price{
     top:50px; !important;
-    transition: all 1s linear 0s;
+    transition: all 0.4s linear 0s;
 }
 
 .fancyTableCell.template4 .planName h3 {
@@ -371,7 +371,7 @@ div.fancyTableRow {
     left:0;
     top:-150px;
     width: 100%;
-    transition: all 1s linear 0s;
+    transition: all 0.4s linear 0s;
 }
 
 .orange{
