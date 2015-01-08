@@ -7,9 +7,3 @@
  * @see https://drupal.org/node/1728096
  */
 
-/**
- * Override template_search_preprocess_search_result() to not show username.
- */
-function govcms_site_theme_preprocess_search_result(&$variables) {
-    $variables['info'] = '';
-}
