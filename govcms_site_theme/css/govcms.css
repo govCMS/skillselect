@@ -118,6 +118,13 @@ table.pricing_table {
     color:#002776;
 }
 
+table.pricing_table td {
+    border-top:none;
+    border-left:none;
+    border-bottom:solid white 1.5pt;
+    border-right:solid white 1.0pt;
+}
+
 table.pricing_table tr.plan_details  {
     background:#00a1de;
     color: #ffffff;
