@@ -518,13 +518,6 @@ function agency_whitesite_item_list__pager($variables) {
 }
 
 /**
- * Override template_search_preprocess_search_result() to not show username.
- */
-function agency_whitesite_preprocess_search_result(&$variables) {
-  $variables['info'] = '';
-}
-
-/**
  * Implements hook_preprocess_menu_link().
  */
 function agency_whitesite_preprocess_menu_link(&$variables, $hook) {
