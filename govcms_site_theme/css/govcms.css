@@ -430,3 +430,8 @@ div.fancyTableRow {
 .template4 .read-more a:hover::before{
     background-color:#82c341;
 }
+
+.template4 ul li.page_views {
+    font-size:16px;
+    font-weight:bold;
+}
