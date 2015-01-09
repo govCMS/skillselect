@@ -172,8 +172,7 @@ table.pricing_table tr.pricing_foot {
 /* Animation */
 
 div.fancyTableRow {
-    float:left;
-    margin-bottom: 40px;
+
 }
 
 .fancyTableCell {
@@ -277,7 +276,7 @@ div.fancyTableRow {
 
 .template4{
     overflow:hidden;
-
+    margin-bottom: 40px;
     font-size:13px;
     font-weight:300;
     position:relative;
