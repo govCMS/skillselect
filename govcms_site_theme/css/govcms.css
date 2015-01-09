@@ -281,7 +281,7 @@ div.fancyTableRow {
     font-size:13px;
     font-weight:300;
     position:relative;
-    border-top:5px solid #1B253B;
+    border-top:5px solid #74c29f;
     transition: all 0.4s linear 0s;
     background:#fff;
 }
@@ -354,7 +354,7 @@ div.fancyTableRow {
 
 
 .fancyTableCell.template4 .price {
-    background: none repeat scroll 0 0 #1B253B;
+    background: linear-gradient(#33434a, #37424a) repeat scroll 0 0 #37424a;
     border-radius: 0;
     color: #FFFFFF;
     display: block;
