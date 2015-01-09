@@ -175,6 +175,10 @@ div.fancyTableRow {
 
 }
 
+div.prices .fancyTableCell .planFeatures ul li {
+    padding: 5px;
+}
+
 .fancyTableCell {
     -moz-transition:all 0.4s ease;
     -webkit-transition:all 0.4s ease;
