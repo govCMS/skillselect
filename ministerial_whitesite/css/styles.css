@@ -129,7 +129,7 @@ body.front div.view-ministerial-photo-galleries div.views-row.views-row-first {
 body.front h3 {
     font-size: inherit;
     line-height: inherit;
-    margin: inherit;
+    margin: 10px 0px 0px 0px;
 }
 
 body.front div.panel-col-top h3 {
