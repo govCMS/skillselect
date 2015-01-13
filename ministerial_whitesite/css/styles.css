@@ -205,3 +205,21 @@ body.page-node article.node div.field-name-field-minister > div.field-items > di
 body.page-node article.node div.field-name-field-minister > div.field-items > div.field-item:nth-of-type(1) {
     padding-top:0px;
 }
+
+body.front div.pane-agov-social-links-services div.social-link {
+    float:left;
+}
+
+body.front div.pane-agov-social-links-services div.social-link a.social-links-img-link {
+    padding-right: 6px;
+    padding-left: 6px;
+}
+
+body.front div.pane-agov-social-links-services div.social-link a.social-links-img-link img {
+    height: auto;
+    width: auto;
+}
+
+body.front div.pane-agov-social-links-services div.social-link a.social-links-title-title {
+    display: none;
+}

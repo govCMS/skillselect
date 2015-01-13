@@ -242,3 +242,21 @@ body.front div.panel-col-top h3 {
   line-height: 2.93333rem;
   margin: -4px 0 8px;
 }
+
+body.front div.pane-agov-social-links-services div.social-link {
+  float:left;
+}
+
+body.front div.pane-agov-social-links-services div.social-link a.social-links-img-link {
+  padding-right: 6px;
+  padding-left: 6px;
+}
+
+body.front div.pane-agov-social-links-services div.social-link a.social-links-img-link img {
+  height: auto;
+  width: auto;
+}
+
+body.front div.pane-agov-social-links-services div.social-link a.social-links-title-title {
+  display: none;
+}
