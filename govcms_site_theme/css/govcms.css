@@ -48,7 +48,7 @@ div.video-container-custom {
 
 div.video-container-custom div.group-left {
     float: left;
-    height: 320px;
+    /*height: 320px;*/
     width: 620px;
     max-height: 351px;
 }
