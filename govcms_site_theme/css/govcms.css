@@ -88,7 +88,7 @@ div.video-container-custom div.group-right .field-name-field-read-more a {
 }
 
 div.video-container-custom div.group-right .field-name-field-read-more a:before {
-    background-color: #1675bc;
+    background-color: #74c29f;
     content: "";
     height: calc(100% + 2px);
     left: -5px;
@@ -99,9 +99,9 @@ div.video-container-custom div.group-right .field-name-field-read-more a:before 
 
 div.video-container-custom div.group-right .field-name-field-read-more a:hover{
     border-color:#062e7f;
-    border-left-color:#37424a;
+    border-left-color:#74c29f;
     color:#fff;
-    background-color:#1675bc;
+    background-color:#37424a;
 }
 
 div.video-container-custom div.group-right .field-name-field-read-more a:hover::before{
@@ -431,14 +431,15 @@ div.prices .fancyTableCell {
 
 .template4 .read-more a:hover{
     border-color:#062e7f;
-    border-left-color:#37424a;
+    border-left-color:#74c29f;
     color:#fff;
     background-color:#37424a;
 }
 
 .template4 .read-more a:hover::before{
     /*background-color:#82c341;*/
-    background-color: #37424a;
+    /*background-color: #37424a;*/
+    background-color: #74c29f;
 }
 
 .template4 ul li.page_views {
