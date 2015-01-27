@@ -8,7 +8,9 @@ div.region-header div#block-bean-govcms-logo img {
 }
 
 div.region-header div#block-search-api-page-default-search {
-    width: 200px;
+    width: 280px;
+    margin-top: 35px;
+    margin-right: 25px;
 }
 
 header div.header__region {
@@ -33,7 +35,7 @@ div.region-navigation, div.navigation-wrapper {
 }
 
 .navigation__primary-link.is-active:before, .navigation__primary-item:focus > a:before, .navigation__primary-item:hover > a:before, .region-navigation .block__content > .menu > li:focus > a:before, .region-navigation .block__content > .menu > li:hover > a:before, .region-navigation .block__content > .menu > li.active-trail > a:before {
-    border-top: 3px solid #74c29f;
+    border-top: 4px solid #74c29f;
 }
 
 .navigation__link.is-active:before, .navigation__link:focus:before, .navigation__link:hover:before, .region-navigation .block__content > .menu li li a:focus:before, .region-navigation .block__content > .menu li li a:hover:before, .region-navigation .block__content > .menu li li a.active:before {
@@ -41,7 +43,7 @@ div.region-navigation, div.navigation-wrapper {
 }
 
 div.video-container-custom {
-    background-color: #e2e2e2;
+    background-color: #f5f5f5;
     margin: 25px 0;
     padding: 5px;
 }
@@ -97,13 +99,13 @@ div.video-container-custom div.group-right .field-name-field-read-more a:before 
 
 div.video-container-custom div.group-right .field-name-field-read-more a:hover{
     border-color:#062e7f;
-    border-left-color:#82c341;
+    border-left-color:#37424a;
     color:#fff;
     background-color:#1675bc;
 }
 
 div.video-container-custom div.group-right .field-name-field-read-more a:hover::before{
-    background-color:#82c341;
+    background-color:#37424a;
 }
 
 article.view-mode-full img.media-element {
@@ -429,16 +431,29 @@ div.prices .fancyTableCell {
 
 .template4 .read-more a:hover{
     border-color:#062e7f;
-    border-left-color:#82c341;
+    border-left-color:#37424a;
     color:#fff;
     background-color:#1675bc;
 }
 
 .template4 .read-more a:hover::before{
-    background-color:#82c341;
+    /*background-color:#82c341;*/
+    background-color: #37424a;
 }
 
 .template4 ul li.page_views {
     font-size:16px;
     font-weight:bold;
+}
+
+.region-footer-bottom {
+    border-bottom: 1px solid #74c29f;
+}
+
+#block-agov-text-resize-text-resize {
+    display:none;
+}
+
+.navigation__link.is-active:before,.navigation__link:focus:before,.navigation__link:hover:before,.region-navigation .block__content>.menu li li a:focus:before,.region-navigation .block__content>.menu li li a:hover:before,.region-navigation .block__content>.menu li li a.active:before {
+    border-left-color: #74c29f;
 }
