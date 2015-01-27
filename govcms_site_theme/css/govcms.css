@@ -511,3 +511,52 @@ div.prices .fancyTableCell {
     background-color: #37424a;
 }
 */
+
+.read-more a {
+    border-color: #fff;
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    background-image: none;
+    border-color: #e2e2e2 #e2e2e2 #e2e2e2 #1675bc;
+    border-image: none;
+    border-style: solid;
+    border-width: 1px 1px 1px 5px;
+    color: #231f20;
+    cursor: pointer;
+    display: inline-block;
+    height: auto;
+    line-height: 22px;
+    min-height: 40px;
+    overflow: visible;
+    padding: 8px 25px;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    background-color: #fff;
+}
+
+.read-more a:before {
+    background-color: #74c29f;
+    content: "";
+    height: calc(100% + 2px);
+    left: -5px;
+    position: absolute;
+    top: -1px;
+    width: 5px;
+}
+
+.read-more a:hover{
+    border-color:#062e7f;
+    border-left-color:#74c29f;
+    color:#fff;
+    background-color:#37424a;
+}
+
+.read-more a:hover::before{
+    /*background-color:#82c341;*/
+    /*background-color: #37424a;*/
+    background-color: #74c29f;
+}
