@@ -44,7 +44,7 @@ div.region-navigation, div.navigation-wrapper {
 
 div.video-container-custom {
     background-color: #f5f5f5;
-    margin: 25px 0;
+    margin: 0;
     padding: 5px;
 }
 
@@ -559,4 +559,15 @@ div.prices .fancyTableCell {
     /*background-color:#82c341;*/
     /*background-color: #37424a;*/
     background-color: #74c29f;
+}
+
+.latest-news {
+    float: none;
+    clear: both;
+    width: 65%;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: #37424a;
+    font-size: 210%;
 }
