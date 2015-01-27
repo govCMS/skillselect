@@ -458,6 +458,6 @@ div.prices .fancyTableCell {
     border-color: #74c29f;
 }
 
-.menu-block-agov_menu_block-sidebar .menu .menu__link.active {
+.menu-block-agov_menu_block-sidebar .menu .menu__link.active, .latest-news:before {
     border-color: #74c29f;
 }
