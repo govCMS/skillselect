@@ -105,7 +105,7 @@ div.video-container-custom div.group-right .field-name-field-read-more a:hover{
 }
 
 div.video-container-custom div.group-right .field-name-field-read-more a:hover::before{
-    background-color:#37424a;
+    background-color:#74c29f;
 }
 
 article.view-mode-full img.media-element {
@@ -461,4 +461,20 @@ div.prices .fancyTableCell {
 
 .menu-block-agov_menu_block-sidebar .menu .menu__link.active, .latest-news:before {
     border-color: #74c29f;
+}
+
+.button:before, button:before, html input[type="button"]:before, input[type="reset"]:before, input[type="submit"]:before, .slide-show__read-more-link:before, #block-views-slideshow-block .field-name-field-read-more a:before {
+    background-color: #74c29f;
+}
+
+.button:before, button:before, html input[type="button"]:before, input[type="reset"]:before, input[type="submit"]:before, .slide-show__read-more-link:before, #block-views-slideshow-block .field-name-field-read-more a:before {
+    background-color: #74c29f;
+}
+
+.button:focus::before,.button:hover::before,button:focus::before,html input[type="button"]:focus::before,input[type="reset"]:focus::before,input[type="submit"]:focus::before,.slide-show__read-more-link:focus::before,#block-views-slideshow-block .field-name-field-read-more a:focus::before,button:hover::before,html input[type="button"]:hover::before,input[type="reset"]:hover::before,input[type="submit"]:hover::before,.slide-show__read-more-link:hover::before,#block-views-slideshow-block .field-name-field-read-more a:hover::before{
+    background-color:#74c29f
+}
+
+.button:focus, .button:hover, button:focus, html input[type="button"]:focus, input[type="reset"]:focus, input[type="submit"]:focus, .slide-show__read-more-link:focus, #block-views-slideshow-block .field-name-field-read-more a:focus, button:hover, html input[type="button"]:hover, input[type="reset"]:hover, input[type="submit"]:hover, .slide-show__read-more-link:hover, #block-views-slideshow-block .field-name-field-read-more a:hover {
+    background-color: #37424a;
 }
