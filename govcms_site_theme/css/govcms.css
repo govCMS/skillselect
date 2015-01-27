@@ -420,7 +420,7 @@ div.prices .fancyTableCell {
 }
 
 .template4 .read-more a:before {
-    background-color: #1675bc;
+    background-color: #74c29f;
     content: "";
     height: calc(100% + 2px);
     left: -5px;
@@ -433,7 +433,7 @@ div.prices .fancyTableCell {
     border-color:#062e7f;
     border-left-color:#37424a;
     color:#fff;
-    background-color:#1675bc;
+    background-color:#37424a;
 }
 
 .template4 .read-more a:hover::before{
@@ -455,5 +455,9 @@ div.prices .fancyTableCell {
 }
 
 .navigation__link.is-active:before,.navigation__link:focus:before,.navigation__link:hover:before,.region-navigation .block__content>.menu li li a:focus:before,.region-navigation .block__content>.menu li li a:hover:before,.region-navigation .block__content>.menu li li a.active:before {
-    border-left-color: #74c29f;
+    border-color: #74c29f;
+}
+
+.menu-block-agov_menu_block-sidebar .menu .menu__link.active {
+    border-color: #74c29f;
 }
