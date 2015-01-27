@@ -472,9 +472,41 @@ div.prices .fancyTableCell {
 }
 
 .button:focus::before,.button:hover::before,button:focus::before,html input[type="button"]:focus::before,input[type="reset"]:focus::before,input[type="submit"]:focus::before,.slide-show__read-more-link:focus::before,#block-views-slideshow-block .field-name-field-read-more a:focus::before,button:hover::before,html input[type="button"]:hover::before,input[type="reset"]:hover::before,input[type="submit"]:hover::before,.slide-show__read-more-link:hover::before,#block-views-slideshow-block .field-name-field-read-more a:hover::before{
-    background-color:#74c29f
+    background-color:#74c29f;
 }
 
 .button:focus, .button:hover, button:focus, html input[type="button"]:focus, input[type="reset"]:focus, input[type="submit"]:focus, .slide-show__read-more-link:focus, #block-views-slideshow-block .field-name-field-read-more a:focus, button:hover, html input[type="button"]:hover, input[type="reset"]:hover, input[type="submit"]:hover, .slide-show__read-more-link:hover, #block-views-slideshow-block .field-name-field-read-more a:hover {
+    background-color: #37424a;
+}
+
+.panel-col-bottom .panels-ipe-portlet-wrapper:nth-of-type(n) .bean-image-and-text.landing_page h2:after, .panel-col-bottom .panel-pane:nth-of-type(n) .bean-image-and-text.landing_page h2:after, .panel-col-middle .panel-pane:nth-of-type(n) .bean-image-and-text.landing_page h2:after {
+    background-color: #74c29f;
+}
+
+.panel-col-bottom .panels-ipe-portlet-wrapper:nth-of-type(2n) .bean-image-and-text.landing_page h2:after, .panel-col-bottom .panel-pane:nth-of-type(2n) .bean-image-and-text.landing_page h2:after, .panel-col-middle .panel-pane:nth-of-type(2n) .bean-image-and-text.landing_page h2:after {
+    background-color: #74c29f;
+}
+
+.panel-col-bottom .panels-ipe-portlet-wrapper:nth-of-type(3n) .bean-image-and-text.landing_page h2:after, .panel-col-bottom .panel-pane:nth-of-type(3n) .bean-image-and-text.landing_page h2:after, .panel-col-middle .panel-pane:nth-of-type(3n) .bean-image-and-text.landing_page h2:after {
+    background-color: #74c29f;
+}
+
+.panel-col-bottom .panels-ipe-portlet-wrapper:nth-of-type(4n) .bean-image-and-text.landing_page h2:after, .panel-col-bottom .panel-pane:nth-of-type(4n) .bean-image-and-text.landing_page h2:after, .panel-col-middle .panel-pane:nth-of-type(4n) .bean-image-and-text.landing_page h2:after {
+    background-color: #74c29f;
+}
+
+.panel-col-bottom .panels-ipe-portlet-wrapper:nth-of-type(n) .bean-image-and-text.landing_page div.image-title:hover h2:after, .panel-col-bottom .panel-pane:nth-of-type(n) .bean-image-and-text.landing_page h2:after, .panel-col-middle .panel-pane:nth-of-type(n) .bean-image-and-text.landing_page h2:after {
+    background-color: #37424a;
+}
+
+.panel-col-bottom .panels-ipe-portlet-wrapper:nth-of-type(2n) .bean-image-and-text.landing_page div.image-title:hover h2:after, .panel-col-bottom .panel-pane:nth-of-type(2n) .bean-image-and-text.landing_page h2:after, .panel-col-middle .panel-pane:nth-of-type(2n) .bean-image-and-text.landing_page h2:after {
+    background-color: #37424a;
+}
+
+.panel-col-bottom .panels-ipe-portlet-wrapper:nth-of-type(3n) .bean-image-and-text.landing_page div.image-title:hover h2:after, .panel-col-bottom .panel-pane:nth-of-type(3n) .bean-image-and-text.landing_page h2:after, .panel-col-middle .panel-pane:nth-of-type(3n) .bean-image-and-text.landing_page h2:after {
+    background-color: #37424a;
+}
+
+.panel-col-bottom .panels-ipe-portlet-wrapper:nth-of-type(4n) .bean-image-and-text.landing_page div.image-title:hover h2:after, .panel-col-bottom .panel-pane:nth-of-type(4n) .bean-image-and-text.landing_page h2:after, .panel-col-middle .panel-pane:nth-of-type(4n) .bean-image-and-text.landing_page h2:after {
     background-color: #37424a;
 }
