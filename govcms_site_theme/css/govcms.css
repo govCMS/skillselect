@@ -494,7 +494,7 @@ div.prices .fancyTableCell {
 .panel-col-bottom .panels-ipe-portlet-wrapper:nth-of-type(4n) .bean-image-and-text.landing_page h2:after, .panel-col-bottom .panel-pane:nth-of-type(4n) .bean-image-and-text.landing_page h2:after, .panel-col-middle .panel-pane:nth-of-type(4n) .bean-image-and-text.landing_page h2:after {
     background-color: #74c29f;
 }
-
+/*
 .panel-col-bottom .panels-ipe-portlet-wrapper:nth-of-type(n) .bean-image-and-text.landing_page div.image-title:hover h2:after, .panel-col-bottom .panel-pane:nth-of-type(n) .bean-image-and-text.landing_page h2:after, .panel-col-middle .panel-pane:nth-of-type(n) .bean-image-and-text.landing_page h2:after {
     background-color: #37424a;
 }
@@ -510,3 +510,4 @@ div.prices .fancyTableCell {
 .panel-col-bottom .panels-ipe-portlet-wrapper:nth-of-type(4n) .bean-image-and-text.landing_page div.image-title:hover h2:after, .panel-col-bottom .panel-pane:nth-of-type(4n) .bean-image-and-text.landing_page h2:after, .panel-col-middle .panel-pane:nth-of-type(4n) .bean-image-and-text.landing_page h2:after {
     background-color: #37424a;
 }
+*/
