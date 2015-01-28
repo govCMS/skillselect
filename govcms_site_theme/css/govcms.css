@@ -185,11 +185,11 @@ div.prices .fancyTableCell {
 }
 
 .fancyTableCell {
-    -moz-transition: all 0.4s ease;
+    /*-moz-transition: all 0.4s ease;
     -webkit-transition: all 0.4s ease;
     -ms-transition: all 0.4s ease;
     -o-transition: all 0.4s ease;
-    transition: all 0.4s ease;
+    transition: all 0.4s ease;*/
     width: 45%;
     -moz-box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3);
     -webkit-box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3);
@@ -206,11 +206,11 @@ div.prices .fancyTableCell {
 }
 
 .fancyTableCell:hover {
-    -moz-transform: scale(1.1);
+    /*-moz-transform: scale(1.1);
     -webkit-transform: scale(1.1);
     -o-transform: scale(1.1);
     -ms-transform: scale(1.1);
-    transform: scale(1.1);
+    transform: scale(1.1);*/
     z-index: 2;
     -moz-box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3);
     -webkit-box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3);
@@ -298,13 +298,13 @@ div.prices .fancyTableCell {
     font-weight: 300;
     position: relative;
     border-top: 5px solid #74c29f;
-    transition: all 0.4s linear 0s;
+    /*transition: all 0.4s linear 0s;*/
     background: #fff;
 }
 
 .template4:hover {
     border-top: 0px solid #1B253B;
-    transition: all 0.4s linear 0s;
+    /*transition: all 0.4s linear 0s;*/
 }
 
 .template4:hover > p a {
@@ -314,8 +314,7 @@ div.prices .fancyTableCell {
 
 .template4:hover > div span.price {
     top: 50px;
-!important;
-    transition: all 0.4s linear 0s;
+    /*transition: all 0.4s linear 0s;*/
 }
 
 .fancyTableCell.template4 .planName h3 {
@@ -349,18 +348,18 @@ div.prices .fancyTableCell {
     font-size: 15px;
     padding: 20px 30px;
     background: #1B253B; /* Old browsers */
-    -webkit-transition: all 0.51s ease-in-out;
+    /*-webkit-transition: all 0.51s ease-in-out;
     -moz-transition: all 0.51s ease-in-out;
     -o-transition: all 0.51s ease-in-out;
-    transition: all 0.51s ease-in-out;
+    transition: all 0.51s ease-in-out;*/
 }
 
 .fancyTableCell.template4 .btn:hover {
     background: #1B253B !important; /* Old browsers */
-    -webkit-transition: all 0.51s ease-in-out;
+    /*-webkit-transition: all 0.51s ease-in-out;
     -moz-transition: all 0.51s ease-in-out;
     -o-transition: all 0.51s ease-in-out;
-    transition: all 0.51s ease-in-out;
+    transition: all 0.51s ease-in-out;*/
 }
 
 .span3.fancyTableCell.template4 > p {
@@ -377,9 +376,9 @@ div.prices .fancyTableCell {
     padding: 5px;
     position: absolute;
     left: 0;
-    top: -150px;
+    /*top: -150px;*/
     width: 100%;
-    transition: all 0.4s linear 0s;
+    /*transition: all 0.4s linear 0s;*/
 }
 
 .fancyTableCell img.media-element {
