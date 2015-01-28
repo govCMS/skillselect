@@ -453,7 +453,7 @@ div.prices .fancyTableCell {
 }
 
 .region-footer-bottom {
-    border-bottom: 1px solid #74c29f;
+    border-bottom: 4px solid #74c29f;
 }
 
 #block-agov-text-resize-text-resize {
@@ -638,6 +638,7 @@ h1, h2, h3, h4, h5, h6 {
 
 body.front .grayscale {
     filter: none;
+    -webkit-filter: none;
 }
 
 body.front div#footer-top div#block-views-latest-news-block-1 .field-content {
@@ -650,6 +651,10 @@ body.front div#footer-top div#block-views-latest-news-block-1 .field-content {
 div#footer-top div#block-views-latest-news-block-1 {
     float: left;
     width: 25%;
+}
+
+div#block-agov-social-links-services {
+    margin-top: 0;
 }
 
 @media (min-width: 980px) {
