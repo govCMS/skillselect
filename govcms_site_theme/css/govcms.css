@@ -589,6 +589,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .region-highlighted p {
     /*font-size: 185%;*/
+    font-size: 132%;
     line-height: 1.3em;
     margin-bottom: 0;
     padding: 0 5px;
@@ -670,6 +671,7 @@ body.front .region-highlighted strong {
     font-weight: bold;
     padding-bottom: 0.7em;
     display: inline-block;
+    font-family: "TradeGothicLT",Arial,Helvetica,"Nimbus Sans L",sans-serif;
 }
 
 @media (min-width: 980px) {
