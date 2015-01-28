@@ -640,9 +640,6 @@ body.front .grayscale {
     filter: none;
 }
 
-body.front p.article-author-date {
-    display: none;
-}
 
 @media (min-width: 980px) {
     .layout-front__sidebar, .layout-front__sidebar-top, .front .panel-1col-stacked .panel-col-middle, .front .panel-1col-stacked .panel-col-bottom {
