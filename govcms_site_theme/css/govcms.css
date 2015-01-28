@@ -619,32 +619,38 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .block-agov-social-links a {
-      float: left;
+    float: left;
 }
 
 #block-menu-menu-footer-sub-menu {
-      width: 66%;
-      float: left;
+    width: 66%;
+    float: left;
 }
 
 .social-links-title-title {
-      margin-top: 3px;
+    margin-top: 3px;
 }
 
 .social-link {
-      padding-left: 15px;
-      display: inline-block;
+    padding-left: 15px;
+    display: inline-block;
 }
 
 body.front .grayscale {
     filter: none;
 }
 
-div#footer-top div#block-views-latest-news-block-1 {
-    float:left;
-    width:25%;
+body.front div#footer-top div#block-views-latest-news-block-1 .field-content {
+    width: 15em;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
 }
 
+div#footer-top div#block-views-latest-news-block-1 {
+    float: left;
+    width: 25%;
+}
 
 @media (min-width: 980px) {
     .layout-front__sidebar, .layout-front__sidebar-top, .front .panel-1col-stacked .panel-col-middle, .front .panel-1col-stacked .panel-col-bottom {
