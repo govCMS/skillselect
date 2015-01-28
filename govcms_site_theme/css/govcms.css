@@ -303,7 +303,7 @@ div.prices .fancyTableCell {
 }
 
 .template4:hover {
-    border-top: 0px solid #1B253B;
+    /*border-top: 0px solid #1B253B;*/
     /*transition: all 0.4s linear 0s;*/
 }
 
