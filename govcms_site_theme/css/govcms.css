@@ -9,7 +9,7 @@ div.region-header div#block-bean-govcms-logo img {
 
 div.region-header div#block-search-api-page-default-search {
     /*width: 280px;*/
-    margin-top: 35px;
+    margin-top: 25px;
     margin-right: 0px;
 }
 
@@ -677,6 +677,10 @@ body.front .pane-bean-panels:nth-of-type(2) {
 }
 body.front .pane-bean-panels:nth-of-type(3) {
       margin-left: 7px;
+}
+
+body.front div.panel-col-bottom .pane-bean-panels {
+    min-height: 15.5em;
 }
 
 @media (min-width: 980px) {
