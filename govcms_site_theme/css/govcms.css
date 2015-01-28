@@ -673,10 +673,10 @@ body.front .region-highlighted strong {
 }
 
 body.front .pane-bean-panels:nth-of-type(2) {
-      max-width: 300px;
+    max-width: 300px;
 }
 body.front .pane-bean-panels:nth-of-type(3) {
-      margin-left: 7px;
+    margin-left: 7px;
 }
 
 body.front div.panel-col-bottom .pane-bean-panels {
