@@ -588,7 +588,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .region-highlighted p {
-    font-size: 185%;
+    /*font-size: 185%;*/
     line-height: 1.3em;
     margin-bottom: 0;
     padding: 0 5px;
@@ -655,6 +655,21 @@ div#footer-top div#block-views-latest-news-block-1 {
 
 div#block-agov-social-links-services {
     margin-top: 0;
+}
+
+body.front .panel-panel.panel-col-middle {
+    background: #efefef;
+    width: 104.2%;
+    margin-left: -2.1%;
+}
+
+
+body.front .region-highlighted strong {
+    font-size: 399%;
+    color: #37424a;
+    font-weight: bold;
+    padding-bottom: 0.7em;
+    display: inline-block;
 }
 
 @media (min-width: 980px) {
