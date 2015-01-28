@@ -42,7 +42,7 @@ div.region-navigation, div.navigation-wrapper {
     /*border-left-color: #000000;*/
 }
 
-div.video-container-custom {
+/*div.video-container-custom {
     background-color: #f5f5f5;
     margin: 0;
     padding: 5px;
@@ -50,7 +50,6 @@ div.video-container-custom {
 
 div.video-container-custom div.group-left {
     float: left;
-    /*height: 320px;*/
     width: 620px;
     max-height: 351px;
 }
@@ -106,7 +105,7 @@ div.video-container-custom div.group-right .field-name-field-read-more a:hover{
 
 div.video-container-custom div.group-right .field-name-field-read-more a:hover::before{
     background-color:#74c29f;
-}
+}*/
 
 article.view-mode-full img.media-element {
     float: inherit;
@@ -570,4 +569,58 @@ div.prices .fancyTableCell {
 h1, h2, h3, h4, h5, h6 {
     color: #37424a;
     font-size: 210%;
+}
+
+.mission__statement {
+    font-family: TradeGothicLT, Arial, Helvetica, 'Nimbus Sans L', sans-serif;
+    font-size: 1.7em;
+    line-height: 1.35em;
+}
+
+.region-highlighted strong {
+    font-size: 220%;
+    color:#37424a;
+}
+
+.region-highlighted p {
+    font-size: 185%;
+    line-height: 1.3em;
+    margin-bottom: 0;
+    padding: 0 5px;
+}
+
+.video-wrapper {
+    clear: both;
+    padding-top: 20px;
+    width: 95%;
+    max-width: 600px;
+}
+
+
+.video-container {
+    position: relative;
+    padding-bottom: 56.25%;
+    padding-top: 30px;
+    height: 0;
+    overflow: hidden;
+}
+
+.video-container iframe, .video-container object, .video-container embed {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+@media (min-width: 980px) {
+    .layout-front__sidebar, .layout-front__sidebar-top, .front .panel-1col-stacked .panel-col-middle, .front .panel-1col-stacked .panel-col-bottom {
+        width: 100%;
+    }
+}
+
+@media (min-width: 720px) {
+    .layout-front__two-columns, .front .panel-1col-stacked .panel-col-top .panels-ipe-portlet-wrapper, .front .panel-1col-stacked .panel-col-top .panel-pane, .front .panel-1col-stacked .panel-col-bottom .panels-ipe-portlet-wrapper, .front .panel-1col-stacked .panel-col-bottom .panel-pane {
+        width: 33.3%;
+    }
 }
