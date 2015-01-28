@@ -493,23 +493,23 @@ div.prices .fancyTableCell {
 .panel-col-bottom .panels-ipe-portlet-wrapper:nth-of-type(4n) .bean-image-and-text.landing_page h2:after, .panel-col-bottom .panel-pane:nth-of-type(4n) .bean-image-and-text.landing_page h2:after, .panel-col-middle .panel-pane:nth-of-type(4n) .bean-image-and-text.landing_page h2:after {
     background-color: #74c29f;
 }
-/*
-.panel-col-bottom .panels-ipe-portlet-wrapper:nth-of-type(n) .bean-image-and-text.landing_page div.image-title:hover h2:after, .panel-col-bottom .panel-pane:nth-of-type(n) .bean-image-and-text.landing_page h2:after, .panel-col-middle .panel-pane:nth-of-type(n) .bean-image-and-text.landing_page h2:after {
+
+.panel-col-bottom .panels-ipe-portlet-wrapper:nth-of-type(n) .bean-image-and-text.landing_page div.image-title:hover h2:after, .panel-col-bottom .panel-pane:nth-of-type(n) .bean-image-and-text.landing_page:hover h2:after, .panel-col-middle .panel-pane:nth-of-type(n) .bean-image-and-text.landing_page:hover h2:after {
     background-color: #37424a;
 }
 
-.panel-col-bottom .panels-ipe-portlet-wrapper:nth-of-type(2n) .bean-image-and-text.landing_page div.image-title:hover h2:after, .panel-col-bottom .panel-pane:nth-of-type(2n) .bean-image-and-text.landing_page h2:after, .panel-col-middle .panel-pane:nth-of-type(2n) .bean-image-and-text.landing_page h2:after {
+.panel-col-bottom .panels-ipe-portlet-wrapper:nth-of-type(2n) .bean-image-and-text.landing_page div.image-title:hover h2:after, .panel-col-bottom .panel-pane:nth-of-type(2n) .bean-image-and-text.landing_page:hover h2:after, .panel-col-middle .panel-pane:nth-of-type(2n) .bean-image-and-text.landing_page:hover h2:after {
     background-color: #37424a;
 }
 
-.panel-col-bottom .panels-ipe-portlet-wrapper:nth-of-type(3n) .bean-image-and-text.landing_page div.image-title:hover h2:after, .panel-col-bottom .panel-pane:nth-of-type(3n) .bean-image-and-text.landing_page h2:after, .panel-col-middle .panel-pane:nth-of-type(3n) .bean-image-and-text.landing_page h2:after {
+.panel-col-bottom .panels-ipe-portlet-wrapper:nth-of-type(3n) .bean-image-and-text.landing_page div.image-title:hover h2:after, .panel-col-bottom .panel-pane:nth-of-type(3n) .bean-image-and-text.landing_page:hover h2:after, .panel-col-middle .panel-pane:nth-of-type(3n) .bean-image-and-text.landing_page:hover h2:after {
     background-color: #37424a;
 }
 
-.panel-col-bottom .panels-ipe-portlet-wrapper:nth-of-type(4n) .bean-image-and-text.landing_page div.image-title:hover h2:after, .panel-col-bottom .panel-pane:nth-of-type(4n) .bean-image-and-text.landing_page h2:after, .panel-col-middle .panel-pane:nth-of-type(4n) .bean-image-and-text.landing_page h2:after {
+.panel-col-bottom .panels-ipe-portlet-wrapper:nth-of-type(4n) .bean-image-and-text.landing_page div.image-title:hover h2:after, .panel-col-bottom .panel-pane:nth-of-type(4n) .bean-image-and-text.landing_page:hover h2:after, .panel-col-middle .panel-pane:nth-of-type(4n) .bean-image-and-text.landing_page:hover h2:after {
     background-color: #37424a;
 }
-*/
+
 
 .read-more a {
     border-color: #fff;
@@ -612,6 +612,10 @@ h1, h2, h3, h4, h5, h6 {
 
 .mission__statement p {
     margin-top: -4px;
+}
+
+body.front .grayscale {
+    filter: none;
 }
 
 @media (min-width: 980px) {
