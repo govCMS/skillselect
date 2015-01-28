@@ -640,6 +640,11 @@ body.front .grayscale {
     filter: none;
 }
 
+div#footer-top div#block-views-latest-news-block-1 {
+    float:left;
+    width:25%;
+}
+
 
 @media (min-width: 980px) {
     .layout-front__sidebar, .layout-front__sidebar-top, .front .panel-1col-stacked .panel-col-middle, .front .panel-1col-stacked .panel-col-bottom {
