@@ -3,8 +3,8 @@ div.region-header div#block-bean-govcms-logo {
 }
 
 div.region-header div#block-bean-govcms-logo img {
-    max-width: 100px;
-    width: 100px;
+    max-width: 80px;
+    width: 80px;
 }
 
 div.region-header div#block-search-api-page-default-search {
@@ -681,6 +681,40 @@ body.front .pane-bean-panels:nth-of-type(3), body.front .pane-bean-panels:nth-of
 
 body.front div.panel-col-bottom .pane-bean-panels {
     min-height: 15.5em;
+}
+
+#search-api-page-search-form.search-form input.form-text,
+#search-api-page-search-form.search-form .form-submit {
+    float: left;
+    display: inline-block;
+}
+
+.search-api-page-results {
+    clear: both;
+    margin-top: 4em;
+}
+
+
+#search-api-page-search-form.search-form label {
+    font-family: "TradeGothicLT",Arial,Helvetica,"Nimbus Sans L",sans-serif;
+}
+#search-api-page-search-form.search-form .form-submit {
+    margin-top: -22px;
+    margin-left: 15px;
+}
+
+.breadcrumb {
+    border-color: #74c29f;
+}
+
+body.page-search #page-title {
+    line-height: 1em;
+}
+
+body.front .view-latest-news .more-link a {
+    color: #666;
+    position: relative;
+    top: 10px;
 }
 
 @media (min-width: 980px) {
