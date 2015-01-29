@@ -692,12 +692,12 @@ body.front .pane-bean-panels img {
     width: 100%;
 }
 
-body.front .pane-bean-panels:nth-child(1), body.front .pane-bean-panels:nth-child(4) {
+body.front .panel-col-middle .pane-bean-panels:nth-child(1), body.front .panel-col-middle .pane-bean-panels:nth-child(4) {
     padding-left: 0!important;
     padding-right: 20px!important;
 }
 
-body.front .pane-bean-panels:nth-child(3), body.front .pane-bean-panels:nth-child(6) {
+body.front .panel-col-middle .pane-bean-panels:nth-child(3), body.front .panel-col-middle .pane-bean-panels:nth-child(6) {
     padding-left: 20px!important;
     padding-right: 0!important;
 }
@@ -781,7 +781,7 @@ body.front .view-latest-news .more-link a {
     }
 
     #block-bean-govcms-logo {
-        float: none;
+        float: none!important;
         text-align: center;
     }
     .region-footer-bottom .block-menu .menu>li>a:before {
@@ -792,9 +792,20 @@ body.front .view-latest-news .more-link a {
     }
     body.front .region-highlighted strong {
         font-size: 178%;
+        text-align: center;
     }
     .fancyTableCell {
         width: 100%;
+    }
+
+    body.front .panel-col-middle .pane-bean-panels:nth-child(1), body.front .panel-col-middle .pane-bean-panels:nth-child(4) {
+        padding-left: 10px!important;
+        padding-right: 10px!important;
+    }
+
+    body.front .panel-col-middle .pane-bean-panels:nth-child(3), body.front .panel-col-middle .pane-bean-panels:nth-child(6) {
+        padding-left: 10px!important;
+        padding-right: 10px!important;
     }
 }
 
