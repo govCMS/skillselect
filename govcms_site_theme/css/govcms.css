@@ -315,7 +315,7 @@ div.prices .fancyTableCell {
 
 }
 
-.template4:hover > div span.price {
+.template4 > div span.price {
     top: 50px;
     /*transition: all 0.4s linear 0s;*/
 }
