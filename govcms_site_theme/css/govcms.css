@@ -673,6 +673,9 @@ body.front .region-highlighted strong {
     padding-bottom: 0.7em;
     display: inline-block;
     font-family: "TradeGothicLT",Arial,Helvetica,"Nimbus Sans L",sans-serif;
+    line-height: 1;
+    word-wrap: break-word;
+    max-width: 100%;
 }
 
 /*body.front .pane-bean-panels:nth-of-type(2), body.front .pane-bean-panels:nth-of-type(4) {
