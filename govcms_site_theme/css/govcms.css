@@ -584,6 +584,10 @@ h1, h2, h3, h4, h5, h6 {
     line-height: 1.35em;
 }
 
+.region-highlighted {
+    padding-bottom:20px;
+}
+
 .region-highlighted strong {
     font-size: 220%;
     color: #37424a;
