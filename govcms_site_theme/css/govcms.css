@@ -799,8 +799,12 @@ body.front .view-latest-news .more-link a {
     }
     body.front .region-highlighted strong {
         font-size: 178%;
+    }
+
+    body.front .region-highlighted {
         text-align: center;
     }
+
     .fancyTableCell {
         width: 100%;
     }
