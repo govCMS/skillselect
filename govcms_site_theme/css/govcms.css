@@ -673,10 +673,10 @@ body.front .region-highlighted strong {
     font-family: "TradeGothicLT",Arial,Helvetica,"Nimbus Sans L",sans-serif;
 }
 
-body.front .pane-bean-panels:nth-of-type(2), body.front .pane-bean-panels:nth-of-type(4) {
+body.front .pane-bean-panels:nth-of-type(2), body.front .pane-bean-panels:nth-of-type(6) {
     max-width: 300px;
 }
-body.front .pane-bean-panels:nth-of-type(3), body.front .pane-bean-panels:nth-of-type(6) {
+body.front .pane-bean-panels:nth-of-type(3), body.front .pane-bean-panels:nth-of-type(4) {
     margin-left: 7px;
 }
 
