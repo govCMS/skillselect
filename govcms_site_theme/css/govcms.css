@@ -5,6 +5,7 @@ div.region-header div#block-bean-govcms-logo {
 div.region-header div#block-bean-govcms-logo img {
     max-width: 80px;
     width: 80px;
+    margin-left: 15px;
 }
 
 div.region-header div#block-search-api-page-default-search {
