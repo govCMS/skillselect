@@ -645,7 +645,7 @@ body.front .grayscale {
 }
 
 body.front div#footer-top div#block-views-latest-news-block-1 .field-content {
-    width: 15em;
+    max-width: 15em;
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
@@ -673,6 +673,9 @@ body.front .region-highlighted strong {
     padding-bottom: 0.7em;
     display: inline-block;
     font-family: "TradeGothicLT",Arial,Helvetica,"Nimbus Sans L",sans-serif;
+    line-height: 1;
+    word-wrap: break-word;
+    max-width: 100%;
 }
 
 /*body.front .pane-bean-panels:nth-of-type(2), body.front .pane-bean-panels:nth-of-type(4) {
@@ -747,5 +750,49 @@ body.front .view-latest-news .more-link a {
     .layout-front__two-columns, .front .panel-1col-stacked .panel-col-top .panels-ipe-portlet-wrapper, .front .panel-1col-stacked .panel-col-top .panel-pane, .front .panel-1col-stacked .panel-col-bottom .panels-ipe-portlet-wrapper, .front .panel-1col-stacked .panel-col-bottom .panel-pane {
         width: 33.3%;
         padding: 0 10px;
+    }
+    .layout-front__two-columns:nth-child(even), .front .panel-1col-stacked .panel-col-top .panels-ipe-portlet-wrapper:nth-child(even), .front .panel-1col-stacked .panel-col-top .panel-pane:nth-child(even), .front .panel-1col-stacked .panel-col-bottom .panels-ipe-portlet-wrapper:nth-child(even), .front .panel-1col-stacked .panel-col-bottom .panel-pane:nth-child(even) {
+        float: left;
+    }
+}
+
+@media (max-width: 720px) {
+    /*mobile only*/
+    .panel-pane.mission {
+          margin-right: 0;
+    }
+    .panel-pane.mission h2 {
+          width: 100%;
+    }
+
+    .mission__title:after {
+          background: none;
+    }
+
+    .mission__statement {
+          margin: 10px;
+          font-size: 1.4em;
+    }
+    body.front div#footer-top div#block-views-latest-news-block-1 .field-content {
+          max-width: 100%;
+          white-space: nowrap;
+          overflow: initial;
+    }
+
+    #block-bean-govcms-logo {
+          float: none;
+          text-align: center;
+    }
+    .region-footer-bottom .block-menu .menu>li>a:before {
+          border-left: none;
+    }
+    .social-link {
+          width: 100%;
+    }
+    body.front .region-highlighted strong {
+          font-size: 178%;
+    }
+    .fancyTableCell {
+          width: 100%;
     }
 }
