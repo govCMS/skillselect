@@ -773,7 +773,8 @@ body.front .view-latest-news .more-link a {
         margin: 10px;
         font-size: 1.4em;
     }
-    body.front div#footer-top div#block-views-latest-news-block-1 .field-content {
+
+    body.front div#footer-top div#block-views-latest-news-block-1 {
         max-width: 100%;
         white-space: nowrap;
         overflow: initial;
