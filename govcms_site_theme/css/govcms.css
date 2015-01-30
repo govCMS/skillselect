@@ -744,6 +744,10 @@ body.front .view-latest-news .more-link a {
     top: 10px;
 }
 
+div.search-api-page-results p.search-info {
+    display: none;
+}
+
 @media (min-width: 980px) {
     .layout-front__sidebar, .layout-front__sidebar-top, .front .panel-1col-stacked .panel-col-middle, .front .panel-1col-stacked .panel-col-bottom {
         width: 100%;
