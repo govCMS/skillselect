@@ -768,7 +768,7 @@ div#fixed-footer > div {
 #fixed-footer.read-more a:hover,
 #fixed-footer.read-more a:active,
 #fixed-footer.read-more a:focus {
-      background-color: rgba(255, 255, 255, 0.2);
+    background-color: rgba(255, 255, 255, 0.2);
 }
 
 * html #fixed-footer {
