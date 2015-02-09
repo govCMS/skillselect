@@ -765,6 +765,10 @@ div#fixed-footer > div {
     margin-right: auto;
 }
 
+div#fixed-footer > div.read-more a:hover,div#fixed-footer > div.read-more a:active, div#fixed-footer > div.read-more a:focus {
+    background-color: rgba(255, 255, 255, 0.8);
+}
+
 * html #fixed-footer {
     position:absolute;
     top:expression((0-(footer.offsetHeight)+(document.documentElement.clientHeight ? document.documentElement.clientHeight : document.body.clientHeight)+(ignoreMe = document.documentElement.scrollTop ? document.documentElement.scrollTop : document.body.scrollTop))+'px');
