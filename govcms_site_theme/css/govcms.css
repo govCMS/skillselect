@@ -752,9 +752,17 @@ div#fixed-footer {
     position:fixed;
     left:0px;
     bottom:0px;
-    height:30px;
+    height:50px;
+    padding-top: 5px;
     width:100%;
-    background:#999;
+    background: linear-gradient(#33434a, #37424a) repeat scroll 0 0 #37424a;
+    border-top: 2px solid #74c29f;
+}
+
+div#fixed-footer > div {
+    max-width: 980px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 * html #fixed-footer {
