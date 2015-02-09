@@ -61,7 +61,7 @@ stylesheets[all][] = css/govcms.css
 
 ; Optionally add some JavaScripts to your theme.
 
-;scripts[] = js/script.js
+scripts[] = js/govcms.js
 
 
 ; This section lists the regions defined in Zen's default page.tpl.php and
