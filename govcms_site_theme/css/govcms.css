@@ -765,7 +765,7 @@ div#fixed-footer > div {
     margin-right: auto;
 }
 
-div#fixed-footer > div.read-more a:hover,div#fixed-footer > div.read-more a:active, div#fixed-footer > div.read-more a:focus {
+div#fixed-footer div.read-more a:hover, div#fixed-footer div.read-more a:active, div#fixed-footer div.read-more a:focus {
     background-color: rgba(255, 255, 255, 0.8);
 }
 
