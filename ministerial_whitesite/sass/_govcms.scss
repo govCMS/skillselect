@@ -2,6 +2,26 @@
 
 
 body.front {
+  div {
+    &.view-ministerial-media-releases div.views-row, &.view-ministerial-speeches div.views-row, &.view-ministerial-transcripts div.views-row {
+      border-bottom: 2px solid #E2E2E2;
+      outline-color: #444444;
+      padding-bottom: 8px;
+      &.views-row-last {
+        border-bottom: none;
+      }
+    }
+    &.view-ministerial-photo-galleries div.views-row {
+      float: left;
+      padding-left: 20px;
+      &.views-row-first {
+        padding-left: 0px;
+      }
+    }
+    &.field-name-field-date {
+      float: right;
+    }
+  }
   .panel-col-top {
     padding-bottom: 20px;
   }
@@ -36,6 +56,47 @@ body.front {
   h3 {
     font-size: 1.3em;
     padding-bottom: 10px;
+  }
+  div {
+    &.view-ministerial-media-releases div.views-row, &.view-ministerial-speeches div.views-row, &.view-ministerial-transcripts div.views-row {
+      border-bottom: 2px solid #E2E2E2;
+      outline-color: #444444;
+      padding-bottom: 8px;
+      &.views-row-last {
+        border-bottom: none;
+      }
+    }
+    &.panel-col-top {
+      padding-bottom: 20px;
+    }
+    &.panel-3col-33-stacked div.panel-col-top {
+      div {
+        &.pane-bean-panels {
+          width: 600px !important;
+          float: left;
+          margin-right: 15px;
+        }
+        &.inside div.pane-agov-social-links-services {
+          float: left;
+        }
+      }
+      height: 180px;
+    }
+  }
+  .bean-image-and-text.landing_page {
+    max-width: 600px !important;
+    div.image-title {
+      max-width: 300px;
+      float: left;
+      margin-right: 15px;
+    }
+  }
+  div.panel-3col-33-stacked div.panel-col-top {
+    margin-bottom: 40px;
+    border-bottom-width: 2px;
+    border-bottom-style: solid;
+    border-bottom-color: #E2E2E2;
+    outline-color: #444444;
   }
 }
 
@@ -106,50 +167,6 @@ hr.header__hr {
 }
 
 
-body.front {
-  div {
-    &.view-ministerial-media-releases div.views-row, &.view-ministerial-speeches div.views-row, &.view-ministerial-transcripts div.views-row {
-      border-bottom: 2px solid #E2E2E2;
-      outline-color: #444444;
-      padding-bottom: 8px;
-      &.views-row-last {
-        border-bottom: none;
-      }
-    }
-    &.panel-col-top {
-      padding-bottom: 20px;
-    }
-    &.panel-3col-33-stacked div.panel-col-top {
-      div {
-        &.pane-bean-panels {
-          width: 600px !important;
-          float: left;
-          margin-right: 15px;
-        }
-        &.inside div.pane-agov-social-links-services {
-          float: left;
-        }
-      }
-      height: 180px;
-    }
-  }
-  .bean-image-and-text.landing_page {
-    max-width: 600px !important;
-    div.image-title {
-      max-width: 300px;
-      float: left;
-      margin-right: 15px;
-    }
-  }
-  div.panel-3col-33-stacked div.panel-col-top {
-    margin-bottom: 40px;
-    border-bottom-width: 2px;
-    border-bottom-style: solid;
-    border-bottom-color: #E2E2E2;
-    outline-color: #444444;
-  }
-}
-
 
 // these two were changed as they were not compiling
 .header__logo-image {
@@ -173,15 +190,14 @@ hr.header__hr {
 }
 
 
-div {
-  &#heading__top__line, &#heading__bottom__line {
-    font-weight: 700;
-    font-size: 20px;
-    min-width: 450px;
-  }
-  &#heading__top__line {
-    padding-top: 30px;
-  }
+#heading__top__line,
+#heading__bottom__line {
+  font-weight: 700;
+  font-size: 20px;
+  min-width: 450px;
+}
+#heading__top__line {
+  padding-top: 30px;
 }
 
 
@@ -195,37 +211,6 @@ div {
 }
 
 
-.header__region div#block-bean-ministerial-image {
-  float: right;
-  height: 130px;
-  width: 100px;
-  img {
-    height: 130px;
-    width: 100px;
-  }
-  div.bean-image-and-text {
-    padding: 0px;
-  }
-}
-
-
-body.front div {
-  &.view-ministerial-media-releases div.views-row, &.view-ministerial-speeches div.views-row, &.view-ministerial-transcripts div.views-row {
-    border-bottom: 2px solid #E2E2E2;
-    outline-color: #444444;
-    padding-bottom: 8px;
-    &.views-row-last {
-      border-bottom: none;
-    }
-  }
-  &.view-ministerial-photo-galleries div.views-row {
-    float: left;
-    padding-left: 20px;
-    &.views-row-first {
-      padding-left: 0px;
-    }
-  }
-}
 
 
 .navigation__primary-link {
@@ -249,10 +234,6 @@ body.front div {
   }
 }
 
-
-body.front div.field-name-field-date {
-  float: right;
-}
 
 
 article.node div.field-name-field-photos div.field-items div.field-item {
