@@ -36,3 +36,7 @@ sourcemap = false
 
 # Pass options to sass.
 # sass_options = {}
+
+
+
+#/usr/local/opt/ruby/bin
