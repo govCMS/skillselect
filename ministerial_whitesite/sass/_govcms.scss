@@ -35,6 +35,10 @@ body.front {
     border-bottom-color: #E2E2E2;
     outline-color: #444444;
   }
+  h3 {
+    font-size: 1.3em;
+    padding-bottom: 10px;
+  }
 }
 
 
@@ -64,8 +68,9 @@ hr.header__hr {
 div {
   &#heading__top__line, &#heading__bottom__line {
     font-weight: 700;
-    font-size: 20px;
-    min-width: 450px;
+    font-size: 18px;
+    min-width: 10em;
+    overflow: auto;
   }
   &#heading__top__line {
     padding-top: 30px;
@@ -144,9 +149,9 @@ body.front {
 
 // these two were changed as they were not compiling
 .header__logo-image {
-  height: 140px !important;
-  width: 140px !important;
-  max-height: 140px !important;
+  height: 130px !important;
+  width: 130px !important;
+  max-height: 130px !important;
 }
 .header__logo {
   padding-right: 20px;
