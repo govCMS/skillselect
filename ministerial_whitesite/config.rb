@@ -12,6 +12,11 @@ require 'breakpoint'
 require 'sass-globbing'
 require 'zen-grids'
 
+add_import_path "sass/base/"
+add_import_path "sass/components/"
+add_import_path "sass/layout/"
+add_import_path "sass/library/"
+
 # Location of the theme's resources.
 css_dir         = "css"
 sass_dir        = "sass"
