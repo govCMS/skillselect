@@ -39,4 +39,6 @@ sourcemap = false
 
 
 
-#/usr/local/opt/ruby/bin
+
+# add monkey script for minifying properly here if needed
+# then restart the compass watch process
