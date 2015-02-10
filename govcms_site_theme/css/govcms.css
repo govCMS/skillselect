@@ -765,8 +765,11 @@ div#fixed-footer > div {
     margin-right: auto;
 }
 
-div#fixed-footer div.read-more a:hover, div#fixed-footer div.read-more a:active, div#fixed-footer div.read-more a:focus {
-    background-color: rgba(255, 255, 255, 0.8);
+#fixed-footer.read-more a:hover,
+#fixed-footer.read-more a:active,
+#fixed-footer.read-more a:focus {
+    background-color: rgba(255, 255, 255, 0.2);
+    border-color: #74c29f;
 }
 
 * html #fixed-footer {
