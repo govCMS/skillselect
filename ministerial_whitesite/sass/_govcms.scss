@@ -358,8 +358,22 @@ input[type="submit"]:hover::before,
 #block-views-slideshow-block .field-name-field-read-more a:hover::before {
   background-color: $highlightColour;
 }
+.button:focus, .button:hover, button:focus, html input[type="button"]:focus,
+input[type="reset"]:focus, input[type="submit"]:focus, .slide-show__read-more-link:focus,
+#block-views-slideshow-block .field-name-field-read-more a:focus, button:hover,
+html input[type="button"]:hover, input[type="reset"]:hover, input[type="submit"]:hover,
+.slide-show__read-more-link:hover,
+#block-views-slideshow-block .field-name-field-read-more a:hover {
+  border-color: #062e7f;
+  border-left-color: $highlightColour;
+  color: #fff;
+  background-color: #333;
+}
 
 
-form .views-exposed-widget.views-submit-button {
-  padding-top: 0.35em;
+.views-exposed-form .views-exposed-widget .form-submit {
+  margin-top: 2.3em;
+}
+.views-exposed-form label {
+  padding-bottom: 10px;
 }
