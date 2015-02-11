@@ -84,10 +84,11 @@ body.front {
     padding: 1em 0 0.3em 0;
   }
   .panel-panel.panel-col:nth-of-type(2) .inside {
-    border-left: 1px solid #eee;
-    padding: 0 1em;
-    border-right: 1px solid #eee;
-    margin: 0 1em;
+    //border-left: 1px solid #eee;
+    //padding: 0 1em;
+    //border-right: 1px solid #eee;
+    //margin: 0 1em;
+    background-color: transparentize($highlightColour, 0.9);
   }
 }
 //end front page only rules
