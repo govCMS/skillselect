@@ -307,3 +307,14 @@ div.field-name-field-related-links ul.field-items {
 .layout-centered.page-wrapper {
   margin-bottom: 25px;
 }
+
+
+
+
+// accessibilty rules
+a {
+  &:active, &focus {
+    background: #000 !important;
+    color: #fff !important;
+  }
+}
