@@ -1,7 +1,16 @@
 //  Paul and Tim's changes
 
 
+h2 {
+  color: #444;
+}
+
+
 body.front {
+  .pane-agov-social-links-services {
+    float: left;
+    margin-left: 12px;
+  }
   div {
     &.view-ministerial-media-releases div.views-row, &.view-ministerial-speeches div.views-row, &.view-ministerial-transcripts div.views-row {
       border-bottom: 2px solid #E2E2E2;
@@ -54,7 +63,7 @@ body.front {
     outline-color: #444444;
   }
   h3 {
-    font-size: 1.3em;
+    font-size: 1.3em !important;
     padding-bottom: 10px;
   }
   div {
@@ -119,13 +128,13 @@ header div.header__wrapper {
 hr.header__hr {
   min-width: 280px;
   margin: 0.8em 0;
+  min-width: 10em;
 }
 
 #heading__top__line,
 #heading__bottom__line {
   font-weight: 700;
   font-size: 18px;
-  min-width: 10em;
   overflow: auto;
 }
 
@@ -148,10 +157,10 @@ hr.header__hr {
 
 .header__region {
   #block-search-api-page-default-search {
-    width: 70%;
+    width: 70% !important;
   }
   #block-agov-text-resize-text-resize {
-    margin-top: 61px;
+    margin-top: 60px;
   }
   div#block-bean-ministerial-image {
     float: right;
@@ -442,4 +451,10 @@ body {
       }
     }
   }
+}
+
+
+
+.region-footer-bottom .block-menu .menu>li>a:before {
+border-border-left-color: #666;
 }
