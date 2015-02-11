@@ -337,3 +337,29 @@ input, button {
     border: solid 1px $highlightColour !important;
   }
 }
+
+.breadcrumb {
+  font-size: 0.9rem;
+}
+
+
+.button:focus::before,
+.button:hover::before,
+button:focus::before,
+html input[type="button"]:focus::before,
+input[type="reset"]:focus::before,
+input[type="submit"]:focus::before,
+.slide-show__read-more-link:focus::before,
+#block-views-slideshow-block .field-name-field-read-more a:focus::before,
+button:hover::before, html input[type="button"]:hover::before,
+input[type="reset"]:hover::before,
+input[type="submit"]:hover::before,
+.slide-show__read-more-link:hover::before,
+#block-views-slideshow-block .field-name-field-read-more a:hover::before {
+  background-color: $highlightColour;
+}
+
+
+form .views-exposed-widget.views-submit-button {
+  padding-top: 0.35em;
+}
