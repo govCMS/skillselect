@@ -1,6 +1,7 @@
 //  Paul and Tim's changes
 
 
+// generic rules
 h2 {
   color: #444;
 }
@@ -11,12 +12,12 @@ h2 {
 }
 
 
+
+// front page rules
+
 body.front {
   .pane-agov-social-links-services {
     margin-left: 14px;
-    // .social-link a {
-    //   padding-left: 0;
-    // }
   }
   div {
     &.panel-3col-33-stacked div.panel-col-bottom {
@@ -78,50 +79,52 @@ body.front {
     padding-bottom: 10px;
     font-family: "TradeGothicLT",Arial,Helvetica,"Nimbus Sans L",sans-serif;
   }
-  div {
-    &.view-ministerial-media-releases div.views-row, &.view-ministerial-speeches div.views-row, &.view-ministerial-transcripts div.views-row {
-      border-bottom: 2px solid #E2E2E2;
-      outline-color: #444444;
-      padding-bottom: 8px;
-      &.views-row-last {
-        border-bottom: none;
-      }
-    }
-    &.panel-col-top {
-      padding-bottom: 20px;
-    }
-    &.panel-3col-33-stacked div.panel-col-top {
-      div {
-        &.pane-bean-panels {
-          width: 600px !important;
-          float: left;
-          margin-right: 15px;
-        }
-        &.inside div.pane-agov-social-links-services {
-          float: left;
-        }
-      }
-      height: 180px;
-    }
-  }
-  .bean-image-and-text.landing_page {
-    max-width: 600px !important;
-    div.image-title {
-      max-width: 300px;
-      float: left;
-      margin-right: 15px;
-    }
-  }
-  div.panel-3col-33-stacked div.panel-col-top {
-    margin-bottom: 40px;
-    border-bottom-width: 2px;
-    border-bottom-style: solid;
-    border-bottom-color: #E2E2E2;
-    outline-color: #444444;
-  }
+  // div {
+    // &.view-ministerial-media-releases div.views-row, &.view-ministerial-speeches div.views-row, &.view-ministerial-transcripts div.views-row {
+    //   border-bottom: 2px solid #E2E2E2;
+    //   outline-color: #444444;
+    //   padding-bottom: 8px;
+    //   &.views-row-last {
+    //     border-bottom: none;
+    //   }
+    // }
+    // &.panel-col-top {
+    //   padding-bottom: 20px;
+    // }
+  //   &.panel-3col-33-stacked div.panel-col-top {
+  //     div {
+  //       &.pane-bean-panels {
+  //         width: 600px !important;
+  //         float: left;
+  //         margin-right: 15px;
+  //       }
+  //       &.inside div.pane-agov-social-links-services {
+  //         float: left;
+  //       }
+  //     }
+  //     height: 180px;
+  //   }
+  // }
+  // .bean-image-and-text.landing_page {
+  //   max-width: 600px !important;
+  //   div.image-title {
+  //     max-width: 300px;
+  //     float: left;
+  //     margin-right: 15px;
+  //   }
+  // }
+  // div.panel-3col-33-stacked div.panel-col-top {
+  //   margin-bottom: 40px;
+  //   border-bottom-width: 2px;
+  //   border-bottom-style: solid;
+  //   border-bottom-color: #E2E2E2;
+  //   outline-color: #444444;
+  // }
 }
+//end front page only rules
 
 
+// header etc, effects all pages
 
 .header__logo-image {
   height: 140px !important;
@@ -153,7 +156,6 @@ hr.header__hr {
 
 #heading__top__line {
   padding-top: 23px;
-  // height: 3.45em;
   height: 64px;
   vertical-align: bottom;
   display: table-cell;
@@ -191,40 +193,6 @@ hr.header__hr {
 }
 
 
-
-// these two were changed as they were not compiling
-.header__logo-image {
-  height: 130px !important;
-  width: 130px !important;
-  max-height: 130px !important;
-}
-.header__logo {
-  padding-right: 20px;
-}
-/////////
-
-
-header div.header__wrapper {
-  float: left;
-}
-
-
-// hr.header__hr {
-//   min-width: 280px;
-//   margin: 1em 0;
-// }
-
-// #heading__top__line,
-// #heading__bottom__line {
-//   font-weight: 700;
-//   font-size: 20px;
-//   min-width: 450px;
-// }
-// #heading__top__line {
-//   padding-top: 30px;
-// }
-
-
 .header__secondary-menu {
   position: absolute !important;
 }
@@ -233,8 +201,6 @@ header div.header__wrapper {
 .search--header, .block-search-api-page {
   width: auto !important;
 }
-
-
 
 
 .navigation__primary-link {
@@ -255,20 +221,6 @@ header div.header__wrapper {
 .region-navigation .block__content > .menu > li {
   &.active-trail > a, > a {
     padding: 10px 17px !important;
-  }
-}
-
-
-
-article.node div.field-name-field-photos div.field-items div.field-item {
-  float: left;
-  padding-right: 20px;
-  padding-bottom: 20px;
-  &:nth-child(3n+3) {
-    padding-right: 0px;
-  }
-  &:last-child {
-    float: inherit;
   }
 }
 
@@ -331,100 +283,16 @@ body {
 }
 
 
+
+
+
+
+
+// Misc specific rules
+
 div.field-name-field-related-links ul.field-items {
   margin-bottom: 0px;
 }
-
-
-// body {
-//   &.node-type-media-release article.node-media-release div.field-name-field-minister, &.node-type-speech article.node-speech div.field-name-field-minister, &.node-type-transcript article.node-transcript div.field-name-field-minister {
-//     padding-bottom: 20px;
-//   }
-//   &.node-type-media-release article.node-media-release div.field-name-field-date span.date-display-single, &.node-type-speech article.node-speech div.field-name-field-date span.date-display-single, &.node-type-transcript article.node-transcript div.field-name-field-date div.field-item {
-//     font-weight: bold;
-//     font-style: italic;
-//   }
-//   &.node-type-media-release article.node-media-release div.field-name-field-reference-number div.field-item, &.node-type-speech article.node-speech div.field-name-field-location-event div.field-item {
-//     font-weight: bold;
-//   }
-//   &.node-type-transcript {
-//     article.node-transcript div.field-label-inline div.field-label {
-//       width: inherit;
-//     }
-//     div.field-label-inline {
-//       margin: .4em 0;
-//     }
-//   }
-//   &.page-node article.node div.field-name-field-minister > div.field-items > div.field-item {
-//     padding-top: 20px;
-//     &:nth-of-type(1) {
-//       padding-top: 0px;
-//     }
-//   }
-//   &.front {
-//     h3 {
-//       font-size: inherit;
-//       line-height: inherit;
-//       margin: 10px 0px 0px 0px;
-//     }
-    // div {
-    //   &.panel-col-top h3 {
-    //     font-size: 1.67rem;
-    //     line-height: 2.93333rem;
-    //     margin: -4px 0 8px;
-    //   }
-    //   &.pane-agov-social-links-services div.social-link {
-    //     float: left;
-    //     a {
-    //       &.social-links-img-link {
-    //         padding-right: 6px;
-    //         padding-left: 6px;
-    //         img {
-    //           height: auto;
-    //           width: auto;
-    //         }
-    //       }
-    //       &.social-links-title-title {
-    //         display: none;
-    //       }
-    //     }
-    //   }
-    //   &.view-ministerial-photo-galleries div.views-row {
-    //     float: left;
-    //     padding-left: 15px;
-    //     &.views-row-first {
-    //       padding-left: 0px;
-    //     }
-    //   }
-    // }
-//     h3 {
-//       font-size: inherit;
-//       line-height: inherit;
-//       margin: 10px 0px 0px 0px;
-//     }
-//     div.panel-col-top h3 {
-//       font-size: 1.67rem;
-//       line-height: 2.93333rem;
-//       margin: -4px 0 8px;
-//     }
-//   }
-// }
-
-
-.navigation__primary-link {
-  padding: 10px 17px !important;
-  &.is-active {
-    padding: 10px 17px !important;
-  }
-}
-
-
-.navigation__primary-item {
-  &:focus > a, &:hover > a {
-    padding: 10px 17px !important;
-  }
-}
-
 
 .region-navigation .block__content > .menu > li {
   &.active-trail > a, > a {
@@ -432,11 +300,9 @@ div.field-name-field-related-links ul.field-items {
   }
 }
 
-
 body.front div.field-name-field-date {
   float: right;
 }
-
 
 article.node div.field-name-field-photos div.field-items div.field-item {
   float: left;
@@ -450,14 +316,9 @@ article.node div.field-name-field-photos div.field-items div.field-item {
   }
 }
 
-
-
 div.field-name-field-related-links ul.field-items {
   margin-bottom: 0px;
 }
-
-
-
 
 .region-footer-bottom .block-menu .menu>li>a:before {
   border-left-color: #888;
@@ -478,4 +339,8 @@ div.field-name-field-related-links ul.field-items {
     left: 0;
     width: 100%;
   }
+}
+
+.layout-centered.page-wrapper {
+  margin-bottom: 25px;
 }
