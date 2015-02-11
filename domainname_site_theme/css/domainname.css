@@ -1,0 +1,9 @@
+body.front div.gov-front-left {
+	float:left;
+	width: 66%;
+}
+
+body.front div.gov-front-right {
+	float:right;
+	width: 33%;
+}
