@@ -109,12 +109,8 @@ body.front {
       padding: 0 .5em 0 .5em;
     }
   }
-  .panel-panel .inside {
-    .views-row {
-      article:first-of-type {
-        padding-top: 0;
-      }
-    }
+  .panel-panel .inside .views-row > article:first-of-type {
+    padding-top: 0;
   }
 }
 //end front page only rules
