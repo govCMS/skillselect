@@ -5,14 +5,16 @@ h2 {
   color: #444;
 }
 
+.date-display-single {
+  color: #696969;
+}
+
 
 body.front {
   .pane-agov-social-links-services {
-    float: left;
     margin-left: 12px;
   }
   .view-ministerial-photo-galleries .views-row {
-    float: left;
     padding-left: 15px;
   }
   div {
@@ -123,6 +125,7 @@ body.front {
 
 .header__logo {
   padding-right: 20px;
+  max-width: 150px !important;
 }
 
 header div.header__wrapper {
