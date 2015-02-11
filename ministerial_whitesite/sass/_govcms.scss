@@ -334,6 +334,6 @@ header.header,
 input, button {
   &:active,
   &:focus {
-    border: solid 1px $highlightColour;
+    border: solid 1px $highlightColour !important;
   }
 }
