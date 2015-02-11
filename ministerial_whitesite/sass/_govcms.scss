@@ -89,6 +89,9 @@ body.front {
     //border-right: 1px solid #eee;
     //margin: 0 1em;
     background-color: transparentize($highlightColour, 0.9);
+    .views-row {
+      border-bottom: 2px solid #fff;
+    }
   }
 }
 //end front page only rules
