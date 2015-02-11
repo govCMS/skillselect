@@ -11,6 +11,10 @@ body.front {
     float: left;
     margin-left: 12px;
   }
+  .view-ministerial-photo-galleries .views-row {
+    float: left;
+    padding-left: 15px;
+  }
   div {
     &.view-ministerial-media-releases div.views-row, &.view-ministerial-speeches div.views-row, &.view-ministerial-transcripts div.views-row {
       border-bottom: 2px solid #E2E2E2;
@@ -456,5 +460,9 @@ body {
 
 
 .region-footer-bottom .block-menu .menu>li>a:before {
-border-border-left-color: #666;
+  border-border-left-color: #666;
+}
+
+.layout-full {
+  margin-bottom: 50px;
 }
