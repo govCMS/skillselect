@@ -18,6 +18,9 @@ body.front {
   .pane-agov-social-links-services {
     margin-left: 14px;
   }
+  .pane-title {
+
+  }
   div {
     &.panel-3col-33-stacked div.panel-col-bottom {
       border-top: 2px solid #e2e2e2;
@@ -94,6 +97,9 @@ body.front {
     //background-color: transparentize($highlightColour, 0.85);
     .views-row {
       border-bottom: 2px solid #fff;
+      article:first-of-type {
+        padding-top: 0;
+      }
     }
     &:last-of-type {
       padding: 0 .5em 0 .5em;
