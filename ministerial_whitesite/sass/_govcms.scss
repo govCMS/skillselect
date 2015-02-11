@@ -370,10 +370,18 @@ html input[type="button"]:hover, input[type="reset"]:hover, input[type="submit"]
   background-color: #333;
 }
 
-
-.views-exposed-form .views-exposed-widget .form-submit {
-  margin-top: 2.3em;
+.button::before, button::before, html input[type="button"]::before,
+input[type="reset"]::before, input[type="submit"]::before,
+.slide-show__read-more-link::before,
+#block-views-slideshow-block .field-name-field-read-more a::before {
+  background-color: #333;
 }
-.views-exposed-form label {
-  padding-bottom: 10px;
+
+.views-exposed-form {
+  .views-exposed-widget .form-submit {
+    margin-top: 2.3em;
+  }
+  label {
+    padding-bottom: 10px;
+  }
 }
