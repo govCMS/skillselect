@@ -6,6 +6,8 @@ body.front div.gov-front-left {
 body.front div.gov-front-right {
 	float:right;
 	width: 33%;
+    padding: 10px;
+    background-color: #e2e2e2;
 }
 
 body.front div.gov-front-right h2 {
