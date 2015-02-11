@@ -5,7 +5,8 @@ h2 {
   color: #444;
 }
 
-.date-display-single {
+.date-display-single,
+.field-type-datetime {
   color: #696969;
 }
 
@@ -13,9 +14,9 @@ h2 {
 body.front {
   .pane-agov-social-links-services {
     margin-left: 14px;
-    .social-link a {
-      padding-left: 0;
-    }
+    // .social-link a {
+    //   padding-left: 0;
+    // }
   }
   .view-ministerial-photo-galleries .views-row {
     padding-left: 15px;
@@ -451,8 +452,8 @@ body {
     float: left;
     a {
       &.social-links-img-link {
-        padding-right: 6px;
-        padding-left: 6px;
+        padding-right: 12px;
+        padding-left: 0;
         img {
           height: auto;
           width: auto;
@@ -478,4 +479,7 @@ body {
 .region-navigation .menu>li>a.active {
   background-color: #fff;
   color: #000;
+  &:before {
+    border-top: 3px solid $highlightColour;
+  }
 }
