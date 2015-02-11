@@ -331,9 +331,9 @@ header.header,
     }
   }
 }
-input {
+input, button {
   &:active,
-  &:active {
-    outline: solid 1px $highlightColour;
+  &:focus {
+    border: solid 1px $highlightColour;
   }
 }
