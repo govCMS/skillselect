@@ -12,7 +12,10 @@ h2 {
 
 body.front {
   .pane-agov-social-links-services {
-    margin-left: 12px;
+    margin-left: 14px;
+    .social-link a {
+      padding-left: 0;
+    }
   }
   .view-ministerial-photo-galleries .views-row {
     padding-left: 15px;
@@ -71,6 +74,7 @@ body.front {
   h3 {
     font-size: 1.3em !important;
     padding-bottom: 10px;
+    font-family: "TradeGothicLT",Arial,Helvetica,"Nimbus Sans L",sans-serif;
   }
   div {
     &.view-ministerial-media-releases div.views-row, &.view-ministerial-speeches div.views-row, &.view-ministerial-transcripts div.views-row {
@@ -148,7 +152,7 @@ hr.header__hr {
 #heading__top__line {
   padding-top: 23px;
   // height: 3.45em;
-  height: 70px;
+  height: 64px;
   vertical-align: bottom;
   display: table-cell;
 }
@@ -163,6 +167,7 @@ hr.header__hr {
 }
 
 .header__region {
+  margin-top: 16px;
   #block-search-api-page-default-search {
     width: 70% !important;
   }
@@ -463,9 +468,14 @@ body {
 
 
 .region-footer-bottom .block-menu .menu>li>a:before {
-  border-border-left-color: #666;
+  border-left-color: #888;
 }
 
 .layout-full {
   margin-bottom: 50px;
+}
+
+.region-navigation .menu>li>a.active {
+  background-color: #fff;
+  color: #000;
 }
