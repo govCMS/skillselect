@@ -480,7 +480,7 @@ body {
   background-color: #fff;
   color: #000;
   &:before {
-    border-top: 3px solid $highlightColour;
+    border-top: 3px solid transparentize($highlightColour, 0.8);
     content: '';
     position: absolute;
     top: -3px;
