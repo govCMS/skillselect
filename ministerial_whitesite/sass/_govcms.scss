@@ -90,10 +90,13 @@ body.front {
     //padding: 0 1em;
     //border-right: 1px solid #eee;
     //margin: 0 1em;
-    //background-color: #eee;
-    background-color: transparentize($highlightColour, 0.85);
+    background-color: #eee;
+    //background-color: transparentize($highlightColour, 0.85);
     .views-row {
-      border-bottom: 3px solid #fff;
+      border-bottom: 2px solid #fff;
+    }
+    &:last-of-type {
+      padding: 0 .5em 0 .5em;
     }
   }
 }
