@@ -14,7 +14,6 @@ h2 {
 
 
 // front page rules
-
 body.front {
   .pane-agov-social-links-services {
     margin-left: 14px;
@@ -79,53 +78,16 @@ body.front {
     padding-bottom: 10px;
     font-family: "TradeGothicLT",Arial,Helvetica,"Nimbus Sans L",sans-serif;
   }
-  // div {
-    // &.view-ministerial-media-releases div.views-row, &.view-ministerial-speeches div.views-row, &.view-ministerial-transcripts div.views-row {
-    //   border-bottom: 2px solid #E2E2E2;
-    //   outline-color: #444444;
-    //   padding-bottom: 8px;
-    //   &.views-row-last {
-    //     border-bottom: none;
-    //   }
-    // }
-    // &.panel-col-top {
-    //   padding-bottom: 20px;
-    // }
-  //   &.panel-3col-33-stacked div.panel-col-top {
-  //     div {
-  //       &.pane-bean-panels {
-  //         width: 600px !important;
-  //         float: left;
-  //         margin-right: 15px;
-  //       }
-  //       &.inside div.pane-agov-social-links-services {
-  //         float: left;
-  //       }
-  //     }
-  //     height: 180px;
-  //   }
-  // }
-  // .bean-image-and-text.landing_page {
-  //   max-width: 600px !important;
-  //   div.image-title {
-  //     max-width: 300px;
-  //     float: left;
-  //     margin-right: 15px;
-  //   }
-  // }
-  // div.panel-3col-33-stacked div.panel-col-top {
-  //   margin-bottom: 40px;
-  //   border-bottom-width: 2px;
-  //   border-bottom-style: solid;
-  //   border-bottom-color: #E2E2E2;
-  //   outline-color: #444444;
-  // }
 }
 //end front page only rules
 
 
-// header etc, effects all pages
 
+
+
+
+
+// header etc, effects all pages
 .header__logo-image {
   height: 140px !important;
   width: 140px !important;
@@ -156,7 +118,7 @@ hr.header__hr {
 
 #heading__top__line {
   padding-top: 23px;
-  height: 64px;
+  height: 70px;
   vertical-align: bottom;
   display: table-cell;
 }
@@ -281,6 +243,7 @@ body {
     margin-right: auto;
   }
 }
+
 
 
 
