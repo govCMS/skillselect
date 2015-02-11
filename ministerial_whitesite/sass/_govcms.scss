@@ -251,6 +251,39 @@ body {
 
 
 
+
+
+// accessibilty rules
+
+// start with the basics
+a {
+  &:active, &:focus {
+    background-color: #000 !important;
+    color: #fff !important;
+    outline: solid;
+  }
+}
+// override as needed
+header.header,
+.region-navigation {
+  a {
+    &:active, &:focus {
+      background-color: #fff !important;
+      color: #000 !important;
+    }
+  }
+}
+input, button {
+  &:active,
+  &:focus {
+    border: solid 1px $highlightColour !important;
+  }
+}
+
+
+
+
+
 // Misc specific rules
 
 div.field-name-field-related-links ul.field-items {
@@ -310,35 +343,8 @@ div.field-name-field-related-links ul.field-items {
 
 
 
-
-// accessibilty rules
-
-// start with the basics
-a {
-  &:active, &:focus {
-    background-color: #000 !important;
-    color: #fff !important;
-    outline: solid;
-  }
-}
-// override as needed
-header.header,
-.region-navigation {
-  a {
-    &:active, &:focus {
-      background-color: #fff !important;
-      color: #000 !important;
-    }
-  }
-}
-input, button {
-  &:active,
-  &:focus {
-    border: solid 1px $highlightColour !important;
-  }
-}
-
 .breadcrumb {
+  border-bottom: 1px solid transparentize($highlightColour, 0.8);
   font-size: 0.9rem;
 }
 
@@ -378,10 +384,17 @@ input[type="reset"]::before, input[type="submit"]::before,
 }
 
 .views-exposed-form {
+  margin-bottom: 2em;
   .views-exposed-widget .form-submit {
-    margin-top: 2.3em;
+    margin-top: 2.25em;
   }
   label {
     padding-bottom: 10px;
   }
+}
+
+.listing,
+.node-teaser,
+.search-results li {
+  border-top: 1px solid #e2e2e2;
 }
