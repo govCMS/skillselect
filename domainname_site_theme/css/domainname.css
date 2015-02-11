@@ -7,3 +7,11 @@ body.front div.gov-front-right {
 	float:right;
 	width: 33%;
 }
+
+body.front div.gov-front-right h2 {
+    font-size: 1.5rem;
+    line-height: 1.5rem;
+}
+body.front div.gov-front-right div.panels-ipe-portlet-wrapper {
+    padding-bottom:20px;
+}
