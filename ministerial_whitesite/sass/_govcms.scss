@@ -312,10 +312,19 @@ div.field-name-field-related-links ul.field-items {
 
 
 // accessibilty rules
+
+// start with the basics
 a {
   &:active, &:focus {
     background: #000 !important;
     color: #fff !important;
     outline: solid;
+  }
+}
+// override as needed
+header.header a {
+  &:active, &:focus {
+    background: #fff !important;
+    color: #000 !important;
   }
 }
