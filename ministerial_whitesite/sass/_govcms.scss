@@ -331,3 +331,9 @@ header.header,
     }
   }
 }
+input {
+  &:active,
+  &:active {
+    outline: solid 1px $highlightColour;
+  }
+}
