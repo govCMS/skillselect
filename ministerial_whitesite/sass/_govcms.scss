@@ -479,5 +479,12 @@ body {
 .region-navigation .menu>li>a.active {
   background-color: #fff;
   color: #000;
-  border-top: 3px solid $highlightColour;
+  &:before {
+    border-top: 3px solid $highlightColour;
+    content: '';
+    position: absolute;
+    top: -3px;
+    left: 0;
+    width: 100%;
+  }
 }
