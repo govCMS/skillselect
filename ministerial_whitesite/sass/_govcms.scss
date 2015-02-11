@@ -316,15 +316,18 @@ div.field-name-field-related-links ul.field-items {
 // start with the basics
 a {
   &:active, &:focus {
-    background: #000 !important;
+    background-color: #000 !important;
     color: #fff !important;
     outline: solid;
   }
 }
 // override as needed
-header.header a {
-  &:active, &:focus {
-    background: #fff !important;
-    color: #000 !important;
+header.header,
+.region-navigation {
+  a {
+    &:active, &:focus {
+      background-color: #fff !important;
+      color: #000 !important;
+    }
   }
 }
