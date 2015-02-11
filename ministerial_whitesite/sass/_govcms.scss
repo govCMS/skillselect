@@ -479,7 +479,5 @@ body {
 .region-navigation .menu>li>a.active {
   background-color: #fff;
   color: #000;
-  &:before {
-    border-top: 3px solid $highlightColour;
-  }
+  border-top: 3px solid $highlightColour;
 }
