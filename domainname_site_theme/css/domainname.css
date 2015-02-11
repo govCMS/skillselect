@@ -17,3 +17,34 @@ body.front div.gov-front-right h2 {
 body.front div.gov-front-right div.panels-ipe-portlet-wrapper {
     padding-bottom:20px;
 }
+
+body {
+    background-color:#EFFEE4;
+}
+
+header {
+    background-color:#EFFEE4;
+}
+
+.page-wrapper {
+    outline: none!important;
+}
+
+.navigation__wrapper, .region-navigation, .navigation, .region-navigation .block__content > .menu {
+    background-color: #7FC0CF;
+}
+
+.navigation__primary-link.is-active:before, .navigation__primary-item:focus > a:before, .navigation__primary-item:hover > a:before, .region-navigation .block__content > .menu > li:focus > a:before, .region-navigation .block__content > .menu > li:hover > a:before, .region-navigation .block__content > .menu > li.active-trail > a:before {
+    border-top-color: #CBECF4;
+}
+
+.navigation__primary-link.is-active, .navigation__primary-item:focus > a, .navigation__primary-item:hover > a, .region-navigation .block__content > .menu > li:focus > a, .region-navigation .block__content > .menu > li:hover > a, .region-navigation .block__content > .menu > li.active-trail > a {
+    color: #7FC0CF;
+    font-weight: bold;
+}
+
+.navigation__primary-link, .navigation__primary-link.is-active, .navigation__primary-item:focus > a, .navigation__primary-item:hover > a, .region-navigation .block__content > .menu > li.active-trail > a, .region-navigation .block__content > .menu > li > a {
+    font-weight: bold;
+}
+
+
