@@ -79,3 +79,13 @@ h1, h2, .listing__title, .node-teaser h2, .search-results h3.title, .mission__st
     border-left: 5px solid #285a86;
 }
 
+@media (min-width: 720px) {
+    body.front div.gov-front-right {
+        float: left;
+        width: 100%!important;
+    }
+
+    body.front div.gov-front-left {
+        width: 100%!important;
+    }
+}
