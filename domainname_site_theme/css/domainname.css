@@ -75,3 +75,7 @@ h1, h2, .listing__title, .node-teaser h2, .search-results h3.title, .mission__st
     white-space: nowrap!important;
 }
 
+.menu-block-agov_menu_block-sidebar .menu .menu__link.active {
+    border-left: 5px solid #285a86;
+}
+
