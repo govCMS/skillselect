@@ -93,6 +93,10 @@ body.front .webform-component {
     margin: 0 5px 0 0;
 }
 
+body.front div.gov-front-right div#panels-ipe-paneid-46 h2, body.front div.gov-front-right div#panels-ipe-paneid-51 h2 {
+    padding-top: 14px;
+}
+
 @media (max-width: 720px) {
     body.front div.gov-front-right {
         float: left;
