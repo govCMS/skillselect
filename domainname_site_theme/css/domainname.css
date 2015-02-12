@@ -103,6 +103,18 @@ body.front div.gov-front-right div.pane-bean-apply-for h2, body.front div.gov-fr
     padding-top: 14px;
 }
 
+:link {
+    color: #2D6893;
+}
+
+:visited {
+    color: #73506D;
+}
+
+:focus {
+    border: solid 1px black;
+}
+
 @media (max-width: 720px) {
     body.front div.gov-front-right {
         float: left;
