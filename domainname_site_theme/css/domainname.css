@@ -89,7 +89,7 @@ h1, h2, .listing__title, .node-teaser h2, .search-results h3.title, .mission__st
 
 body.front .webform-component {
     width:70%;
-    float:left
+    float:left;
     margin: 0px;
 }
 
