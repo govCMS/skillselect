@@ -779,22 +779,17 @@ div#fixed-footer > div {
 blockquote.style1 {
     font: 14px/20px italic Times, serif;
     padding: 8px;
-    background-color: rgb(239,​ 239,​ 239);
     border-top: 1px solid #74c29f;
     border-bottom: 1px solid #74c29f;
     margin: 5px;
-    background-image: url(images/openquote.png);
     background-size: 30px 30px;
-    background-position: top left;
-    background-repeat: no-repeat;
+    background: #f5f5f5 url('images/openquote.png') no-repeat top left;
     text-indent: 23px;
 }
 blockquote.style1 span {
     display: block;
-    background-image: url(images/closequote.png);
     background-size: 30px 30px;
-    background-repeat: no-repeat;
-    background-position: bottom right;
+    background: url('images/closequote.png') no-repeat bottom right;
 }
 
 * html #fixed-footer {
