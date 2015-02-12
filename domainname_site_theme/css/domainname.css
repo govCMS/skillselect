@@ -7,7 +7,7 @@ body.front div.gov-front-right {
 	float:right;
 	width: 33%;
     padding: 10px;
-    background-color: #e2e2e2;
+    background-color: #f8f8f8;
 }
 
 body.front div.gov-front-right h2 {
@@ -55,8 +55,12 @@ h1, h2, .listing__title, .node-teaser h2, .search-results h3.title, .mission__st
     color: #285a86;
 }
 
-.layout-full {
+.page-wrapper {
     background-color: #e7e9eb;
+}
+
+.region-footer-bottom:before {
+    background-image: none;
 }
 
 
