@@ -112,4 +112,10 @@ body.front div.gov-front-right div#panels-ipe-paneid-46 h2, body.front div.gov-f
     body.front div.gov-front-left {
         width: 100%!important;
     }
+
+    body.page-manage-existing-application .webform-component-select  {
+        width:70%;
+        float:left;
+        margin: 0 5px 0 0;
+    }
 }
