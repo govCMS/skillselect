@@ -71,3 +71,7 @@ h1, h2, .listing__title, .node-teaser h2, .search-results h3.title, .mission__st
     width: auto!important;
 }
 
+.navigation__item, .navigation__primary-item, .region-navigation .block__content > .menu li {
+    white-space: nowrap!important;
+}
+
