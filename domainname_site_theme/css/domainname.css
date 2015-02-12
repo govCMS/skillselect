@@ -63,4 +63,7 @@ h1, h2, .listing__title, .node-teaser h2, .search-results h3.title, .mission__st
     background-image: none;
 }
 
+.navigation__link.is-active:before, .navigation__link:focus:before, .navigation__link:hover:before, .region-navigation .block__content > .menu li li a:focus:before, .region-navigation .block__content > .menu li li a:hover:before, .region-navigation .block__content > .menu li li a.active:before {
+    border-left: 5px solid #285a86;
+}
 
