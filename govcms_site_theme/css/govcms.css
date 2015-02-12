@@ -782,14 +782,14 @@ blockquote.style1 {
     border-top: 1px solid #74c29f;
     border-bottom: 1px solid #74c29f;
     margin: 5px;
-    background-size: 30px 30px;
     background: #f5f5f5 url('images/openquote.png') no-repeat top left;
+    background-size: 30px 30px;
     text-indent: 23px;
 }
 blockquote.style1 span {
     display: block;
-    background-size: 30px 30px;
     background: url('images/closequote.png') no-repeat bottom right;
+    background-size: 30px 30px;
 }
 
 * html #fixed-footer {
