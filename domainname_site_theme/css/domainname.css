@@ -87,6 +87,12 @@ h1, h2, .listing__title, .node-teaser h2, .search-results h3.title, .mission__st
     white-space: nowrap!important;
 }
 
+body.front .webform-component {
+    width:70%;
+    float:left
+    margin: 0px;
+}
+
 @media (max-width: 720px) {
     body.front div.gov-front-right {
         float: left;
