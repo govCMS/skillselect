@@ -67,3 +67,7 @@ h1, h2, .listing__title, .node-teaser h2, .search-results h3.title, .mission__st
     border-left: 5px solid #285a86;
 }
 
+.navigation__drop-down, .region-navigation .block__content > .menu > li > ul {
+    width: auto!important;
+}
+
