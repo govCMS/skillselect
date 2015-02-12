@@ -15,7 +15,7 @@ body.front div.gov-front-right h2 {
     line-height: 1.5rem;
 }
 body.front div.gov-front-right div.panels-ipe-portlet-wrapper {
-    padding-bottom:20px;
+    margin-bottom:20px;
 }
 
 body {
