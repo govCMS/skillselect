@@ -112,7 +112,7 @@ body.front div.gov-front-right div.pane-bean-apply-for h2, body.front div.gov-fr
 }
 
 :focus {
-    border: solid 1px black;
+    border: dotted 1px black;
 }
 
 @media (max-width: 720px) {
