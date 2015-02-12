@@ -47,4 +47,16 @@ header {
     font-weight: bold;
 }
 
+.header__secondary-menu a:link, .header__secondary-menu a:visited {
+    color: #fff;
+}
+
+h1, h2, .listing__title, .node-teaser h2, .search-results h3.title, .mission__statement, h3, h4, h5, h6 {
+    color: #285a86;
+}
+
+.layout-full {
+    background-color: #e7e9eb;
+}
+
 
