@@ -178,13 +178,13 @@ input[type="reset"]::before, input[type="submit"]::before,
 .slide-show__read-more-link::before,
 #block-views-slideshow-block .field-name-field-read-more a::before {
 	/*background-color: #2b4272;*/
-	background-color: #5b7bbe;
+	background-color: #5b7bbe !important;
 }
 
 .button, button, html input[type="button"], input[type="reset"],
 input[type="submit"], .slide-show__read-more-link,
 #block-views-slideshow-block .field-name-field-read-more a {
-	font-weight: bold;
+	font-weight: bold !important;
 }
 
 .button:focus, .button:hover, button:focus,
