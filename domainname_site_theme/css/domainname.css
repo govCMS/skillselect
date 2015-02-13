@@ -119,6 +119,22 @@ div.search-api-page-results p.search-info {
     display: none;
 }
 
+
+.region-footer-bottom .block-menu .menu>li>a:before {
+	border-left-color: #5b7bbe;
+}
+
+.gov-front-right .pane-block.panel-pane {
+	margin-top: 2em;
+}
+.gov-front-right .pane-block.panel-pane:first-of-type {
+	margin-top: 0;
+}
+.gov-front-right .webform-client-form {
+	margin-bottom: 1em;
+}
+
+
 @media (max-width: 720px) {
     body.front div.gov-front-right {
         float: left;
