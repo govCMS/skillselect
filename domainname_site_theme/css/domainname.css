@@ -26,6 +26,13 @@ header {
     background-color:#2b4272;
 }
 
+.header {
+	margin: 25px 0;
+}
+#block-search-api-page-results {
+	margin-right: 0;
+}
+
 .page-wrapper {
     outline: none!important;
 }
@@ -154,4 +161,21 @@ div.search-api-page-results p.search-info {
         float:left;
         margin: 0 5px 0 0;
     }
+}
+
+
+.button, button, html input[type="button"],
+input[type="reset"], input[type="submit"],
+.slide-show__read-more-link,
+#block-views-slideshow-block .field-name-field-read-more a {
+	color: #111;
+	background: #5b7bbe;
+}
+
+.button::before, button::before,
+html input[type="button"]::before,
+input[type="reset"]::before, input[type="submit"]::before,
+.slide-show__read-more-link::before,
+#block-views-slideshow-block .field-name-field-read-more a::before {
+	background-color: #2b4272;
 }
