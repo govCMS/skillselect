@@ -1,0 +1,16 @@
+/* add these to the parent theme */
+::-webkit-input-placeholder {
+  color: #777
+}
+::-moz-placeholder {
+  color: #000
+}
+:-moz-placeholder {
+  color: #000
+}
+:-ms-input-placeholder {
+  color: #777
+}
+input.placeholder {
+  color: #777
+}
