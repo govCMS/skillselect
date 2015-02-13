@@ -27,7 +27,7 @@ header {
 }
 
 .header {
-	margin: 25px 0;
+	margin: 25px 0 0 0;
 }
 #block-search-api-page-results {
 	margin-right: 0;
@@ -177,7 +177,8 @@ html input[type="button"]::before,
 input[type="reset"]::before, input[type="submit"]::before,
 .slide-show__read-more-link::before,
 #block-views-slideshow-block .field-name-field-read-more a::before {
-	background-color: #2b4272;
+	/*background-color: #2b4272;*/
+	background-color: #5b7bbe;
 }
 
 
