@@ -190,7 +190,7 @@ input[type="submit"]:focus,
 button:hover, html input[type="button"]:hover, input[type="reset"]:hover,
 input[type="submit"]:hover, .slide-show__read-more-link:hover,
 #block-views-slideshow-block .field-name-field-read-more a:hover {
-	border-color: #2b4272;
+	border-color: #2b4272 !important;
 }
 
 
