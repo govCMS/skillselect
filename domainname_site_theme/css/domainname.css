@@ -181,6 +181,12 @@ input[type="reset"]::before, input[type="submit"]::before,
 	background-color: #5b7bbe;
 }
 
+.button, button, html input[type="button"], input[type="reset"],
+input[type="submit"], .slide-show__read-more-link,
+#block-views-slideshow-block .field-name-field-read-more a {
+	font-weight: bold;
+}
+
 .button:focus, .button:hover, button:focus,
 html input[type="button"]:focus,
 input[type="reset"]:focus,
@@ -191,6 +197,24 @@ button:hover, html input[type="button"]:hover, input[type="reset"]:hover,
 input[type="submit"]:hover, .slide-show__read-more-link:hover,
 #block-views-slideshow-block .field-name-field-read-more a:hover {
 	border-color: #2b4272 !important;
+}
+.button:focus,
+.button:hover,
+button:focus,
+html input[type="button"]:focus,
+input[type="reset"]:focus,
+input[type="submit"]:focus,
+.slide-show__read-more-link:focus,
+#block-views-slideshow-block .field-name-field-read-more a:focus,
+button:hover,
+html input[type="button"]:hover,
+input[type="reset"]:hover,
+input[type="submit"]:hover,
+.slide-show__read-more-link:hover,
+#block-views-slideshow-block
+.field-name-field-read-more a:hover {
+	border-color: #2b4272;
+	background-color: #5b7bbe;
 }
 
 
