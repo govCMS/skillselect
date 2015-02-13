@@ -164,13 +164,13 @@ div.search-api-page-results p.search-info {
 }
 
 
-.button, button, html input[type="button"],
+/*.button, button, html input[type="button"],
 input[type="reset"], input[type="submit"],
 .slide-show__read-more-link,
 #block-views-slideshow-block .field-name-field-read-more a {
 	color: #111;
 	background: #5b7bbe;
-}
+}*/
 
 .button::before, button::before,
 html input[type="button"]::before,
