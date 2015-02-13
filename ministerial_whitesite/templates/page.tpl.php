@@ -15,7 +15,7 @@
       <img src="<?php print $logo; ?>" alt="<?php print t('Home'); ?>" class="header__logo-image" />
     </a>
       <div id="heading__top__line"><?php print theme_get_setting('heading_top_line'); ?></div>
-      <hr class="header__hr" />
+      <!-- <hr class="header__hr" /> -->
       <div id="heading__bottom__line"><?php print theme_get_setting('heading_bottom_line'); ?></div>
     </div>
 

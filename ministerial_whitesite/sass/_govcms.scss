@@ -135,6 +135,7 @@ body.front {
 
 header div.header__wrapper {
   float: left;
+  width: 55%;
 }
 
 hr.header__hr {
@@ -148,6 +149,7 @@ hr.header__hr {
   font-weight: 700;
   font-size: 18px;
   overflow: auto;
+  margin-top: 10px;
 }
 
 #heading__top__line {
@@ -155,6 +157,10 @@ hr.header__hr {
   height: 64px;
   vertical-align: bottom;
   display: table-cell;
+  border-bottom: 2px solid #444;
+  margin-bottom: 10px;
+  padding-bottom: 10px;
+  padding-top: 22px;
 }
 
 
