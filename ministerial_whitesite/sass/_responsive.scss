@@ -62,6 +62,7 @@
   }
   body.front div.view-ministerial-photo-galleries div.views-row.views-row-first {
     width: 100%;
+    max-width: 300px;
   }
   .pane-agov-social-links-services {
     width: 100%;
@@ -110,5 +111,6 @@
   }
   .page-wrapper {
     margin-top: 0;
+    margin-bottom: 0;
   }
 }

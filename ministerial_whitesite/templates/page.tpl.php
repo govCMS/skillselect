@@ -11,12 +11,11 @@
 <div class="layout-centered page-wrapper">
   <header class="header" role="banner">
     <div class="header__wrapper">
-    <a href="<?php print $front_page; ?>" title="<?php print t('Home'); ?>" rel="home" class="header__logo" id="logo">
-      <img src="<?php print $logo; ?>" alt="<?php print t('Home'); ?>" class="header__logo-image" />
-    </a>
-      <div id="heading__top__line"><?php print theme_get_setting('heading_top_line'); ?></div>
-      <!-- <hr class="header__hr" /> -->
-      <div id="heading__bottom__line"><?php print theme_get_setting('heading_bottom_line'); ?></div>
+      <a href="<?php print $front_page; ?>" title="<?php print t('Home'); ?>" rel="home">
+        <img src="<?php print $logo; ?>" alt="<?php print t('Home'); ?>" class="header__logo-image header__logo" id="logo" />
+        <div id="heading__top__line"><?php print theme_get_setting('heading_top_line'); ?></div>
+        <div id="heading__bottom__line"><?php print theme_get_setting('heading_bottom_line'); ?></div>
+      </a>
     </div>
 
     <nav class="header__secondary-menu" role="navigation">
