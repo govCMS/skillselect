@@ -23,16 +23,21 @@
     width: 50%;
   }
   .layout-full .panel-3col-33-stacked {
+    width: 100%;
+  }
+  .layout-full .panel-3col-33-stacked .panel-col-first,
+  .layout-full .panel-3col-33-stacked .panel-col-last,
+  .layout-full .panel-3col-33-stacked .panel-col {
     width: 50%;
   }
   .pane-agov-social-links-services {
     width: 100%;
     margin-bottom: 1em;
   }
-  .pane-agov-social-links-services h2 {
-    float: left;
-    margin-right: 0.5em;
-  }
+  // .pane-agov-social-links-services h2 {
+  //   float: left;
+  //   margin-right: 0.5em;
+  // }
   body.front div.view-ministerial-photo-galleries div.views-row {
     width: 50%;
   }
@@ -47,6 +52,7 @@
 @media (max-width: 440px) {
   .header__logo-image {
     width: 100px !important;
+    height: 100px !important;
   }
   #heading__top__line {
     height: 60px;
