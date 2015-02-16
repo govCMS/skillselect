@@ -129,7 +129,7 @@ body.front {
 }
 
 .header__logo {
-  padding-right: 20px;
+  margin-right: 20px;
   max-width: 150px !important;
 }
 
@@ -151,13 +151,14 @@ header div.header__wrapper {
   overflow: auto;
   margin-top: 10px;
   text-decoration: none;
+  color: #444;
+  display: table-cell;
 }
 
 #heading__top__line {
   //padding-top: 23px;
   height: 78px;
   vertical-align: bottom;
-  display: table-cell;
   border-bottom: 2px solid #444;
   margin-bottom: 10px;
   padding-bottom: 10px;
@@ -168,7 +169,8 @@ header div.header__wrapper {
   border-top: 2px solid #444;
   padding-top: 10px;
   position: relative;
-  top: -2px;
+  top: 10px;
+  vertical-align: top;
 }
 
 
