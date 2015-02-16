@@ -3,7 +3,7 @@
 
 // 625px or smaller
 @media (max-width: 625px) {
-  .header__wrapper {
+  header div.header__wrapper {
     width: 100%;
   }
   .header__wrapper .header__logo{
@@ -17,7 +17,7 @@
   .panel-pane.pane-bean-panels .summary-text .field-items {
     width: 50%;
   }
-  .panel-3col-33-stacked .panel-col-last {
+  .layout-full .panel-3col-33-stacked {
     width: 50%;
   }
   .pane-agov-social-links-services {
