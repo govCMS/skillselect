@@ -66,6 +66,10 @@
   .pane-agov-social-links-services {
     width: 100%;
   }
+  body.front .panel-3col-33-stacked div.panel-col-top div.pane-bean-panels {
+    max-width: 600px !important;
+    width: 100% !important;
+  }
 }
 
 
@@ -84,6 +88,9 @@
   }
   .block-search-api-page {
     padding-right: 10px;
+  }
+  body.front .bean-image-and-text.landing_page div.image-title {
+    margin-right: 0;
   }
 }
 
