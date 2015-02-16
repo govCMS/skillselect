@@ -150,6 +150,7 @@ header div.header__wrapper {
   font-size: 18px;
   overflow: auto;
   margin-top: 10px;
+  text-decoration: none;
 }
 
 #heading__top__line {
@@ -161,6 +162,13 @@ header div.header__wrapper {
   margin-bottom: 10px;
   padding-bottom: 10px;
   //padding-top: 22px;
+}
+
+#heading__bottom__line {
+  border-top: 2px solid #444;
+  padding-top: 10px;
+  position: relative;
+  top: -2px;
 }
 
 
