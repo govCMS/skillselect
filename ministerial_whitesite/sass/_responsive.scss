@@ -32,9 +32,6 @@
 
 // 625px or smaller
 @media (max-width: 625px) {
-  .block-search-api-page .form-text {
-    width: calc(100% - 33px);
-  }
   .search--header__button, .block-search-api-page .form-submit {
     position: relative;
     top: -2.2em;
@@ -84,6 +81,9 @@
   }
   #heading__top__line, #heading__bottom__line {
     font-size: 16px;
+  }
+  .block-search-api-page {
+    padding-right: 10px;
   }
 }
 
