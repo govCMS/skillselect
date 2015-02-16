@@ -5,6 +5,7 @@
 @media (max-width: 979px) {
   header div.header__wrapper {
     width: 100%;
+    margin-bottom: 1em;
   }
   .header__wrapper .header__logo{
     float: left;
@@ -35,9 +36,25 @@
   body.front div.view-ministerial-photo-galleries div.views-row {
     width: 50%;
   }
+  .pane-agov-social-links-services {
+    width: 100%;
+  }
 }
 
 
+
+// 440px or smaller
+@media (max-width: 440px) {
+  .header__logo-image {
+    width: 100px !important;
+  }
+  #heading__top__line {
+    height: 60px;
+  }
+  #heading__top__line, #heading__bottom__line {
+    font-size: 16px;
+  }
+}
 
 // 400px or smaller
 @media (max-width: 400px) {
