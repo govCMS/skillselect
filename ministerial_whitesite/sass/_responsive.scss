@@ -59,10 +59,10 @@
     // width: 50%;
     width: 100%;
   }
-  .pane-agov-social-links-services {
-    width: 100%;
+  .layout-full .pane-agov-social-links-services {
+    width: 100% !important;
     margin-bottom: 2em;
-    margin-left: 0;
+    margin-left: 0 !important;
   }
   // .pane-agov-social-links-services h2 {
   //   float: left;
