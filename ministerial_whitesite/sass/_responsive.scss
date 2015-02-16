@@ -15,11 +15,13 @@
 
 // 719px or smaller
 @media (max-width: 719px) {
-  #tinynav1:before {
-    content: '☰ Menu';
-  }
   #tinynav1 {
     width: 100%;
+  }
+  // can't before on a select element so...
+  #tinynav1:before {
+    content: '☰ Menu';
+    color: #fff;
   }
 }
 
