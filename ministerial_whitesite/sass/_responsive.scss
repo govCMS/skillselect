@@ -1,14 +1,18 @@
 // mobile styles here
 
 
-// 625px or smaller
-@media (max-width: 625px) {
+// 979px or smaller
+@media (max-width: 979px) {
   header div.header__wrapper {
     width: 100%;
   }
   .header__wrapper .header__logo{
     float: left;
   }
+}
+
+// 625px or smaller
+@media (max-width: 625px) {
   .search--header__button, .block-search-api-page .form-submit {
     position: relative;
     top: -2.2em;
