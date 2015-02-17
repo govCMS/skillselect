@@ -32,3 +32,8 @@ body.front div.pane-blogs-tags .row-of-tags {
 body.front div.panel-col-top div.rounded-corner div.panel-pane {
     width: 270px;
 }
+
+body.front div.panel-col-top div.pane-blogs-archive ul.views-summary {
+    list-style-type: none;
+    padding: 0px;
+}
