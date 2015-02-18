@@ -78,7 +78,10 @@ Drupal.behaviors.my_custom_behavior = {
                 } else {
                     var diff = highest - lowest;
                     diff = diff + 1;
+                    console.log(diff);
+                    console.log(number);
                     var fontSize = (number/diff) * 200;
+                    console.log(number/diff);
                     if(fontSize < 75) {
                         fontSize = 75;
                     }
