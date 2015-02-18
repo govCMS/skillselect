@@ -54,6 +54,9 @@
   padding-bottom: 1.5em;
   .more-link a {
     background-color: #eee;
+    &:before {
+      background-color: #d51942;
+    }
   }
 }
 
