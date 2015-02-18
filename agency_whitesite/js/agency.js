@@ -48,17 +48,23 @@ Drupal.behaviors.my_custom_behavior = {
             numberArray.push(number);
         });
         console.log(numberArray);
-        var counts = [{}];
+        var counts = {};
         for(var i = 0; i< numberArray.length; i++) {
             var num = numberArray[i];
             counts[num] = counts[num] ? counts[num]+1 : 1;
         }
         console.log(counts);
-        counts.sort(function(a,b) {
-            return a.val - b.val;
-        });
-        var highest = Math.max.apply(Math, counts);
-        var lowest = Math.min.apply(Math, counts);
+        var highest = counts[0];
+        var lowest = counts[0];
+        for (var key in counts) {
+            if(counts[key] > highest) {
+                highest = counts[key];
+            }
+            if(counts[key] < lowest) {
+                lowest = counts[key];
+            }
+        }
+
         console.log(highest);
         console.log(lowest);
 
@@ -66,7 +72,16 @@ Drupal.behaviors.my_custom_behavior = {
             var occurance = $('span',this).attr('class');
             var number = occurance.replace('count-', '');
             counts[number];
-            $('span',this).attr('style', 'font-size: 2em;');
+            var style = "font-size:1em;"
+            if(number == highest) {
+                style='font-size: 2em;';
+            } else if(number == lowest) {
+                style='font-size: .8em;';
+            } else {
+                style='font-size: 1em;';
+            }
+
+            $('span',this).attr('style', style);
         });
     });
 })(jQuery);
