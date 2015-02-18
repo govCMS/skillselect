@@ -76,13 +76,8 @@ Drupal.behaviors.my_custom_behavior = {
                 } else if (number == lowest) {
                     style = 'font-size: 80%;';
                 } else {
-                    //So this is neither highest or lowest, now we need to get the difference from top to bottom
-                    console.log("Highest: " + highest);
-                    console.log("Lowest: " + lowest);
                     var diff = highest - lowest;
-                    console.log("Difference: " + diff);
-                    console.log("Size: " + (diff/number));
-                    var fontSize = diff/number;
+                    var fontSize = (diff/number) * 100;
 
                     style = 'font-size: ' + fontSize + '%;';
                 }
