@@ -69,7 +69,7 @@ stylesheets[all][] = libraries/gray/css/gray.min.css
 
 ; Optionally add some JavaScripts to your theme.
 
-;scripts[] = js/script.js
+scripts[] = js/agency.js
 scripts[] = libraries/gray/js/jquery.gray.min.js
 
 
