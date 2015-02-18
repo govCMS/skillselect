@@ -1,25 +1,47 @@
 // Styles for the blog layout option
 
-.field-name-field-tags {
-  border: none;
-  padding-top: 1.2em;
-  .field-label {
-    width: auto;
-  }
-  .field-item {
-    color: #fff;
-    a {
-      padding: 3px 5px;
-      border: 1px solid #ccc;
-      background-color: #efefef;
-      &:hover,
-      &:active,
-      &:focus {
-        border: 1px solid #333;
+// Blog article styles
+
+.node-blog-article {
+  .field-name-field-tags {
+    border: none;
+    padding-top: 1.2em;
+    .field-label {
+      width: auto;
+    }
+    .field-item {
+      color: #fff;
+      a {
+        padding: 3px 5px;
+        border: 1px solid #ccc;
+        background-color: #efefef;
+        &:hover,
+        &:active,
+        &:focus {
+          border: 1px solid #333;
+        }
       }
     }
   }
+  .field-type-taxonomy-term-reference {
+    margin-top: 1em;
+  }
+  .comment-comments,
+  .comment-add {
+    margin-left: 1em;
+  }
+  .submitted {
+    margin-bottom: 20px;
+    color: #696969;
+  }
 }
+
+
+
+
+
+
+// Sidebar
 
 .panel-1col-stacked .panel-col-top {
   .pane-views {
@@ -31,33 +53,16 @@
     }
     margin-bottom: 5px;
   }
-}
-
-
-.submitted {
-  margin-bottom: 20px;
-  color: #696969;
-}
-
-.pane-agov-social-links-services {
-  margin-bottom: 1em;
-}
-
-
-.field-type-taxonomy-term-reference {
-  margin-top: 1em;
-}
-.comment-comments,
-.comment-add {
-  margin-left: 1em;
+  .pane-agov-social-links-services {
+    margin-bottom: 1em;
+  }
 }
 
 
 
 
 
-
-
+// Everywhere
 
 .node-readmore a,
 .read-more a {
