@@ -74,11 +74,14 @@ Drupal.behaviors.my_custom_behavior = {
                 if (number == highest) {
                     style = 'font-size: 200%;';
                 } else if (number == lowest) {
-                    style = 'font-size: 80%;';
+                    style = 'font-size: 70%;';
                 } else {
                     var diff = highest - lowest;
-                    var fontSize = (number/diff) * 100;
-
+                    diff = diff + 1;
+                    var fontSize = (number/diff) * 200;
+                    if(fontSize < 75) {
+                        fontSize = 75;
+                    }
                     style = 'font-size: ' + fontSize + '%;';
                 }
 
