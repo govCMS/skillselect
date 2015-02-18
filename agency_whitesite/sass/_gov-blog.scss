@@ -8,6 +8,7 @@
     padding-top: 1.2em;
     .field-label {
       width: auto;
+      margin-right: 8px;
     }
     .field-item {
       color: #fff;
@@ -16,10 +17,12 @@
         padding: 3px 5px;
         border: 1px solid #ccc;
         background-color: #efefef;
+        border-radius: 3px;
+        color: #136e94; // accessible contrast
         &:hover,
         &:active,
         &:focus {
-          border: 1px solid #333;
+          border: 1px solid #999;
           text-decoration: underline;
         }
       }
@@ -135,7 +138,7 @@
   &:focus {
     // background-color: rgba(255, 255, 255, 0.2);
     border-color: #333;
-    color: #fff;
+    color: #33;
     background-color: $primaryColour;
     &:before {
       background-color: #333;
