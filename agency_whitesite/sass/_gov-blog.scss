@@ -1,8 +1,15 @@
 // Styles for the blog layout option
 
 .field-name-field-tags {
-  .field-item a {
-    border: 1px solid #ccc;
+  .field-label {
+    width: auto;
+  }
+  .field-item {
+    color: #fff;
+    a {
+      padding: 3px 5px;
+      border: 1px solid #ccc;
+    }
   }
 }
 
