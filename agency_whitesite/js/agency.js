@@ -55,7 +55,6 @@ Drupal.behaviors.my_custom_behavior = {
 (function ($) {
     $(document).ready(function () {
         var numberArray = [];
-        var exists = false;
         var count = 0;
         $('div.row-of-tags').each(function () {
             var occurance = $('span', this).attr('class');
@@ -64,9 +63,7 @@ Drupal.behaviors.my_custom_behavior = {
             count++;
         });
         if(count > 0) {
-            console.log(numberArray);
             var tags = CalculateWeights(numberArray, 100);
-            console.log(tags);
             for(var i = 0; i < numberArray.length; i++) {
                 var number = numberArray[i]
                 var fontSize = tags[i];
@@ -77,30 +74,6 @@ Drupal.behaviors.my_custom_behavior = {
                     }
                 });
             }
-/*
-            $('div.row-of-tags').each(function () {
-                var number = $('span', this).attr('class').replace('count-', '');
-                var occurances = counts[number];
-                var style = 30;
-                if (number == highest) {
-                    style = 130;
-                } else if (number == lowest) {
-                    style = 0;
-                } else {
-                    var diff = occurances / (highest - lowest);
-                    console.log("Difference: " + diff);
-                    console.log("Number: " + number);
-
-
-
-                    var fontSize = parseInt(number * diff, 10) + 1;
-                    console.log("Font Size: " + fontSize);
-
-                    style = fontSize;
-                }
-
-                $('span', this).attr('style', 'font-size:' + (style+70) + '%;');
-            });*/
         }
     });
 })(jQuery);
