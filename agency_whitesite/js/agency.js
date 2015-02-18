@@ -40,7 +40,7 @@ Drupal.behaviors.my_custom_behavior = {
             var num = numberArray[i];
             counts[num] = counts[num] ? counts[num]+1 : 1;
         }
-        counts = counts.sort();
+        counts = counts.sort(function(a, b){return b-a;});
         var highest = counts[0];
         var lowest = counts.pop();
         console.log(highest);
