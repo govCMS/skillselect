@@ -6,19 +6,6 @@
  * the README.txt next to this file.
  */
 
-var sort_by = function(field, reverse, primer){
-
-    var key = primer ?
-        function(x) {return primer(x[field])} :
-        function(x) {return x[field]};
-
-    reverse = [-1, 1][+!!reverse];
-
-    return function (a, b) {
-        return a = key(a), b = key(b), reverse * ((a > b) - (b > a));
-    }
-}
-
 // JavaScript should be made compatible with libraries other than jQuery by
 // wrapping it with an "anonymous closure". See:
 // - https://drupal.org/node/1446420
@@ -57,7 +44,9 @@ Drupal.behaviors.my_custom_behavior = {
             }
             var highest = Object.keys(counts)[0];
             var lowest = Object.keys(counts)[0];
+            var count = 0;
             for (var key in counts) {
+                count++;
                 if (counts[key] > highest) {
                     highest = counts[key];
                 }
@@ -65,7 +54,6 @@ Drupal.behaviors.my_custom_behavior = {
                     lowest = counts[key];
                 }
             }
-
             $('div.row-of-tags').each(function () {
                 var occurance = $('span', this).attr('class');
                 var number = occurance.replace('count-', '');
@@ -76,15 +64,15 @@ Drupal.behaviors.my_custom_behavior = {
                 } else if (number == lowest) {
                     style = 'font-size: 70%;';
                 } else {
-                    var diff = highest - lowest;
-                    diff = diff + 1;
+                    var diff = count / (highest - lowest);
                     console.log(diff);
                     console.log(number);
-                    var fontSize = (number/diff) * 200;
-                    console.log(number/diff);
-                    if(fontSize < 75) {
-                        fontSize = 75;
-                    }
+
+
+
+                    var fontSize = parseInt(number * diff, 10) + 1;
+                    console.log(fontSize);
+
                     style = 'font-size: ' + fontSize + '%;';
                 }
 
