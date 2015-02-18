@@ -31,15 +31,25 @@ Drupal.behaviors.my_custom_behavior = {
         var numberArray = [];
         $('div.row-of-tags').each(function() {
             var occurance = $('span',this).attr('class');
-            console.log("Occurance: " + occurance);
             var number = occurance.replace('count-', '');
-            console.log("Number: " + number);
             numberArray.push(number);
         });
 
+        var counts = {};
+        for(var i = 0; i< numberArray.length; i++) {
+            var num = numberArray[i];
+            counts[num] = counts[num] ? counts[num]+1 : 1;
+        }
+        counts = counts.sort();
+        var highest = counts[0];
+        var lowest = counts.pop();
+        console.log(highest);
+        console.log(lowest);
 
         $('div.row-of-tags').each(function() {
-            //Loop over them again and depending on the 'count' then change the text size.
+            var occurance = $('span',this).attr('class');
+            var number = occurance.replace('count-', '');
+            counts[number];
             $('span',this).attr('style', 'font-size: 2em;');
         });
     });
