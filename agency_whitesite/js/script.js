@@ -24,3 +24,23 @@ Drupal.behaviors.my_custom_behavior = {
 
 
 })(jQuery, Drupal, this, this.document);
+
+
+(function ($) {
+    $(document).ready(function () {
+        var numberArray = [];
+        $('div.row-of-tags').each(function() {
+            var occurance = $('span',this).attr('class');
+            console.log("Occurance: " + occurance);
+            var number = occurance.text().replace('count-', '');
+            console.log("Number: " + number);
+            numberArray.push(number);
+        });
+
+
+        $('div.row-of-tags').each(function() {
+            //Loop over them again and depending on the 'count' then change the text size.
+            $('span',this).attr('style', 'font-size: 2em;');
+        });
+    });
+})(jQuery);
