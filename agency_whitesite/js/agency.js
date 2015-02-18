@@ -65,8 +65,18 @@ Drupal.behaviors.my_custom_behavior = {
         });
         if(count > 0) {
             console.log(numberArray);
-            var tags = CalculateWeights(numberArray, count);
+            var tags = CalculateWeights(numberArray, 100);
             console.log(tags);
+            for(var i = 0; i < numberArray.length; i++) {
+                var number = numberArray[i]
+                var fontSize = tags[i];
+                $('div.row-of-tags').each(function () {
+                    var countNumber = $('span', this).attr('class').replace('count-', '');
+                    if(countNumber == number) {
+                        $('span', this).attr('style', 'font-size:' + (fontSize+70) + '%;');
+                    }
+                });
+            }
 /*
             $('div.row-of-tags').each(function () {
                 var number = $('span', this).attr('class').replace('count-', '');
