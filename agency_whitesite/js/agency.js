@@ -42,48 +42,49 @@ Drupal.behaviors.my_custom_behavior = {
 (function ($) {
     $(document).ready(function () {
         var numberArray = [];
-        $('div.row-of-tags').each(function() {
-            var occurance = $('span',this).attr('class');
+        var exists = false;
+        $('div.row-of-tags').each(function () {
+            var occurance = $('span', this).attr('class');
             var number = occurance.replace('count-', '');
             numberArray.push(number);
+            exists = true;
         });
-        console.log(numberArray);
-        var counts = {};
-        for(var i = 0; i< numberArray.length; i++) {
-            var num = numberArray[i];
-            counts[num] = counts[num] ? counts[num]+1 : 1;
+        if(exists) {
+            var counts = {};
+            for (var i = 0; i < numberArray.length; i++) {
+                var num = numberArray[i];
+                counts[num] = counts[num] ? counts[num] + 1 : 1;
+            }
+            var highest = Object.keys(counts)[0];
+            var lowest = Object.keys(counts)[0];
+            for (var key in counts) {
+                if (counts[key] > highest) {
+                    highest = counts[key];
+                }
+                if (counts[key] < lowest) {
+                    lowest = counts[key];
+                }
+            }
+
+            $('div.row-of-tags').each(function () {
+                var occurance = $('span', this).attr('class');
+                var number = occurance.replace('count-', '');
+                counts[number];
+                var style = "font-size:100%;"
+                if (number == highest) {
+                    style = 'font-size: 200%;';
+                } else if (number == lowest) {
+                    style = 'font-size: 80%;';
+                } else {
+                    //So this is neither highest or lowest, now we need to get the difference from top to bottom
+                    var diff = highest - lowest;
+                    var fontSize = diff % number;
+
+                    style = 'font-size: ' + fontSize + '%;';
+                }
+
+                $('span', this).attr('style', style);
+            });
         }
-        console.log(counts);
-        var highest = Object.keys(counts)[0];
-        var lowest = Object.keys(counts)[0];
-        console.log(highest);
-        console.log(lowest);
-        for (var key in counts) {
-            if(counts[key] > highest) {
-                highest = counts[key];
-            }
-            if(counts[key] < lowest) {
-                lowest = counts[key];
-            }
-        }
-
-        console.log(highest);
-        console.log(lowest);
-
-        $('div.row-of-tags').each(function() {
-            var occurance = $('span',this).attr('class');
-            var number = occurance.replace('count-', '');
-            counts[number];
-            var style = "font-size:1em;"
-            if(number == highest) {
-                style='font-size: 2em;';
-            } else if(number == lowest) {
-                style='font-size: .8em;';
-            } else {
-                style='font-size: 1em;';
-            }
-
-            $('span',this).attr('style', style);
-        });
     });
 })(jQuery);
