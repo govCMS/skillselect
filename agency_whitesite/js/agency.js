@@ -34,13 +34,13 @@ Drupal.behaviors.my_custom_behavior = {
             var number = occurance.replace('count-', '');
             numberArray.push(number);
         });
-
+        console.log(numberArray);
         var counts = {};
         for(var i = 0; i< numberArray.length; i++) {
             var num = numberArray[i];
             counts[num] = counts[num] ? counts[num]+1 : 1;
         }
-
+        console.log(counts);
         var highest = Math.max.apply(Math, counts);
         var lowest = Math.min.apply(Math, counts);
         console.log(highest);
