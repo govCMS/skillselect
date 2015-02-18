@@ -59,25 +59,24 @@ Drupal.behaviors.my_custom_behavior = {
             console.log("Highest: " + highest);
             console.log("Lowest: " + lowest);
             $('div.row-of-tags').each(function () {
-                var occurance = $('span', this).attr('class');
-                var number = occurance.replace('count-', '');
-                counts[number];
+                var number = $('span', this).attr('class').replace('count-', '');
+                var occurances = counts[number];
                 var style = 30;
                 if (number == highest) {
                     style = 130;
                 } else if (number == lowest) {
                     style = 0;
                 } else {
-                    var diff = count / (highest - lowest);
+                    var diff = occurances / (highest - lowest);
                     console.log("Difference: " + diff);
                     console.log("Number: " + number);
 
 
 
-                    var fontSize = parseInt(number * diff, 100) + 1;
+                    var fontSize = parseInt(number * diff, 10) + 1;
                     console.log("Font Size: " + fontSize);
 
-                    style = 0;
+                    style = fontSize;
                 }
 
                 $('span', this).attr('style', 'font-size:' + (style+70) + '%;');
