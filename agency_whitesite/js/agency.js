@@ -48,11 +48,12 @@ Drupal.behaviors.my_custom_behavior = {
             for (var key in counts) {
                 count++;
                 console.log("Value: " + counts[key]);
+                console.log("Key: " + key);
                 if (counts[key] > highest) {
-                    highest = counts[key];
+                    highest = key;
                 }
                 if (counts[key] < lowest) {
-                    lowest = counts[key];
+                    lowest = key;
                 }
             }
             console.log("Highest: " + highest);
