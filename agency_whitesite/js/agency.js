@@ -47,6 +47,7 @@ Drupal.behaviors.my_custom_behavior = {
             var count = 0;
             for (var key in counts) {
                 count++;
+                console.log("Value: " + counts[key]);
                 if (counts[key] > highest) {
                     highest = counts[key];
                 }
