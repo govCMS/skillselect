@@ -6,6 +6,19 @@
  * the README.txt next to this file.
  */
 
+var sort_by = function(field, reverse, primer){
+
+    var key = primer ?
+        function(x) {return primer(x[field])} :
+        function(x) {return x[field]};
+
+    reverse = [-1, 1][+!!reverse];
+
+    return function (a, b) {
+        return a = key(a), b = key(b), reverse * ((a > b) - (b > a));
+    }
+}
+
 // JavaScript should be made compatible with libraries other than jQuery by
 // wrapping it with an "anonymous closure". See:
 // - https://drupal.org/node/1446420
@@ -35,7 +48,7 @@ Drupal.behaviors.my_custom_behavior = {
             numberArray.push(number);
         });
         console.log(numberArray);
-        var counts = {};
+        var counts = [{}];
         for(var i = 0; i< numberArray.length; i++) {
             var num = numberArray[i];
             counts[num] = counts[num] ? counts[num]+1 : 1;
