@@ -54,8 +54,10 @@ Drupal.behaviors.my_custom_behavior = {
             counts[num] = counts[num] ? counts[num]+1 : 1;
         }
         console.log(counts);
-        var highest = counts[0];
-        var lowest = counts[0];
+        var highest = Object.keys(counts)[0];
+        var lowest = Object.keys(counts)[0];
+        console.log(highest);
+        console.log(lowest);
         for (var key in counts) {
             if(counts[key] > highest) {
                 highest = counts[key];
