@@ -59,9 +59,9 @@ Drupal.behaviors.my_custom_behavior = {
                 var number = occurance.replace('count-', '');
                 counts[number];
                 var style = "font-size:100%;"
-                if (number == highest) {
+                if (number >= highest) {
                     style = 'font-size: 200%;';
-                } else if (number == lowest) {
+                } else if (number <= lowest) {
                     style = 'font-size: 70%;';
                 } else {
                     var diff = count / (highest - lowest);
@@ -70,7 +70,7 @@ Drupal.behaviors.my_custom_behavior = {
 
 
 
-                    var fontSize = parseInt(number * diff, 10) + 1;
+                    var fontSize = parseInt(number * diff, 100) + 1;
                     console.log(fontSize);
 
                     style = 'font-size: ' + fontSize + '%;';
