@@ -32,7 +32,7 @@ Drupal.behaviors.my_custom_behavior = {
         $('div.row-of-tags').each(function() {
             var occurance = $('span',this).attr('class');
             console.log("Occurance: " + occurance);
-            var number = occurance.text().replace('count-', '');
+            var number = occurance.replace('count-', '');
             console.log("Number: " + number);
             numberArray.push(number);
         });
