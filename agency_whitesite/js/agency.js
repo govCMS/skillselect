@@ -42,13 +42,12 @@ Drupal.behaviors.my_custom_behavior = {
                 var num = numberArray[i];
                 counts[num] = counts[num] ? counts[num] + 1 : 1;
             }
-            var highest = Object.keys(counts)[0];
-            var lowest = Object.keys(counts)[0];
+            var highest = 0;
+            var lowest = 1000;
             var count = 0;
             for (var key in counts) {
                 count++;
-                console.log("Value: " + counts[key]);
-                console.log("Key: " + key);
+                console.log("Value: " + key + ":" + counts[key]);
                 if (counts[key] > highest) {
                     highest = key;
                 }
