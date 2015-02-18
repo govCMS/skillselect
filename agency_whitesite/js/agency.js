@@ -41,6 +41,9 @@ Drupal.behaviors.my_custom_behavior = {
             counts[num] = counts[num] ? counts[num]+1 : 1;
         }
         console.log(counts);
+        counts.sort(function(a,b) {
+            return a.val - b.val;
+        });
         var highest = Math.max.apply(Math, counts);
         var lowest = Math.min.apply(Math, counts);
         console.log(highest);
