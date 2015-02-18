@@ -1,7 +1,73 @@
 // Styles for the blog layout option
 
-.field-name-field-tags  {
+.field-name-field-tags {
   .field-item a {
     border: 1px solid #ccc;
+  }
+}
+
+.panel-1col-stacked .panel-col-top .views-row {
+  a {
+    display: block;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.read-more a {
+  border-color: #fff;
+  -moz-border-bottom-colors: none;
+  -moz-border-left-colors: none;
+  -moz-border-right-colors: none;
+  -moz-border-top-colors: none;
+  background-image: none;
+  border-color: #e2e2e2 #e2e2e2 #e2e2e2 #1675bc;
+  border-image: none;
+  border-style: solid;
+  border-width: 1px 1px 1px 5px;
+  color: #231f20;
+  cursor: pointer;
+  display: inline-block;
+  height: auto;
+  line-height: 22px;
+  min-height: 40px;
+  overflow: visible;
+  padding: 8px 25px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+  background-color: #fff;
+  &:before {
+    background-color: $primaryColour;
+    content: "";
+    height: calc(100% + 2px);
+    left: -5px;
+    position: absolute;
+    top: -1px;
+    width: 5px;
+  }
+  &:hover,
+  &:active,
+  &:focus {
+    background-color: rgba(255, 255, 255, 0.2);
+    border-color: $primaryColour;
+
+
+    border-left-color: $primaryColour;
+    color: #fff;
+    background-color: #37424a;
   }
 }
