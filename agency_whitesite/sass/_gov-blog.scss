@@ -12,6 +12,7 @@
     .field-item {
       color: #fff;
       a {
+        text-decoration: none;
         padding: 3px 5px;
         border: 1px solid #ccc;
         background-color: #efefef;
@@ -19,6 +20,7 @@
         &:active,
         &:focus {
           border: 1px solid #333;
+          text-decoration: underline;
         }
       }
     }
@@ -37,6 +39,9 @@
 }
 .listing, .node-teaser, .search-results li {
   border-top: 1px solid #e2e2e2;
+  &:first-of-type {
+    border-top: none;
+  }
 }
 
 
@@ -48,11 +53,12 @@
 
 .panel-1col-stacked .panel-col-top {
   .pane-views {
-    margin-bottom: 1.4em;
+    margin-bottom: 1.6em;
   }
   .views-row {
     .date {
       display: block;
+      color: #696969;
     }
     margin-bottom: 5px;
   }
@@ -61,6 +67,16 @@
   }
   .views-summary {
     margin-bottom: 5px;
+  }
+  .pane-blogs-tags {
+    a {
+      text-decoration: none;
+      &:hover,
+      &:active,
+      &:focus {
+        text-decoration: underline;
+      }
+    }
   }
 }
 
@@ -71,6 +87,7 @@
 // Everywhere
 
 .node-readmore a,
+.more-link a,
 .read-more a {
   border-color: #fff;
   -moz-border-bottom-colors: none;
