@@ -22,6 +22,9 @@
 }
 
 
+.submitted {
+  margin-bottom: 20px;
+}
 
 
 
@@ -34,7 +37,7 @@
 
 
 
-
+.node-readmore a,
 .read-more a {
   border-color: #fff;
   -moz-border-bottom-colors: none;
@@ -71,12 +74,9 @@
   &:hover,
   &:active,
   &:focus {
-    background-color: rgba(255, 255, 255, 0.2);
+    // background-color: rgba(255, 255, 255, 0.2);
     border-color: $primaryColour;
-
-
-    border-left-color: $primaryColour;
     color: #fff;
-    background-color: #37424a;
+    background-color: #333;
   }
 }
