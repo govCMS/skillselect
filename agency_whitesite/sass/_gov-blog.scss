@@ -35,6 +35,9 @@
     color: #696969;
   }
 }
+.listing, .node-teaser, .search-results li {
+  border-top: 1px solid #e2e2e2;
+}
 
 
 
@@ -48,7 +51,7 @@
     margin-bottom: 1em;
   }
   .views-row {
-    &.view-id-blogs a {
+    .date {
       display: block;
     }
     margin-bottom: 5px;
