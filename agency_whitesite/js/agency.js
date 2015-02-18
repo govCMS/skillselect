@@ -77,7 +77,7 @@ Drupal.behaviors.my_custom_behavior = {
                     style = 'font-size: 80%;';
                 } else {
                     var diff = highest - lowest;
-                    var fontSize = (diff/number) * 100;
+                    var fontSize = (number/diff) * 100;
 
                     style = 'font-size: ' + fontSize + '%;';
                 }
