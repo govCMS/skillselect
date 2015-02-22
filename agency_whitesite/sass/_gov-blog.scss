@@ -31,9 +31,10 @@
   .field-type-taxonomy-term-reference {
     margin-top: 1em;
   }
-  .comment-comments,
-  .comment-add {
-    margin-left: 1em;
+  .links.inline li {
+    margin-right: 1em;
+    margin-top: 1em;
+    display: block;
   }
   .submitted {
     margin-bottom: 20px;
