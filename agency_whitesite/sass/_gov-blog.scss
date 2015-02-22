@@ -145,13 +145,38 @@
     &:hover,
     &:active,
     &:focus {
-      // background-color: rgba(255, 255, 255, 0.2);
       border-color: #333;
-      color: #33;
+      color: #333;
       background-color: $primaryColour2;
       &:before {
         background-color: #333;
       }
+    }
+  }
+}
+// btn blue
+.node-readmore,
+.comment-comments,
+.comment-add {
+  a {
+    &:before {
+      background-color: $primaryColour2;
+      content: "";
+      height: calc(100% + 2px);
+      left: -5px;
+      position: absolute;
+      top: -1px;
+      width: 5px;
+    }
+    &:hover,
+    &:active,
+    &:focus {
+      // border-color: #333;
+      color: #fff;
+      // background-color: $primaryColour2;
+      // &:before {
+      //   // background-color: #333;
+      // }
     }
   }
 }
