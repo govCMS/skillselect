@@ -154,3 +154,37 @@
     }
   }
 }
+
+.region-footer-bottom .block-menu .menu>li>a:before {
+  border-color: #888;
+}
+
+
+
+
+// accessibilty rules
+
+// start with the basics
+a {
+  &:active, &:focus {
+    background-color: #000 !important;
+    color: #fff !important;
+    outline: solid;
+  }
+}
+// override as needed
+header.header,
+.region-navigation {
+  a {
+    &:active, &:focus {
+      background-color: #fff !important;
+      color: #000 !important;
+    }
+  }
+}
+input, button {
+  &:active,
+  &:focus {
+    border: solid 1px $primaryColour !important;
+  }
+}
