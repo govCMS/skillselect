@@ -1,4 +1,4 @@
-<?php if ($display_submitted): ?>
+<?php if ($submitted): ?>
   <p class="submitted">
     Posted on
     <time pubdate datetime="<?php print $submitted_pubdate; ?>">
