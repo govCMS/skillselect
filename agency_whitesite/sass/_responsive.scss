@@ -1,1 +1,14 @@
 // extra mobile styles here
+
+
+@media (max-width: 720px) {
+  .panel-1col-stacked .panel-col-top {
+    // .pane-agov-social-links-services {
+    //   margin-bottom: 5em;
+    // }
+    .panel-pane {
+      width: 100%;
+      display: block;
+    }
+  }
+}
