@@ -558,5 +558,5 @@ function agency_whitesite_preprocess_menu_link(&$variables, $hook) {
 
 
 function agency_whitesite_preprocess_node(&$vars, $hook) {
-  $vars['submitted'] = date("l, M jS, Y", $vars['created']);
+  $vars['submitted'] = "Posted on " . date("l, M jS, Y", $vars['created']) . " by " . theme('username', $node);
 }
