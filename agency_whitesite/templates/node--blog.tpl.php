@@ -1,12 +1,11 @@
 <?php if ($display_submitted): ?>
   <p class="submitted">
-    <?php $user = user_load($node->uid); ?>
-            <?php $username=$user->name; ?>
-    <?php print t("Written"); ?>
-    <?php print $username ?>
+    Posted on
     <time pubdate datetime="<?php print $submitted_pubdate; ?>">
     <?php $date = date("d.n.Y", $node->created); ?>
     <?php print "<br>".$date; ?>
     </time>
+    by
+    <?php print theme('username', $node); ?>
   </p>
 <?php endif;
