@@ -554,3 +554,9 @@ function agency_whitesite_preprocess_menu_link(&$variables, $hook) {
     $variables['element']['#localized_options']['html'] = TRUE;
   }
 }
+
+
+
+function agency_whitesite_preprocess_node(&$vars, $hook) {
+  $vars['submitted'] = date("l, M jS, Y", $vars['created']);
+}
