@@ -6,6 +6,6 @@
       <?php print "<br>".$date; ?>
     </time>
     by
-    <?php //print theme('username', $node); ?>
+    <?php print theme('username', $node); ?>
   </p>
 <?php endif; ?>
