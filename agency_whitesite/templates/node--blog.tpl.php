@@ -8,4 +8,4 @@
     by
     <?php print theme('username', $node); ?>
   </p>
-<?php endif;
+<?php endif; ?>
