@@ -9,6 +9,15 @@
     .panel-pane {
       width: 100%;
       display: block;
+      float: left;
+    }
+  }
+}
+
+@media (max-width: 720px) {
+  .panel-1col-stacked .panel-col-top {
+    .panel-pane {
+      min-height: 7.5em;
     }
   }
 }
