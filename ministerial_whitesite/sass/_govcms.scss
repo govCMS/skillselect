@@ -457,12 +457,13 @@ input[type="reset"]::before, input[type="submit"]::before,
 
 #site-map {
   .content {
+    // RSS and homepage link
     a.feed-link {
       margin-left: 6px;
       top: -4px;
       position: relative;
     }
-    //sitemap
+    // Sitemap
     ul.site-map-menu li {
       padding-bottom: 5px;
       background: url("../images/dashes.gif") repeat-y;
