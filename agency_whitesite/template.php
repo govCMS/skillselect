@@ -558,8 +558,8 @@ function agency_whitesite_preprocess_menu_link(&$variables, $hook) {
 
 /// make the timestamp pretty
 function agency_whitesite_preprocess_node(&$vars, $hook) {
-  $vars['submitted'] = "<span class='postedAt'>Posted at </span>".
-                       "<span class='postedTime'>" . date("g:ia", $vars['created']) . " on </span>".
-                       "<span class='postedDate'>" . date("l, M jS, Y", $vars['created']) . "</span>".
-                       "<span class='postedBy'> by " . $vars['name'] ."</span>";
+  $vars['submitted'] = "<span class='postedAt'>Posted </span>".
+                       "<span class='postedTime'>at " . date("g:ia", $vars['created']) . " </span>".
+                       "<span class='postedDate'>on " . date("l, M jS, Y", $vars['created']) . " </span>".
+                       "<span class='postedBy'>by " . $vars['name'] ."</span>";
 }
