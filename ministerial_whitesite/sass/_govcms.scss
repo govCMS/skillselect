@@ -452,3 +452,25 @@ input[type="reset"]::before, input[type="submit"]::before,
 .search-results li {
   border-top: 1px solid #e2e2e2;
 }
+
+
+
+#site-map {
+  .content {
+    a.feed-link {
+      margin-left: 6px;
+      top: -4px;
+      position: relative;
+    }
+    //sitemap
+    ul.site-map-menu li {
+      padding-bottom: 5px;
+      background: url("../images/dashes.gif") repeat-y;
+      padding-left: 15px;
+      list-style: none;
+      &.last {
+        background: url("../images/dashesLast.gif") no-repeat;
+      }
+    }
+  }
+}
