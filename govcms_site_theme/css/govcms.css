@@ -171,8 +171,9 @@ table.pricing_table tr.pricing_foot {
 
 /*==========PLANS AND PRICING==============*/
 
-/* Animation */
 
+
+div.fancyTableRow:last-of-type
 div.fancyTableRow:last-of-type {
   display: inline-block;
 }
@@ -185,6 +186,7 @@ div.prices .fancyTableCell {
     min-height: 500px;
 }
 
+/* Animation */
 .fancyTableCell {
     /*-moz-transition: all 0.4s ease;
     -webkit-transition: all 0.4s ease;
