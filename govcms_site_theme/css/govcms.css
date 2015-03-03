@@ -174,7 +174,7 @@ table.pricing_table tr.pricing_foot {
 /* Animation */
 
 div.fancyTableRow {
-
+  display: inline-block;
 }
 
 div.prices .fancyTableCell .planFeatures ul li {
