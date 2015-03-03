@@ -292,6 +292,14 @@ div.prices .fancyTableCell {
     box-sizing: border-box;
 }
 
+
+/* Make the div not a large min-height fi it has the small class */
+.fancyTableCellSmall {
+  min-height: 13em;
+}
+
+
+
 /*========= Price CSS==============*/
 
 .template4 {
