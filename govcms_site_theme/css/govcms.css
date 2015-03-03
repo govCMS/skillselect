@@ -173,7 +173,7 @@ table.pricing_table tr.pricing_foot {
 
 /* Animation */
 
-div.fancyTableRow {
+div.fancyTableRow:last-of-type {
   display: inline-block;
 }
 
