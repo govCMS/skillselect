@@ -137,11 +137,19 @@ body.front div.panel-col-top div.pane-blogs-archive ul.views-summary {
 
 
 
-// accessibly fixes
+// Accessibly fixes ---------------------------
+
+// better contrast
 :link {
   color: #1e70ac;  // was #3e90cc
 }
 
+// better contrast
 .mission__title {
   color: #307eaf;
+}
+
+// set back to default
+a:hover, a:focus, a:active {
+  outline: invert none medium;
 }
