@@ -137,6 +137,17 @@ body.front div.panel-col-top div.pane-blogs-archive ul.views-summary {
 
 
 
+// arrow uses :before and wasnt clickable
+.bean-image-and-text.landing_page h2 a {
+  display: block;
+  position: relative;
+  z-index: 1;
+}
+
+
+
+
+
 // Accessibly fixes ---------------------------
 
 // better contrast
