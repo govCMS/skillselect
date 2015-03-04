@@ -174,7 +174,8 @@ table.pricing_table tr.pricing_foot {
 
 
 div.fancyTableRow:last-of-type
-div.fancyTableRow:last-of-type {
+div.fancyTableRow:last-of-type,
+div.fancyTableRow {
   display: inline-block;
 }
 
