@@ -838,7 +838,7 @@ blockquote.style1 span {
     font-size: 205%;
   }
   .navigation, .region-navigation .block__content > .menu li a {
-    padding: 10px 17px;
+    padding: 10px 16px;
     font-size: 88%;
   }
   body.front .region-highlighted strong {
