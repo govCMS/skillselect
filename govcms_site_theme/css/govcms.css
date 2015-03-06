@@ -663,7 +663,7 @@ body.front .grayscale {
     -webkit-filter: none;
 }
 
-body.front div#footer-top div#block-views-latest-news-block-1 .field-content {
+div#footer-top div#block-views-latest-news-block-1 .field-content {
     max-width: 15em;
     white-space: nowrap;
     overflow: hidden;
