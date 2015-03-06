@@ -184,7 +184,7 @@ div.prices .fancyTableCell .planFeatures ul li {
 }
 
 div.prices .fancyTableCell {
-    min-height: 500px;
+    /*min-height: 500px;*/
 }
 
 /* Animation */
