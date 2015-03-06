@@ -844,6 +844,9 @@ blockquote.style1 span {
   body.front .region-highlighted strong {
     font-size: 288%;
   }
+  .region-footer-bottom {
+    margin-bottom: 4em;
+  }
 }
 
 
