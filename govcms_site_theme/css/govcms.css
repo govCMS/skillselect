@@ -816,11 +816,33 @@ blockquote.style1 span {
     top:expression((0-(footer.offsetHeight)+(document.documentElement.clientHeight ? document.documentElement.clientHeight : document.body.clientHeight)+(ignoreMe = document.documentElement.scrollTop ? document.documentElement.scrollTop : document.body.scrollTop))+'px');
 }
 
+
+
+
+
+
+
+
+/* RESPONSIVE STYLES */
+
+
 @media (min-width: 980px) {
     .layout-front__sidebar, .layout-front__sidebar-top, .front .panel-1col-stacked .panel-col-middle, .front .panel-1col-stacked .panel-col-bottom {
         width: 100%;
     }
 }
+
+
+@media (max-width: 768px) {
+  .navigation, .region-navigation .block__content > .menu li a {
+    padding: 10px 17px;
+    font-size: 88%;
+  }
+  body.front .region-highlighted strong {
+    font-size: 288%;
+  }
+}
+
 
 @media (min-width: 720px) {
     .layout-front__two-columns, .front .panel-1col-stacked .panel-col-top .panels-ipe-portlet-wrapper, .front .panel-1col-stacked .panel-col-top .panel-pane, .front .panel-1col-stacked .panel-col-bottom .panels-ipe-portlet-wrapper, .front .panel-1col-stacked .panel-col-bottom .panel-pane {
@@ -831,6 +853,7 @@ blockquote.style1 span {
         float: left;
     }
 }
+
 
 @media (max-width: 720px) {
 
