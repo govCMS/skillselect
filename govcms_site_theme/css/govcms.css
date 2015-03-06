@@ -664,7 +664,8 @@ body.front .grayscale {
 }
 
 div#footer-top div#block-views-latest-news-block-1 .field-content {
-    max-width: 15em;
+    /*max-width: 15em;*/
+    max-width: 100%;
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
