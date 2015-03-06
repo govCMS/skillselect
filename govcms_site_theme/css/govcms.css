@@ -853,6 +853,10 @@ blockquote.style1 span {
   .bean-image-and-text .image-title h2 a {
     width: 78%;
   }
+  div.prices .fancyTableCell {
+    width: 100%;
+    min-height: 0;
+  }
 }
 
 
