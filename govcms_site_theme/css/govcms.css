@@ -847,6 +847,12 @@ blockquote.style1 span {
   .region-footer-bottom {
     margin-bottom: 4em;
   }
+  .bean-image-and-text.landing_page h2 {
+    line-height: 1.4em;
+  }
+  .bean-image-and-text .image-title h2 a {
+    width: 78%;
+  }
 }
 
 
