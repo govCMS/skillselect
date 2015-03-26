@@ -817,6 +817,14 @@ blockquote.style1 span {
     top:expression((0-(footer.offsetHeight)+(document.documentElement.clientHeight ? document.documentElement.clientHeight : document.body.clientHeight)+(ignoreMe = document.documentElement.scrollTop ? document.documentElement.scrollTop : document.body.scrollTop))+'px');
 }
 
+a:hover {
+   outline: #000 none medium !important;
+}
+
+a:focus, a:active {
+    outline: #000 solid medium !important;
+}
+
 
 
 
