@@ -164,3 +164,12 @@ body.front div.panel-col-top div.pane-blogs-archive ul.views-summary {
 a:hover, a:focus, a:active {
   outline: #4DC9E3 none medium !important;
 }
+
+// set back to default
+a:hover {
+  outline: #4DC9E3 none medium !important;
+}
+
+a:focus, a:active {
+  outline: #4DC9E3 solid medium !important;
+}
