@@ -793,13 +793,14 @@ div#fixed-footer > div {
 }
 
 blockquote.style1 {
-    font: 175% italic Times, serif;
+    font: 169% serif;
     padding: 20px 10px 10px 20px;
     margin: 5px;
     background: #f5f5f5 url('images/openquote.png') no-repeat 10px 10px;
     background-size: 30px 25px;
     text-indent: 23px;
     width: 100%;
+    line-height: 1.4;
     margin-bottom: 0.8em;
 }
 blockquote.style1 p {
@@ -915,8 +916,9 @@ a:focus, a:active {
     }
 
     #block-bean-govcms-logo {
-        float: none!important;
-        margin-top: 20px;
+        /*float: none!important;
+        margin-top: 20px;*/
+        display: none;
     }
     .region-footer-bottom .block-menu .menu>li>a:before {
         border-left: none;
