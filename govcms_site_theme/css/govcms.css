@@ -648,6 +648,7 @@ div#fixed-footer {
   width: 100%;
   background: linear-gradient(#33434a, #37424a) repeat scroll 0 0 #37424a;
   border-top: 2px solid #74c29f;
+  z-index: 2;
 }
 div#fixed-footer > div {
   max-width: 980px;
@@ -759,9 +760,9 @@ a:focus, a:active {
     overflow: initial;
   }
   #block-bean-govcms-logo {
-    /*float: none!important;
-        margin-top: 20px;*/
-    /*display: none; to hide govCMS on mobile */
+    float: none!important;
+    margin-top: 20px;
+    /*display: none; to hide govCMS on mobile, comment out other rules when you do */
   }
   .region-footer-bottom .block-menu .menu>li>a:before {
     border-left: none;
@@ -791,5 +792,8 @@ a:focus, a:active {
   }
   header.header {
     text-align: center;
+  }
+  #block-menu-menu-footer-sub-menu {
+    width: 56%;
   }
 }
