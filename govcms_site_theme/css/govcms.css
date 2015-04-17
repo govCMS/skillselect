@@ -793,6 +793,9 @@ a:focus, a:active {
   header.header {
     text-align: center;
   }
+  .region-footer-bottom {
+    margin-bottom: 0;
+  }
 }
 @media (max-width: 980px) {
   #block-menu-menu-footer-sub-menu {
