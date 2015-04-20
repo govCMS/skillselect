@@ -537,14 +537,15 @@ h1, h2, h3, h4, h5, h6 {
   float: left;
 }
 #block-menu-menu-footer-sub-menu {
-  width: 66%;
+  /*width: 66%;*/
+  width: 60%;
   float: left;
   margin-right: 0;
 }
-#block-menu-menu-footer-sub-menu #block-agov-social-links-services .block__content .social-link:last-of-type a.social-links-title-title {
+#block-agov-social-links-services .block__content .social-link:last-of-type a.social-links-title-title {
   margin-right: 0;
 }
-#block-menu-menu-footer-sub-menu #block-agov-social-links-services .block__content {
+#block-agov-social-links-services .block__content div {
   text-align: right;
 }
 .social-links-title-title {
