@@ -239,7 +239,7 @@
     return this;
   };
 
-  $(window).on('load', function() {
+  $(document).ready(function() {
     $('.grayscale')[pluginName]();
   });
 
