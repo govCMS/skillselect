@@ -129,9 +129,9 @@ function ministerial_whitesite_preprocess_block(&$variables, $hook) {
 // */
 
 /**
- * Implementation for agov_social_link.
+ * Implementation for govcms_social_link.
  */
-function ministerial_whitesite_agov_social_link($variables) {
+function ministerial_whitesite_govcms_social_link($variables) {
   $title = $variables['title'];
   $output = '';
 

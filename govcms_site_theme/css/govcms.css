@@ -395,13 +395,13 @@ div.prices .fancyTableCell {
 .region-footer-bottom {
   border-bottom: 4px solid #74c29f;
 }
-#block-agov-text-resize-text-resize {
+#block-govcms-text-resize-text-resize {
   display: none;
 }
 .navigation__link.is-active:before, .navigation__link:focus:before, .navigation__link:hover:before, .region-navigation .block__content > .menu li li a:focus:before, .region-navigation .block__content > .menu li li a:hover:before, .region-navigation .block__content > .menu li li a.active:before {
   border-color: #74c29f;
 }
-.menu-block-agov_menu_block-sidebar .menu .menu__link.active, .latest-news:before {
+.menu-block-govcms_menu_block-sidebar .menu .menu__link.active, .latest-news:before {
   border-color: #74c29f;
 }
 .button:before, button:before, html input[type="button"]:before, input[type="reset"]:before, input[type="submit"]:before, .slide-show__read-more-link:before, #block-views-slideshow-block .field-name-field-read-more a:before {
@@ -533,7 +533,7 @@ h1, h2, h3, h4, h5, h6 {
 .mission__statement p {
   margin-top: -4px;
 }
-.block-agov-social-links a {
+.block-govcms-social-links a {
   float: left;
 }
 #block-menu-menu-footer-sub-menu {
@@ -542,10 +542,10 @@ h1, h2, h3, h4, h5, h6 {
   float: left;
   margin-right: 0;
 }
-#block-agov-social-links-services .block__content .social-link:last-of-type a.social-links-title-title {
+#block-govcms-social-links-services .block__content .social-link:last-of-type a.social-links-title-title {
   margin-right: 0;
 }
-#block-agov-social-links-services .block__content {
+#block-govcms-social-links-services .block__content {
   text-align: right;
 }
 .social-links-title-title {
@@ -570,7 +570,7 @@ div#footer-top div#block-views-latest-news-block-1 {
   float: left;
   width: 25%;
 }
-div#block-agov-social-links-services {
+div#block-govcms-social-links-services {
   margin-top: 0;
 }
 body.front .panel-panel.panel-col-middle {

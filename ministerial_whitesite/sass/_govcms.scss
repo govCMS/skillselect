@@ -15,7 +15,7 @@ h2 {
 
 // front page rules
 body.front {
-  .pane-agov-social-links-services {
+  .pane-govcms-social-links-services {
     margin-left: 14px;
   }
   .pane-title {
@@ -55,7 +55,7 @@ body.front {
         float: left;
         margin-right: 15px;
       }
-      &.inside div.pane-agov-social-links-services {
+      &.inside div.pane-govcms-social-links-services {
         float: left;
       }
     }
@@ -191,7 +191,7 @@ header div.header__wrapper {
   #block-search-api-page-default-search {
     width: 70% !important;
   }
-  #block-agov-text-resize-text-resize {
+  #block-govcms-text-resize-text-resize {
     margin-top: 60px;
   }
   div#block-bean-ministerial-image {
@@ -275,7 +275,7 @@ body {
       padding-top: 0px;
     }
   }
-  &.front div.pane-agov-social-links-services div.social-link {
+  &.front div.pane-govcms-social-links-services div.social-link {
     float: left;
     a {
       &.social-links-img-link {
