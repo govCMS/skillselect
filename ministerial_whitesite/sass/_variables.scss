@@ -154,7 +154,7 @@ $colors: map-merge($colors, (
   border:           color(grey-extra-light),
 ));
 
-// Legacy aGov variables. @TODO refactor.
+// Legacy govCMS variables. @TODO refactor.
 $colors: map-merge($colors, (
   primary:            color(black),
   highlight:          color(blue),
