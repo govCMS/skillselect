@@ -13,6 +13,14 @@ div.cell {
     text-align: center;
 }
 
+div.text-cell {
+    display: table-cell;
+    text-align: center;
+    font-weight: bold;
+    font-size: 24px;
+    padding-bottom: 10px;
+}
+
 div.circle {
     width: 200px;
     height: 200px;
