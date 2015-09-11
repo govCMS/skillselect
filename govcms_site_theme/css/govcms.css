@@ -34,15 +34,15 @@ div.circle {
 }
 
 div.circle.red {
-    color: #E27450;
+    background-color: #E27450;
 }
 
 div.circle.yellow {
-    color: #F0E153;
+    background-color: #F0E153;
 }
 
 div.circle.green {
-    color: #3CBCA8;
+    background-color: #3CBCA8;
 }
 
 div.region-header div#block-bean-govcms-logo img {
