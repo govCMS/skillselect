@@ -896,6 +896,16 @@ a:focus, a:active {
         width: 100%;
         min-height: 0;
     }
+
+    div.text-cell {
+      font-size: 19px;
+    }
+    div.circle {
+      width: 100px;
+      height: 100px;
+      font-size: 30px;
+      line-height: 100px;
+    }
 }
 
 @media (min-width: 720px) {
@@ -996,4 +1006,17 @@ a:focus, a:active {
     #block-menu-menu-footer-sub-menu {
         width: 56%;
     }
+}
+
+@media (max-width: 400px) {
+  div.text-cell {
+    font-size: 15px;
+    padding-bottom: 0;
+  }
+  div.circle {
+    width: 80px;
+    height: 80px;
+    font-size: 20px;
+    line-height: 80px;
+  }
 }
