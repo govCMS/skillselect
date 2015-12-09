@@ -236,7 +236,8 @@ a.header__logo#logo {
 	select#tinynav1 {
 		width: 100%;
 	}
-	.header__logo-image {
+	.header__logo-image:focus,
+	.header__logo-image:active {
     width: 100%;
     padding: 10px;
 	}
