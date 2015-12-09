@@ -216,3 +216,10 @@ input[type="submit"]:hover,
 	border-color: #2b4272 !important;
 	background-color: #5b7bbe !important;
 }
+
+
+
+a:focus, a:active {
+  outline: 0 !important;
+	text-decoration: underline !important;
+}
