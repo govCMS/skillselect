@@ -219,7 +219,8 @@ input[type="submit"]:hover,
 
 
 
-a:focus, a:active {
+a:focus,
+a:active {
   outline: 0 !important;
 	text-decoration: underline !important;
 }
