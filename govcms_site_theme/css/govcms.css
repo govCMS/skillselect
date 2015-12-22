@@ -1020,3 +1020,13 @@ a:focus, a:active {
     line-height: 80px;
   }
 }
+
+
+
+
+/* (not-so-)superfish fix */
+.navigation__drop-down,
+.region-navigation .block__content>.menu>li>ul {
+    width: auto !Important;
+    min-width: 12em !important;
+}
