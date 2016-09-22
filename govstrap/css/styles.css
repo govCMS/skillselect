@@ -1,18 +1,31 @@
 /* line 1, ../src/sass/_agency.scss */
 body {
   font-size: 12px;
+  background-color: #e6d60f;
 }
 
-/* line 6, ../src/sass/_agency.scss */
+/* line 7, ../src/sass/_agency.scss */
+main div#main {
+  background-color: #f0f0f0;
+  border: 1px solid #c0c0c0;
+  border-radius: 5px;
+}
+/* line 12, ../src/sass/_agency.scss */
+main div#main section#main-content-section {
+  background: white none repeat scroll 0 0;
+  border-radius: 5px;
+}
+
+/* line 20, ../src/sass/_agency.scss */
 div#content aside {
   line-height: 160%;
   color: #666666;
 }
-/* line 10, ../src/sass/_agency.scss */
+/* line 24, ../src/sass/_agency.scss */
 div#content aside div#block-views-9d48c1bdf34a5432a235eb928a4e213d {
   background: #ffffcc none repeat scroll 0 0;
 }
-/* line 14, ../src/sass/_agency.scss */
+/* line 28, ../src/sass/_agency.scss */
 div#content aside .block-views, div#content aside #block-aggregator-feed-1 {
   border-radius: 5px;
   margin: 0 0 15px;
@@ -20,7 +33,7 @@ div#content aside .block-views, div#content aside #block-aggregator-feed-1 {
   background: #fff none repeat scroll 0 0;
   border: 1px solid #c0c0c0;
 }
-/* line 23, ../src/sass/_agency.scss */
+/* line 37, ../src/sass/_agency.scss */
 div#content aside .block-views h2.block-title, div#content aside #block-aggregator-feed-1 h2.block-title {
   font-size: 12px;
   color: #444;
@@ -31,28 +44,28 @@ div#content aside .block-views h2.block-title, div#content aside #block-aggregat
   margin: 0;
   padding: 8px 24px 7px 10px;
 }
-/* line 35, ../src/sass/_agency.scss */
+/* line 49, ../src/sass/_agency.scss */
 div#content aside .block-views div.views-field-title, div#content aside #block-aggregator-feed-1 div.views-field-title {
   margin: 0;
   overflow: hidden;
   padding: 0px 0px 0px;
 }
-/* line 41, ../src/sass/_agency.scss */
+/* line 55, ../src/sass/_agency.scss */
 div#content aside .block-views ul, div#content aside #block-aggregator-feed-1 ul {
   list-style-type: disc;
   padding-left: 25px;
 }
-/* line 44, ../src/sass/_agency.scss */
+/* line 58, ../src/sass/_agency.scss */
 div#content aside .block-views ul li, div#content aside #block-aggregator-feed-1 ul li {
   margin: 0;
   padding-top: 2px;
   padding-bottom: 3px;
 }
-/* line 48, ../src/sass/_agency.scss */
+/* line 62, ../src/sass/_agency.scss */
 div#content aside .block-views ul li a, div#content aside #block-aggregator-feed-1 ul li a {
   color: #000;
 }
-/* line 54, ../src/sass/_agency.scss */
+/* line 68, ../src/sass/_agency.scss */
 div#content aside .block-views div.more-link, div#content aside #block-aggregator-feed-1 div.more-link {
   display: none;
 }
