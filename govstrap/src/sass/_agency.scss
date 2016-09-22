@@ -3,20 +3,49 @@ body {
   background-color: #e6d60f;
 }
 
+header {
+  background-color: #f0f0f0;
+  border: 1px solid #c0c0c0;
+  border-bottom: none;
+  border-radius: 5px 5px 0px 0px;
+}
+
+nav#navigation {
+  background-color: #f0f0f0;
+  border-left: 1px solid #c0c0c0;
+  border-right: 1px solid #c0c0c0;
+}
+
 main {
   div#main {
     background-color: #f0f0f0;
     border: 1px solid #c0c0c0;
-    border-radius: 5px;
+    border-top: none;
+    border-bottom: none;
+    border-radius: 0px 0px 0px 0px;
 
     section#main-content-section {
       background: rgb(255, 255, 255) none repeat scroll 0 0;
       border-radius: 5px;
+      border: 1px solid #c0c0c0;
+      clear: both;
+      margin-bottom: 10px;
+      overflow: hidden;
+      padding: 25px 15px 1em;
     }
   }
 }
 
+footer {
+  background-color: #f0f0f0;
+  border: 1px solid #c0c0c0;
+  border-top: none;
+  border-radius: 0px 0px 5px 5px;
+  padding-bottom: 15px;
+}
+
 div#content {
+  padding-left: 15px;
   aside {
     line-height: 160%;
     color: #666666;
