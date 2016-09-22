@@ -6,10 +6,30 @@
 ?>
 <header id="header" class="header <?php print $container_class; ?>" role="banner">
   <?php print render($page['header']); ?>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6">
+        <a href="/"><img src="<?php print drupal_get_path('theme', 'govstrap').'/img/skillselect_coa.jpg';?>" alt="Skillselect Home" /></a>
+      </div>
+      <div class="col-md-6 text-right">
+        <a href="/"><img src="<?php print drupal_get_path('theme', 'govstrap').'/img/skillselect.jpg';?>" alt="Skillselect Home" /></a>
+      </div>
+    </div>
+  </div>
 </header><!-- /#page-header -->
 
 <nav id="navigation" class="<?php print $container_class; ?>">
-  <?php print render($page['navigation']); ?>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-9">
+        <?php print render($page['navigation']); ?>
+      </div>
+      <div class="col-md-3">
+        <?php print $search_box; ?>
+      </div>
+    </div>
+  </div>
+
 </nav><!-- /#navigation -->
 
 <main>

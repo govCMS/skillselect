@@ -111,6 +111,10 @@ function govstrap_preprocess_page(&$variables) {
   else {
     $variables['content_column_class'] = 'col-sm-12';
   }
+
+    // Make search form available to page.tpl.php
+    $search_box = drupal_get_form('search_block_form');
+    $variables['search_box'] = drupal_render($search_box);
 }
 
 /**
