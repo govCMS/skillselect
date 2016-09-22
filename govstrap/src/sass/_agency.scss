@@ -14,6 +14,38 @@ nav#navigation {
   background-color: #f0f0f0;
   border-left: 1px solid #c0c0c0;
   border-right: 1px solid #c0c0c0;
+
+  .nav-tabs {
+    margin-left: 10px;
+    border-bottom: none;
+    li {
+      a {
+        background: rgb(219, 219, 219) none repeat scroll 0 0;
+        border-color: -moz-use-text-color;
+        border-style: none;
+        border-width: medium;
+        color: #444444;
+        font-family: Arial,Helvetica,sans-serif;
+        font-size: 14px;
+        font-style: normal;
+        font-variant: normal;
+        font-weight: normal;
+
+        &.active {
+          background: rgb(79, 79, 79) none repeat scroll 0 0;
+          border-color: -moz-use-text-color;
+          border-style: none;
+          border-width: medium;
+          color: #ffffff;
+          font-family: Arial,Helvetica,sans-serif;
+          font-size: 14px;
+          font-style: normal;
+          font-variant: normal;
+          font-weight: normal;
+        }
+      }
+    }
+  }
 }
 
 main {
@@ -42,6 +74,9 @@ footer {
   border-top: none;
   border-radius: 0px 0px 5px 5px;
   padding-bottom: 15px;
+  a {
+    color: #000000;
+  }
 }
 
 div#content {
@@ -84,6 +119,7 @@ div#content {
       ul {
         list-style-type: disc;
         padding-left:25px;
+        padding-right: 5px;
         li {
           margin: 0;
           padding-top: 2px;

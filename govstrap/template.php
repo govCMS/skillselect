@@ -51,3 +51,22 @@ include_once './' . drupal_get_path('theme', 'govstrap') . '/includes/alter.inc'
  * Include normal theme overwrite.
  */
 include_once './' . drupal_get_path('theme', 'govstrap') . '/includes/theme.inc';
+
+
+
+function govstrap_menu_tree__main_menu($variables) {
+    return '<ul class="nav nav-tabs">' . $variables['tree'] . '</ul>';
+}
+function govstrap_menu_link__main_menu($variables) {
+    //unset all the classes
+    if (!empty($element['#attributes']['class'])) {
+        foreach ($element['#attributes']['class'] as $key => $class) {
+            if ($class != 'active') {
+                unset($element['#attributes']['class'][$key]);
+            }
+        }
+    }
+    $element = $variables['element'];
+    $output = l($element['#title'], $element['#href'], $element['#localized_options']);
+    return '<li' . drupal_attributes($element['#attributes']) . '>' . $output . "</li>\n";
+}
