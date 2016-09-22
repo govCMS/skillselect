@@ -70,3 +70,27 @@ function govstrap_menu_link__main_menu($variables) {
     $output = l($element['#title'], $element['#href'], $element['#localized_options']);
     return '<li' . drupal_attributes($element['#attributes']) . '>' . $output . "</li>\n";
 }
+
+
+function node_sibling($dir = 'next', $node, $next_node_text=NULL, $prepend_text=NULL, $append_text=NULL, $tid = FALSE){
+    if($tid){
+        $query = 'SELECT n.nid, n.title FROM {node} n INNER JOIN {term_node} tn ON n.nid=tn.nid WHERE '
+            . 'n.nid ' . ($dir == 'previous' ? '<' : '>') . ' :nid AND n.type = :type AND n.status=1 '
+            . 'AND tn.tid = :tid ORDER BY n.nid ' . ($dir == 'previous' ? 'DESC' : 'ASC');
+        //use fetchObject to fetch a single row
+        $row = db_query($query, array(':nid' => $node->nid, ':type' => $node->type, ':tid' => $tid))->fetchObject();
+    }else{
+        $query = 'SELECT n.nid, n.title FROM {node} n WHERE '
+            . 'n.nid ' . ($dir == 'previous' ? '<' : '>') . ' :nid AND n.type = :type AND n.status=1 '
+            . 'ORDER BY n.nid ' . ($dir == 'previous' ? 'DESC' : 'ASC');
+        //use fetchObject to fetch a single row
+        $row = db_query($query, array(':nid' => $node->nid, ':type' => $node->type))->fetchObject();
+    }
+
+    if($row) {
+        $text = $next_node_text ? $next_node_text : $row->title;
+        return $prepend_text . l($text, 'node/'.$row->nid, array('rel' => $dir)) . $append_text;
+    } else {
+        return FALSE;
+    }
+}

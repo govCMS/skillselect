@@ -25,13 +25,21 @@ h2 {
 }
 
 /* line 24, ../src/sass/_agency.scss */
+.post-nav {
+  color: #999999;
+  text-decoration: none;
+  border-radius: 5px;
+  border: 1px solid #c0c0c0;
+}
+
+/* line 32, ../src/sass/_agency.scss */
 .note {
   background: #eeffff none repeat scroll 0 0;
   border: 1px dotted #cccccc;
   font-size: 12px;
 }
 
-/* line 30, ../src/sass/_agency.scss */
+/* line 38, ../src/sass/_agency.scss */
 header {
   background-color: #f0f0f0;
   border: 1px solid #c0c0c0;
@@ -39,18 +47,18 @@ header {
   border-radius: 5px 5px 0px 0px;
 }
 
-/* line 37, ../src/sass/_agency.scss */
+/* line 45, ../src/sass/_agency.scss */
 nav#navigation {
   background-color: #f0f0f0;
   border-left: 1px solid #c0c0c0;
   border-right: 1px solid #c0c0c0;
 }
-/* line 42, ../src/sass/_agency.scss */
+/* line 50, ../src/sass/_agency.scss */
 nav#navigation .nav-tabs {
   margin-left: 10px;
   border-bottom: none;
 }
-/* line 46, ../src/sass/_agency.scss */
+/* line 54, ../src/sass/_agency.scss */
 nav#navigation .nav-tabs li a {
   background: #dbdbdb none repeat scroll 0 0;
   border-color: -moz-use-text-color;
@@ -63,7 +71,7 @@ nav#navigation .nav-tabs li a {
   font-variant: normal;
   font-weight: normal;
 }
-/* line 58, ../src/sass/_agency.scss */
+/* line 66, ../src/sass/_agency.scss */
 nav#navigation .nav-tabs li a.active {
   background: #4f4f4f none repeat scroll 0 0;
   border-color: -moz-use-text-color;
@@ -77,7 +85,7 @@ nav#navigation .nav-tabs li a.active {
   font-weight: normal;
 }
 
-/* line 76, ../src/sass/_agency.scss */
+/* line 84, ../src/sass/_agency.scss */
 main div#main {
   background-color: #f0f0f0;
   border: 1px solid #c0c0c0;
@@ -85,7 +93,7 @@ main div#main {
   border-bottom: none;
   border-radius: 0px 0px 0px 0px;
 }
-/* line 83, ../src/sass/_agency.scss */
+/* line 91, ../src/sass/_agency.scss */
 main div#main section#main-content-section {
   background: white none repeat scroll 0 0;
   border-radius: 5px;
@@ -96,7 +104,7 @@ main div#main section#main-content-section {
   padding: 25px 15px 1em;
 }
 
-/* line 95, ../src/sass/_agency.scss */
+/* line 103, ../src/sass/_agency.scss */
 footer {
   background-color: #f0f0f0;
   border: 1px solid #c0c0c0;
@@ -104,25 +112,25 @@ footer {
   border-radius: 0px 0px 5px 5px;
   padding-bottom: 15px;
 }
-/* line 101, ../src/sass/_agency.scss */
+/* line 109, ../src/sass/_agency.scss */
 footer a {
   color: #000000;
 }
 
-/* line 106, ../src/sass/_agency.scss */
+/* line 114, ../src/sass/_agency.scss */
 div#content {
   padding-left: 15px;
 }
-/* line 108, ../src/sass/_agency.scss */
+/* line 116, ../src/sass/_agency.scss */
 div#content aside {
   line-height: 160%;
   color: #666666;
 }
-/* line 112, ../src/sass/_agency.scss */
+/* line 120, ../src/sass/_agency.scss */
 div#content aside div#block-views-9d48c1bdf34a5432a235eb928a4e213d {
   background: #ffffcc none repeat scroll 0 0;
 }
-/* line 116, ../src/sass/_agency.scss */
+/* line 124, ../src/sass/_agency.scss */
 div#content aside .block-views, div#content aside #block-aggregator-feed-1 {
   border-radius: 5px;
   margin: 0 0 15px;
@@ -130,7 +138,7 @@ div#content aside .block-views, div#content aside #block-aggregator-feed-1 {
   background: #fff none repeat scroll 0 0;
   border: 1px solid #c0c0c0;
 }
-/* line 125, ../src/sass/_agency.scss */
+/* line 133, ../src/sass/_agency.scss */
 div#content aside .block-views h2.block-title, div#content aside #block-aggregator-feed-1 h2.block-title {
   font-size: 12px;
   color: #444;
@@ -141,29 +149,29 @@ div#content aside .block-views h2.block-title, div#content aside #block-aggregat
   margin: 0;
   padding: 8px 24px 7px 10px;
 }
-/* line 137, ../src/sass/_agency.scss */
+/* line 145, ../src/sass/_agency.scss */
 div#content aside .block-views div.views-field-title, div#content aside #block-aggregator-feed-1 div.views-field-title {
   margin: 0;
   overflow: hidden;
   padding: 0px 0px 0px;
 }
-/* line 143, ../src/sass/_agency.scss */
+/* line 151, ../src/sass/_agency.scss */
 div#content aside .block-views ul, div#content aside #block-aggregator-feed-1 ul {
   list-style-type: disc;
   padding-left: 25px;
   padding-right: 5px;
 }
-/* line 147, ../src/sass/_agency.scss */
+/* line 155, ../src/sass/_agency.scss */
 div#content aside .block-views ul li, div#content aside #block-aggregator-feed-1 ul li {
   margin: 0;
   padding-top: 2px;
   padding-bottom: 3px;
 }
-/* line 151, ../src/sass/_agency.scss */
+/* line 159, ../src/sass/_agency.scss */
 div#content aside .block-views ul li a, div#content aside #block-aggregator-feed-1 ul li a {
   color: #000;
 }
-/* line 157, ../src/sass/_agency.scss */
+/* line 165, ../src/sass/_agency.scss */
 div#content aside .block-views div.more-link, div#content aside #block-aggregator-feed-1 div.more-link {
   display: none;
 }

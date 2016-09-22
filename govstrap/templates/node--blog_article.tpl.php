@@ -105,6 +105,19 @@
         <?php endif; ?>
     </div>
 
+    <?php
+    $next = node_sibling('next',$node,NULL,NULL,NULL,FALSE);
+    $previous = node_sibling('previous',$node,NULL,NULL,NULL,FALSE);
+
+    ?>
+    <?php if($previous || $next): ?>
+    <nav class="post-nav clearfix">
+        <div class="col-md-6"><?php if($next): ?><i class="fa fa-arrow-circle-left"></i> <?php print $next; ?><?php endif; ?></div>
+        <div class="col-md-6 text-right"><?php if($previous): ?><?php print $previous; ?> <i class="fa fa-arrow-circle-right"></i><?php endif; ?></div>
+    </nav>
+    <?php endif; ?>
+
+
     <?php print render($content['links']); ?>
 
     <?php print render($content['comments']); ?>
