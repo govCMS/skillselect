@@ -4,8 +4,6 @@ environment = :development
 # Require any additional compass plugins here.
 require 'compass'
 require 'compass/import-once/activate'
-require 'font-awesome-sass'
-require 'bootstrap-sass'
 
 # Location of the theme's resources.
 http_path = "/"
