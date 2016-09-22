@@ -1,19 +1,21 @@
+// Styles specific for this site
+
 body {
   font-size: 12px;
   background-color: #e6d60f;
 }
 
 h1 {
-    color: #39b7cd;
-    font-family: Arial,Helvetica,sans-serif;
-    font-size: 26px;
-    font-style: normal;
-    font-variant: normal;
-    font-weight: normal;
+  color: #39b7cd;
+  font-family: Arial,Helvetica,sans-serif;
+  font-size: 26px;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
 }
 
 h2 {
-  color: #000000;
+  color: #000;
   font-family: Arial,Helvetica,sans-serif;
   font-size: 24px;
   font-style: normal;
@@ -40,13 +42,28 @@ header {
   border: 1px solid #c0c0c0;
   border-bottom: none;
   border-radius: 5px 5px 0px 0px;
+  #coas {
+    a {
+      display: inline-block;
+      img {
+        margin: 40px 10px 20px 10px;
+      }
+    }
+  }
+  #logo {
+    a {
+      display: inline-block;
+      img {
+        margin: 20px 20px 5px 20px;
+      }
+    }
+  }
 }
 
 nav#navigation {
   background-color: #f0f0f0;
   border-left: 1px solid #c0c0c0;
   border-right: 1px solid #c0c0c0;
-
   .nav-tabs {
     margin-left: 10px;
     border-bottom: none;
@@ -56,7 +73,7 @@ nav#navigation {
         border-color: -moz-use-text-color;
         border-style: none;
         border-width: medium;
-        color: #444444;
+        color: #444;
         font-family: Arial,Helvetica,sans-serif;
         font-size: 14px;
         font-style: normal;
@@ -68,13 +85,21 @@ nav#navigation {
           border-color: -moz-use-text-color;
           border-style: none;
           border-width: medium;
-          color: #ffffff;
+          color: #fff;
           font-family: Arial,Helvetica,sans-serif;
           font-size: 14px;
           font-style: normal;
           font-variant: normal;
           font-weight: normal;
         }
+      }
+    }
+  }
+  .search-form-widget {
+    div.form-item.form-type-textfield.form-item-keys-1 {
+      display: inline-block;
+      input {
+        min-width: 10em;
       }
     }
   }
@@ -87,7 +112,6 @@ main {
     border-top: none;
     border-bottom: none;
     border-radius: 0px 0px 0px 0px;
-
     section#main-content-section {
       background: rgb(255, 255, 255) none repeat scroll 0 0;
       border-radius: 5px;
@@ -107,7 +131,7 @@ footer {
   border-radius: 0px 0px 5px 5px;
   padding-bottom: 15px;
   a {
-    color: #000000;
+    color: #000;
   }
 }
 
@@ -115,20 +139,16 @@ div#content {
   padding-left: 15px;
   aside {
     line-height: 160%;
-    color: #666666;
-
+    color: #666;
     div#block-views-9d48c1bdf34a5432a235eb928a4e213d {
       background: #ffffcc none repeat scroll 0 0;
     }
-
     .block-views, #block-aggregator-feed-1 {
       border-radius: 5px;
       margin: 0 0 15px;
       padding: 0px;
       background: #fff none repeat scroll 0 0;
       border: 1px solid #c0c0c0;
-
-
       h2 {
         &.block-title {
           font-size: 12px;
@@ -141,13 +161,11 @@ div#content {
           padding: 8px 24px 7px 10px;
         }
       }
-
       div.views-field-title {
         margin: 0;
         overflow: hidden;
         padding: 0px 0px 0px;
       }
-
       ul {
         list-style-type: disc;
         padding-left:25px;
@@ -161,7 +179,6 @@ div#content {
           }
         }
       }
-
       div.more-link {
         display: none;
       }
