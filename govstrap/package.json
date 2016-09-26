@@ -24,6 +24,7 @@
     "url": "https://github.com/govCMS/govstrap.git"
   },
   "scripts": {
+    "gulp": "gulp",
     "test": "echo \"Error: no test specified\" && exit 1",
     "postinstall": "find node_modules/ -name '*.info' -type f -delete"
   },
