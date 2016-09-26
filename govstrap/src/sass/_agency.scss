@@ -90,7 +90,8 @@ header {
     a {
       display: inline-block;
       img {
-        margin: 20px 20px 5px 20px;
+        margin: 20px 20px 30px 20px;
+        box-shadow: 0 5px 15px #D0CED0;
       }
     }
   }
@@ -131,12 +132,16 @@ nav#navigation {
       }
     }
   }
-  .search-form-widget {
-    div.form-item.form-type-textfield.form-item-keys-1 {
+  #search-block-form {
+    input {
+      padding: 6px 10px;
+    }
+    #edit-search-block-form--2 {
+      min-width: 15em; // search textbox width
+      padding: 5px 10px;
+    }
+    div.form-item.form-type-textfield {
       display: inline-block;
-      input {
-        min-width: 10em;
-      }
     }
   }
 }

@@ -9,10 +9,10 @@
   <div class="container">
     <div class="row">
       <div class="col-md-6" id="coas">
-        <a href="/"><img src="<?php print '/'.drupal_get_path('theme', 'govstrap').'/img/skillselect_coa.jpg';?>" alt="Skillselect Home" /></a>
+        <a href="/"><img src="<?php print '/'.drupal_get_path('theme', 'govstrap').'/img/coas.svg';?>" height="64" alt="Skillselect Home" /></a>
       </div>
       <div class="col-md-6 text-right" id="logo">
-        <a href="/"><img src="<?php print '/'.drupal_get_path('theme', 'govstrap').'/img/skillselect.jpg';?>" alt="Skillselect Home" /></a>
+        <a href="/"><img src="<?php print '/'.drupal_get_path('theme', 'govstrap').'/img/skillselect@2x.jpg';?>" height="94" width="287" alt="Skillselect Home" /></a>
       </div>
     </div>
   </div>
