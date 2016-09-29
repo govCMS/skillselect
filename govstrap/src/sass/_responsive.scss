@@ -1,0 +1,55 @@
+@media only screen and (max-width: 600px) {
+
+  #coas {
+    img {
+      width: 100%;
+    }
+  }
+
+  #logo {
+    text-align: left;
+    padding-left: 5px;
+    img {
+      width: 100%;
+      max-width: 287px;
+      height: auto;
+    }
+  }
+
+  #navigation {
+    .nav {
+      margin-bottom: 15px;
+      li a {
+        border-radius: 4px;
+      }
+    }
+    #edit-search-block-form--2 {
+      padding: 5px 10px;
+      width: calc( 100% - 5.5em );
+    }
+    #search-block-form {
+      margin-bottom: 15px;
+      margin-left: 10px;
+    }
+  }
+
+  #main-content-section {
+    margin-right: 15px;
+  }
+
+  aside {
+    margin-top: 15px;
+    padding-left: 0;
+  }
+
+  #footer {
+    .container > div {
+      padding-left: 1px;
+    }
+    .text-right {
+      text-align: left;
+      margin-top: 15px;
+    }
+  }
+
+}
