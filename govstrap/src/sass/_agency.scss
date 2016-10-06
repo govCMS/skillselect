@@ -142,11 +142,12 @@ nav#navigation {
     div.form-item.form-type-textfield {
       display: inline-block;
     }
+    .form-actions.form-wrapper {
+      margin-top: 0;
+    }
   }
 }
-.form-actions.form-wrapper {
-  margin-top: 0;
-}
+
 
 main {
   div#main {
