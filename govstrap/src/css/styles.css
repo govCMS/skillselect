@@ -133,7 +133,8 @@ nav#navigation #search-block-form #edit-search-block-form--2 {
 nav#navigation #search-block-form div.form-item.form-type-textfield {
   display: inline-block;
 }
-nav#navigation .form-actions.form-wrapper {
+
+.form-actions.form-wrapper {
   margin-top: 0;
 }
 
