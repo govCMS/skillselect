@@ -19,6 +19,7 @@
   #navigation {
     .nav {
       margin-bottom: 15px;
+      position: initial;
       li a {
         border-radius: 4px;
       }
@@ -52,4 +53,4 @@
     }
   }
 
-}
+} // max-width: 600px

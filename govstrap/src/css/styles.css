@@ -44,13 +44,16 @@ aside.suf-widget {
 aside.suf-widget h3 {
   color: #444;
   font: bold 100%/100% Arial,Helvetica,sans-serif;
-  margin: 0.5em 0;
+  margin: 0.5em 1em;
+}
+aside.suf-widget ul {
+  padding-left: 25px;
 }
 aside.suf-widget ul li {
   background-position: 0 1px;
   background-repeat: no-repeat;
   padding-bottom: 3px;
-  padding-left: 22px;
+  padding-left: 3px;
 }
 aside.suf-widget ul li a {
   color: #000000;
@@ -81,7 +84,7 @@ header #logo a {
   display: inline-block;
 }
 header #logo a img {
-  margin: 20px 20px 30px 20px;
+  margin: 20px 18px 30px 20px;
   box-shadow: 0 5px 15px #D0CED0;
 }
 
@@ -93,6 +96,8 @@ nav#navigation {
 nav#navigation .nav-tabs {
   margin-left: 10px;
   border-bottom: none;
+  bottom: -1px;
+  position: relative;
 }
 nav#navigation .nav-tabs li a {
   background: #dbdbdb none repeat scroll 0 0;
@@ -128,6 +133,9 @@ nav#navigation #search-block-form #edit-search-block-form--2 {
 nav#navigation #search-block-form div.form-item.form-type-textfield {
   display: inline-block;
 }
+nav#navigation .form-actions.form-wrapper {
+  margin-top: 0;
+}
 
 main div#main {
   background-color: #f0f0f0;
@@ -159,6 +167,12 @@ footer a {
 
 div#content {
   padding-left: 15px;
+}
+div#content .block-webform label {
+  display: block;
+}
+div#content .block-webform .webform-submit {
+  padding: 6px 10px;
 }
 div#content aside {
   line-height: 160%;
@@ -223,6 +237,7 @@ div#content aside .block-views div.more-link, div#content aside #block-aggregato
 
   #navigation .nav {
     margin-bottom: 15px;
+    position: initial;
   }
   #navigation .nav li a {
     border-radius: 4px;
