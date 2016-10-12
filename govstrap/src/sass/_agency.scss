@@ -3,6 +3,11 @@
 body {
   font-size: 12px;
   background-color: #e6d60f;
+  &.front {
+    #main-content-section {
+      padding-top: 0;
+    }
+  }
 }
 
 h1 {
@@ -136,7 +141,7 @@ nav#navigation {
       padding: 6px 10px;
     }
     #edit-search-block-form--2 {
-      min-width: 15em; // search textbox width
+      min-width: 16.15em; // search textbox width
       padding: 5px 10px;
     }
     div.form-item.form-type-textfield {
@@ -144,6 +149,9 @@ nav#navigation {
     }
     .form-item {
       margin-top: 0;
+    }
+    .container-inline {
+      margin-left: -13px;
     }
   }
 }

@@ -2,6 +2,9 @@ body {
   font-size: 12px;
   background-color: #e6d60f;
 }
+body.front #main-content-section {
+  padding-top: 0;
+}
 
 h1 {
   color: #39b7cd;
@@ -127,7 +130,7 @@ nav#navigation #search-block-form input {
   padding: 6px 10px;
 }
 nav#navigation #search-block-form #edit-search-block-form--2 {
-  min-width: 15em;
+  min-width: 16.15em;
   padding: 5px 10px;
 }
 nav#navigation #search-block-form div.form-item.form-type-textfield {
@@ -135,6 +138,9 @@ nav#navigation #search-block-form div.form-item.form-type-textfield {
 }
 nav#navigation #search-block-form .form-item {
   margin-top: 0;
+}
+nav#navigation #search-block-form .container-inline {
+  margin-left: -13px;
 }
 
 main div#main {
