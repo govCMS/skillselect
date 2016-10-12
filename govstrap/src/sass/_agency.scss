@@ -3,15 +3,18 @@
 body {
   font-size: 12px;
   background-color: #e6d60f;
-  &.front {
-    #main-content-section {
+  &.front { // homepage only rules
+    h1 {
+      color: #39b7cd;
+    }
+    div#main section#main-content-section {
       padding-top: 0;
     }
-  }
+  } // end homepage only rules
 }
 
 h1 {
-  color: #39b7cd;
+  //color: #39b7cd;
   font-family: Arial,Helvetica,sans-serif;
   font-size: 26px;
   font-style: normal;

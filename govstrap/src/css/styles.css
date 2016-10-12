@@ -2,12 +2,14 @@ body {
   font-size: 12px;
   background-color: #e6d60f;
 }
-body.front #main-content-section {
+body.front h1 {
+  color: #39b7cd;
+}
+body.front div#main section#main-content-section {
   padding-top: 0;
 }
 
 h1 {
-  color: #39b7cd;
   font-family: Arial,Helvetica,sans-serif;
   font-size: 26px;
   font-style: normal;
