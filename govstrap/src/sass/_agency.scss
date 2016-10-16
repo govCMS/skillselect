@@ -17,8 +17,6 @@ h1 {
   //color: #39b7cd;
   font-family: Arial,Helvetica,sans-serif;
   font-size: 26px;
-  font-style: normal;
-  font-variant: normal;
   font-weight: normal;
 }
 
@@ -26,8 +24,6 @@ h2 {
   color: #000;
   font-family: Arial,Helvetica,sans-serif;
   font-size: 24px;
-  font-style: normal;
-  font-variant: normal;
   font-weight: normal;
 }
 
@@ -39,13 +35,13 @@ h2 {
 }
 
 .note {
-  background: #eeffff none repeat scroll 0 0;
+  background-color: #eeffff;
   border: 1px dotted #cccccc;
   font-size: 12px;
 }
 
 aside.suf-widget {
-  background: #fff none repeat scroll 0 0;
+  background-color: #fff;
   border: 1px solid #c0c0c0;
   border-radius: 5px;
   line-height: 100%;
@@ -113,28 +109,13 @@ nav#navigation {
     position: relative;
     li {
       a {
-        background: rgb(219, 219, 219) none repeat scroll 0 0;
-        border-color: -moz-use-text-color;
-        border-style: none;
-        border-width: medium;
+        background-color: rgb(219, 219, 219);
         color: #444;
         font-family: Arial,Helvetica,sans-serif;
         font-size: 14px;
-        font-style: normal;
-        font-variant: normal;
-        font-weight: normal;
-
         &.active {
-          background: rgb(79, 79, 79) none repeat scroll 0 0;
-          border-color: -moz-use-text-color;
-          border-style: none;
-          border-width: medium;
+          background-color: rgb(79, 79, 79);
           color: #fff;
-          font-family: Arial,Helvetica,sans-serif;
-          font-size: 14px;
-          font-style: normal;
-          font-variant: normal;
-          font-weight: normal;
         }
       }
     }
@@ -168,7 +149,7 @@ main {
     border-bottom: none;
     border-radius: 0px 0px 0px 0px;
     section#main-content-section {
-      background: rgb(255, 255, 255) none repeat scroll 0 0;
+      background-color: rgb(255, 255, 255);
       border-radius: 5px;
       border: 1px solid #c0c0c0;
       clear: both;
@@ -204,13 +185,13 @@ div#content {
     line-height: 160%;
     color: #666;
     div#block-views-9d48c1bdf34a5432a235eb928a4e213d {
-      background: #ffffcc none repeat scroll 0 0;
+      background-color: #ffffcc;
     }
     .block-views, #block-aggregator-feed-1 {
       border-radius: 5px;
       margin: 0 0 15px;
       padding: 0px;
-      background: #fff none repeat scroll 0 0;
+      background-color: #fff;
       border: 1px solid #c0c0c0;
       h2 {
         &.block-title {

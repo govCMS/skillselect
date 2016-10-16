@@ -12,8 +12,6 @@ body.front div#main section#main-content-section {
 h1 {
   font-family: Arial,Helvetica,sans-serif;
   font-size: 26px;
-  font-style: normal;
-  font-variant: normal;
   font-weight: normal;
 }
 
@@ -21,8 +19,6 @@ h2 {
   color: #000;
   font-family: Arial,Helvetica,sans-serif;
   font-size: 24px;
-  font-style: normal;
-  font-variant: normal;
   font-weight: normal;
 }
 
@@ -34,13 +30,13 @@ h2 {
 }
 
 .note {
-  background: #eeffff none repeat scroll 0 0;
+  background-color: #eeffff;
   border: 1px dotted #cccccc;
   font-size: 12px;
 }
 
 aside.suf-widget {
-  background: #fff none repeat scroll 0 0;
+  background-color: #fff;
   border: 1px solid #c0c0c0;
   border-radius: 5px;
   line-height: 100%;
@@ -105,28 +101,14 @@ nav#navigation .nav-tabs {
   position: relative;
 }
 nav#navigation .nav-tabs li a {
-  background: #dbdbdb none repeat scroll 0 0;
-  border-color: -moz-use-text-color;
-  border-style: none;
-  border-width: medium;
+  background-color: #dbdbdb;
   color: #444;
   font-family: Arial,Helvetica,sans-serif;
   font-size: 14px;
-  font-style: normal;
-  font-variant: normal;
-  font-weight: normal;
 }
 nav#navigation .nav-tabs li a.active {
-  background: #4f4f4f none repeat scroll 0 0;
-  border-color: -moz-use-text-color;
-  border-style: none;
-  border-width: medium;
+  background-color: #4f4f4f;
   color: #fff;
-  font-family: Arial,Helvetica,sans-serif;
-  font-size: 14px;
-  font-style: normal;
-  font-variant: normal;
-  font-weight: normal;
 }
 nav#navigation #search-block-form input {
   padding: 6px 10px;
@@ -153,7 +135,7 @@ main div#main {
   border-radius: 0px 0px 0px 0px;
 }
 main div#main section#main-content-section {
-  background: white none repeat scroll 0 0;
+  background-color: white;
   border-radius: 5px;
   border: 1px solid #c0c0c0;
   clear: both;
@@ -187,13 +169,13 @@ div#content aside {
   color: #666;
 }
 div#content aside div#block-views-9d48c1bdf34a5432a235eb928a4e213d {
-  background: #ffffcc none repeat scroll 0 0;
+  background-color: #ffffcc;
 }
 div#content aside .block-views, div#content aside #block-aggregator-feed-1 {
   border-radius: 5px;
   margin: 0 0 15px;
   padding: 0px;
-  background: #fff none repeat scroll 0 0;
+  background-color: #fff;
   border: 1px solid #c0c0c0;
 }
 div#content aside .block-views h2.block-title, div#content aside #block-aggregator-feed-1 h2.block-title {
